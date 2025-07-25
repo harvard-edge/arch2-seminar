@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "Fine Time Measurement for the Internet of Things: A Practical Approach Using ESP32"
+date: 2024-01-29
+arxiv_url: http://arxiv.org/abs/2401.16517v1
+---
+
+In the world of Internet of Things (IoT), obtaining the physical location of devices has always been a task of great interest for developing increasingly complex location-based services (LBS). That is why in recent years wireless communication standards have been incorporating new additions focused on providing localization mechanisms to technologies widely used in the IoT world, such as Wi-Fi or Bluetooth. In particular, the IEEE 802.11-2016 Wi-Fi standard introduced ranging estimation between two devices through the so-called fine time measurement (FTM) protocol, defined by the IEEE 802.11mc. FTM is not yet widespread in the IoT field, but commercial modules capable of offering this functionality at a reasonable price are starting to appear. In early 2021, the most widespread system on a chip (SOC) family among IoT devices, the ESP32-XX series, added support for this Wi-Fi standard, enabling, for the first time, the use of a standard designed for location-based systems. This article analyzes the performance of this FTM implementation by carrying out and studying several measurement campaigns in different indoor and outdoor scenarios. Additionally, this work proposes an alternative real-time implementation for distance estimation inside the ESP32 using an approach based on machine learning. Such an implementation is successfully validated in a scenario totally different than those considered for the training and test sets. Finally, both the measurement sets and the developed software are available to the scientific community.

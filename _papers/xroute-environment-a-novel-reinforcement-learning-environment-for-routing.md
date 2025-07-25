@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "XRoute Environment: A Novel Reinforcement Learning Environment for Routing"
+date: 2023-05-23
+arxiv_url: http://arxiv.org/abs/2305.13823v2
+---
+
+Routing is a crucial and time-consuming stage in modern design automation flow for advanced technology nodes. Great progress in the field of reinforcement learning makes it possible to use those approaches to improve the routing quality and efficiency. However, the scale of the routing problems solved by reinforcement learning-based methods in recent studies is too small for these methods to be used in commercial EDA tools. We introduce the XRoute Environment, a new reinforcement learning environment where agents are trained to select and route nets in an advanced, end-to-end routing framework. Novel algorithms and ideas can be quickly tested in a safe and reproducible manner in it. The resulting environment is challenging, easy to use, customize and add additional scenarios, and it is available under a permissive open-source license. In addition, it provides support for distributed deployment and multi-instance experiments. We propose two tasks for learning and build a full-chip test bed with routing benchmarks of various region sizes. We also pre-define several static routing regions with different pin density and number of nets for easier learning and testing. For net ordering task, we report baseline results for two widely used reinforcement learning algorithms (PPO and DQN) and one searching-based algorithm (TritonRoute). The XRoute Environment will be available at https://github.com/xplanlab/xroute_env.

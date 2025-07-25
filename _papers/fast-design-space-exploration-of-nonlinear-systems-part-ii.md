@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "Fast Design Space Exploration of Nonlinear Systems: Part II"
+date: 2021-04-05
+arxiv_url: http://arxiv.org/abs/2104.02464v2
+---
+
+Nonlinear system design is often a multi-objective optimization problem involving search for a design that satisfies a number of predefined constraints. The design space is typically very large since it includes all possible system architectures with different combinations of components composing each architecture. In this article, we address nonlinear system design space exploration through a two-step approach encapsulated in a framework called Fast Design Space Exploration of Nonlinear Systems (ASSENT). In the first step, we use a genetic algorithm to search for system architectures that allow discrete choices for component values or else only component values for a fixed architecture. This step yields a coarse design since the system may or may not meet the target specifications. In the second step, we use an inverse design to search over a continuous space and fine-tune the component values with the goal of improving the value of the objective function. We use a neural network to model the system response. The neural network is converted into a mixed-integer linear program for active learning to sample component values efficiently. We illustrate the efficacy of ASSENT on problems ranging from nonlinear system design to design of electrical circuits. Experimental results show that ASSENT achieves the same or better value of the objective function compared to various other optimization techniques for nonlinear system design by up to 54%. We improve sample efficiency by 6-10x compared to reinforcement learning based synthesis of electrical circuits.

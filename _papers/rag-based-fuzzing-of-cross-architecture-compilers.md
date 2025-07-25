@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "RAG-Based Fuzzing of Cross-Architecture Compilers"
+date: 2025-04-11
+arxiv_url: http://arxiv.org/abs/2504.08967v1
+---
+
+OneAPI is an open standard that supports cross-architecture software development with minimal effort from developers. It brings DPC++ and C++ compilers which need to be thoroughly tested to verify their correctness, reliability, and security. Compilers have numerous code flows and optimization features. This process requires developers with deep understanding of the different compiler flows to craft testcases specific to target paths in the compiler. This testcase creation is a time-consuming and costly process. In this paper, we propose a large-language model (LLM)-based compiler fuzzing tool that integrates the concept of retrieval-augmented generation (RAG). This tool automates the testcase generation task and relieves experienced compiler developers from investing time to craft testcase generation patterns. We test our proposed approach on the Intel DPC++/C++ compiler. This compiler compiles SYCL code and allows developers to offload it to different architectures, e.g. GPUs and CPUs from different vendors. Using this tool, we managed to identify 87 SYCL code test cases that lead to output value mismatch or compiler runtime errors when compiled using Intel DPC++ and clang++ compilers and run on different architectures. The testcases and the identified unexpected behaviors of the compilers under test were obtained within only few hours with no prior background on the compiler passes under tests. This tool facilitates efficient compiler fuzzing with reduced developer time requirements via the dynamic testcase creation capability provided by an LLM with RAG.

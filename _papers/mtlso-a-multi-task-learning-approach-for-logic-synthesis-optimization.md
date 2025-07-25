@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "MTLSO: A Multi-Task Learning Approach for Logic Synthesis Optimization"
+date: 2024-09-09
+arxiv_url: http://arxiv.org/abs/2409.06077v2
+---
+
+Electronic Design Automation (EDA) is essential for IC design and has recently benefited from AI-based techniques to improve efficiency. Logic synthesis, a key EDA stage, transforms high-level hardware descriptions into optimized netlists. Recent research has employed machine learning to predict Quality of Results (QoR) for pairs of And-Inverter Graphs (AIGs) and synthesis recipes. However, the severe scarcity of data due to a very limited number of available AIGs results in overfitting, significantly hindering performance. Additionally, the complexity and large number of nodes in AIGs make plain GNNs less effective for learning expressive graph-level representations. To tackle these challenges, we propose MTLSO - a Multi-Task Learning approach for Logic Synthesis Optimization. On one hand, it maximizes the use of limited data by training the model across different tasks. This includes introducing an auxiliary task of binary multi-label graph classification alongside the primary regression task, allowing the model to benefit from diverse supervision sources. On the other hand, we employ a hierarchical graph representation learning strategy to improve the model's capacity for learning expressive graph-level representations of large AIGs, surpassing traditional plain GNNs. Extensive experiments across multiple datasets and against state-of-the-art baselines demonstrate the superiority of our method, achieving an average performance gain of 8.22\% for delay and 5.95\% for area.

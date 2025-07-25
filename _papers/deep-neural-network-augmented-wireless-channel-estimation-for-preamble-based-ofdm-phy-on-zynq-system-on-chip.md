@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "Deep Neural Network Augmented Wireless Channel Estimation for Preamble-based OFDM PHY on Zynq System on Chip"
+date: 2022-09-06
+arxiv_url: http://arxiv.org/abs/2209.02213v2
+---
+
+Reliable and fast channel estimation is crucial for next-generation wireless networks supporting a wide range of vehicular and low-latency services. Recently, deep learning (DL) based channel estimation has been explored as an efficient alternative to conventional least-square (LS) and linear minimum mean square error (LMMSE) approaches. Most of these DL approaches have not been realized on system-on-chip (SoC), and preliminary study shows that their complexity exceeds the complexity of the entire physical layer (PHY). The high latency of DL is another concern. This paper considers the design and implementation of deep neural network (DNN) augmented LS-based channel estimation (LSDNN) for preamble-based orthogonal frequency-division multiplexing (OFDM) physical layer (PHY) on SoC. We demonstrate the gain in performance compared to the conventional LS and LMMSE approaches. Via software-hardware co-design, word-length optimization, and reconfigurable architectures, we demonstrate the superiority of the LSDNN over the LS and LMMSE for a wide range of signal-to-noise ratio (SNR), number of pilots, preamble types, and wireless channels. Further, we evaluate the performance, power, and area (PPA) of the LS and LSDNN application-specific integrated circuit (ASIC) implementations in 45 nm technology. We demonstrate that word-length optimization can substantially improve PPA for the proposed architecture in ASIC implementations.

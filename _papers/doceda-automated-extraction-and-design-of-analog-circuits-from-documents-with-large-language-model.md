@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "DocEDA: Automated Extraction and Design of Analog Circuits from Documents with Large Language Model"
+date: 2024-11-25
+arxiv_url: http://arxiv.org/abs/2412.05301v1
+---
+
+Efficient and accurate extraction of electrical parameters from circuit datasheets and design documents is critical for accelerating circuit design in Electronic Design Automation (EDA). Traditional workflows often rely on engineers manually searching and extracting these parameters, which is time-consuming, and prone to human error. To address these challenges, we introduce DocEDA, an automated system that leverages advanced computer vision techniques and Large Language Models (LLMs) to extract electrical parameters seamlessly from documents. The layout analysis model specifically designed for datasheet is proposed to classify documents into circuit-related parts. Utilizing the inherent Chain-of-Thought reasoning capabilities of LLMs, DocEDA automates the extraction of electronic component parameters from documents. For circuit diagrams parsing, an improved GAM-YOLO model is hybrid with topology identification to transform diagrams into circuit netlists. Then, a space mapping enhanced optimization framework is evoked for optimization the layout in the document. Experimental evaluations demonstrate that DocEDA significantly enhances the efficiency of processing circuit design documents and the accuracy of electrical parameter extraction. It exhibits adaptability to various circuit design scenarios and document formats, offering a novel solution for EDA with the potential to transform traditional methodologies.

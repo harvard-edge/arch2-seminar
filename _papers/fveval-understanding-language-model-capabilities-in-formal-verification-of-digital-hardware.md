@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "FVEval: Understanding Language Model Capabilities in Formal Verification of Digital Hardware"
+date: 2024-10-15
+arxiv_url: http://arxiv.org/abs/2410.23299v1
+---
+
+The remarkable reasoning and code generation capabilities of large language models (LLMs) have spurred significant interest in applying LLMs to enable task automation in digital chip design. In particular, recent work has investigated early ideas of applying these models to formal verification (FV), an approach to verifying hardware implementations that can provide strong guarantees of confidence but demands significant amounts of human effort. While the value of LLM-driven automation is evident, our understanding of model performance, however, has been hindered by the lack of holistic evaluation. In response, we present FVEval, the first comprehensive benchmark and evaluation framework for characterizing LLM performance in tasks pertaining to FV. The benchmark consists of three sub-tasks that measure LLM capabilities at different levels: from the generation of SystemVerilog assertions (SVAs) given natural language descriptions to reasoning about the design RTL and suggesting assertions directly without additional human input. As test instances, we present both collections of expert-written verification collateral and methodologies to scalably generate synthetic examples aligned with industrial FV workflows. A wide range of existing LLMs, both proprietary and open-source, are evaluated against FVEval, based on which we investigate where today's LLMs stand and how we might further enable their application toward improving productivity in digital FV. Our benchmark and evaluation code is available at \url{https://github.com/NVlabs/FVEval}.

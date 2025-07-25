@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "A Neuro-Symbolic Approach to Multi-Agent RL for Interpretability and Probabilistic Decision Making"
+date: 2024-02-21
+arxiv_url: http://arxiv.org/abs/2402.13440v1
+---
+
+Multi-agent reinforcement learning (MARL) is well-suited for runtime decision-making in optimizing the performance of systems where multiple agents coexist and compete for shared resources. However, applying common deep learning-based MARL solutions to real-world problems suffers from issues of interpretability, sample efficiency, partial observability, etc. To address these challenges, we present an event-driven formulation, where decision-making is handled by distributed co-operative MARL agents using neuro-symbolic methods. The recently introduced neuro-symbolic Logical Neural Networks (LNN) framework serves as a function approximator for the RL, to train a rules-based policy that is both logical and interpretable by construction. To enable decision-making under uncertainty and partial observability, we developed a novel probabilistic neuro-symbolic framework, Probabilistic Logical Neural Networks (PLNN), which combines the capabilities of logical reasoning with probabilistic graphical models. In PLNN, the upward/downward inference strategy, inherited from LNN, is coupled with belief bounds by setting the activation function for the logical operator associated with each neural network node to a probability-respecting generalization of the Fr\'echet inequalities. These PLNN nodes form the unifying element that combines probabilistic logic and Bayes Nets, permitting inference for variables with unobserved states. We demonstrate our contributions by addressing key MARL challenges for power sharing in a system-on-chip application.

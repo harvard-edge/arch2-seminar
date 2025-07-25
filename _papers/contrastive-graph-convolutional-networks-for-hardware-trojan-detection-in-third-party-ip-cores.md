@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "Contrastive Graph Convolutional Networks for Hardware Trojan Detection in Third Party IP Cores"
+date: 2022-03-04
+arxiv_url: http://arxiv.org/abs/2203.02095v1
+---
+
+The availability of wide-ranging third-party intellectual property (3PIP) cores enables integrated circuit (IC) designers to focus on designing high-level features in ASICs/SoCs. The massive proliferation of ICs brings with it an increased number of bad actors seeking to exploit those circuits for various nefarious reasons. This is not surprising as integrated circuits affect every aspect of society. Thus, malicious logic (Hardware Trojans, HT) being surreptitiously injected by untrusted vendors into 3PIP cores used in IC design is an ever present threat. In this paper, we explore methods for identification of trigger-based HT in designs containing synthesizable IP cores without a golden model. Specifically, we develop methods to detect hardware trojans by detecting triggers embedded in ICs purely based on netlists acquired from the vendor. We propose GATE-Net, a deep learning model based on graph-convolutional networks (GCN) trained using supervised contrastive learning, for flagging designs containing randomly-inserted triggers using only the corresponding netlist. Our proposed architecture achieves significant improvements over state-of-the-art learning models yielding an average 46.99% improvement in detection performance for combinatorial triggers and 21.91% improvement for sequential triggers across a variety of circuit types. Through rigorous experimentation, qualitative and quantitative performance evaluations, we demonstrate effectiveness of GATE-Net and the supervised contrastive training of GATE-Net for HT detection.

@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "From English to ASIC: Hardware Implementation with Large Language Model"
+date: 2024-03-11
+arxiv_url: http://arxiv.org/abs/2403.07039v1
+---
+
+In the realm of ASIC engineering, the landscape has been significantly reshaped by the rapid development of LLM, paralleled by an increase in the complexity of modern digital circuits. This complexity has escalated the requirements for HDL coding, necessitating a higher degree of precision and sophistication. However, challenges have been faced due to the less-than-optimal performance of modern language models in generating hardware description code, a situation further exacerbated by the scarcity of the corresponding high-quality code datasets. These challenges have highlighted the gap between the potential of LLMs to revolutionize digital circuit design and their current capabilities in accurately interpreting and implementing hardware specifications. To address these challenges, a strategy focusing on the fine-tuning of the leading-edge nature language model and the reshuffling of the HDL code dataset has been developed. The fine-tuning aims to enhance models' proficiency in generating precise and efficient ASIC design, while the dataset reshuffling is intended to broaden the scope and improve the quality of training material. The model demonstrated significant improvements compared to the base model, with approximately 10% to 20% increase in accuracy across a wide range of temperature for the pass@1 metric. This approach is expected to facilitate a simplified and more efficient LLM-assisted framework for complex circuit design, leveraging their capabilities to meet the sophisticated demands of HDL coding and thus streamlining the ASIC development process.

@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "TROJAN-GUARD: Hardware Trojans Detection Using GNN in RTL Designs"
+date: 2025-06-22
+arxiv_url: http://arxiv.org/abs/2506.17894v1
+---
+
+Chip manufacturing is a complex process, and to achieve a faster time to market, an increasing number of untrusted third-party tools and designs from around the world are being utilized. The use of these untrusted third party intellectual properties (IPs) and tools increases the risk of adversaries inserting hardware trojans (HTs). The covert nature of HTs poses significant threats to cyberspace, potentially leading to severe consequences for national security, the economy, and personal privacy. Many graph neural network (GNN)-based HT detection methods have been proposed. However, they perform poorly on larger designs because they rely on training with smaller designs. Additionally, these methods do not explore different GNN models that are well-suited for HT detection or provide efficient training and inference processes. We propose a novel framework that generates graph embeddings for large designs (e.g., RISC-V) and incorporates various GNN models tailored for HT detection. Furthermore, our framework introduces domain-specific techniques for efficient training and inference by implementing model quantization. Model quantization reduces the precision of the weights, lowering the computational requirements, enhancing processing speed without significantly affecting detection accuracy. We evaluate our framework using a custom dataset, and our results demonstrate a precision of 98.66% and a recall (true positive rate) of 92.30%, highlighting the effectiveness and efficiency of our approach in detecting hardware trojans in large-scale chip designs

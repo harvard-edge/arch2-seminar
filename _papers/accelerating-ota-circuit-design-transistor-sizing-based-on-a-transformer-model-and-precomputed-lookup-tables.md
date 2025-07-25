@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "Accelerating OTA Circuit Design: Transistor Sizing Based on a Transformer Model and Precomputed Lookup Tables"
+date: 2025-02-05
+arxiv_url: http://arxiv.org/abs/2502.03605v1
+---
+
+Device sizing is crucial for meeting performance specifications in operational transconductance amplifiers (OTAs), and this work proposes an automated sizing framework based on a transformer model. The approach first leverages the driving-point signal flow graph (DP-SFG) to map an OTA circuit and its specifications into transformer-friendly sequential data. A specialized tokenization approach is applied to the sequential data to expedite the training of the transformer on a diverse range of OTA topologies, under multiple specifications. Under specific performance constraints, the trained transformer model is used to accurately predict DP-SFG parameters in the inference phase. The predicted DP-SFG parameters are then translated to transistor sizes using a precomputed look-up table-based approach inspired by the gm/Id methodology. In contrast to previous conventional or machine-learning-based methods, the proposed framework achieves significant improvements in both speed and computational efficiency by reducing the need for expensive SPICE simulations within the optimization loop; instead, almost all SPICE simulations are confined to the one-time training phase. The method is validated on a variety of unseen specifications, and the sizing solution demonstrates over 90% success in meeting specifications with just one SPICE simulation for validation, and 100% success with 3-5 additional SPICE simulations.

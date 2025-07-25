@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "Bayer-type Vis-NIR Routing via Inverse Design for Submicron-pixel Image Sensing Chip"
+date: 2024-09-19
+arxiv_url: http://arxiv.org/abs/2409.12459v1
+---
+
+With the advent of high-precision nanoscale lithography technology, high-resolution image sensing has experienced rapid development in recent years. Currently, mainstream commercial image sensors predominantly utilize Bayer array color filters to implement RGB colorful imaging strategies. However, as pixel sizes transition into the submicron dimensions, traditional dye filters used in image sensors have long been hampered by limited optical efficiency, suboptimal signal-to-noise ratios, and significant difficulties in miniaturization. In this work, a novel 4-channel RGB-IR color router for image sensing, distinct from the traditional absorption-transmission mechanisms, was proposed through inverse design methodologies. Utilizing genetic algorithms and DCGAN models, approximately 20,000 random color routing structures were generated and trained. From these, an optimized spectral splitting structure with a minimal periodic size of 1.6 um * 1.6 um was identified. This structure achieves peak optical efficiencies 1.7 times greater than those of dye filters, while also offering superior color imaging quality and signal intensity. This innovative design approach, leveraging deep learning integration, demonstrates an on-chip strategy for color realization in 4-channel image sensors, and holds significant promise for enhancing the development of next-generation high-performance image sensing chip systems.

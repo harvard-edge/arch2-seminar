@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "Digital ASIC Design with Ongoing LLMs: Strategies and Prospects"
+date: 2024-04-25
+arxiv_url: http://arxiv.org/abs/2405.02329v1
+---
+
+The escalating complexity of modern digital systems has imposed significant challenges on integrated circuit (IC) design, necessitating tools that can simplify the IC design flow. The advent of Large Language Models (LLMs) has been seen as a promising development, with the potential to automate the generation of Hardware Description Language (HDL) code, thereby streamlining digital IC design. However, the practical application of LLMs in this area faces substantial hurdles. Notably, current LLMs often generate HDL code with small but critical syntax errors and struggle to accurately convey the high-level semantics of circuit designs. These issues significantly undermine the utility of LLMs for IC design, leading to misinterpretations and inefficiencies.   In response to these challenges, this paper presents targeted strategies to harness the capabilities of LLMs for digital ASIC design. We outline approaches that improve the reliability and accuracy of HDL code generation by LLMs. As a practical demonstration of these strategies, we detail the development of a simple three-phase Pulse Width Modulation (PWM) generator. This project, part of the "Efabless AI-Generated Open-Source Chip Design Challenge," successfully passed the Design Rule Check (DRC) and was fabricated, showcasing the potential of LLMs to enhance digital ASIC design. This work underscores the feasibility and benefits of integrating LLMs into the IC design process, offering a novel approach to overcoming the complexities of modern digital systems.

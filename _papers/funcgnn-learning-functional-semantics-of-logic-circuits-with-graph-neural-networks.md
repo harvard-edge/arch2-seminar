@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "FuncGNN: Learning Functional Semantics of Logic Circuits with Graph Neural Networks"
+date: 2025-06-07
+arxiv_url: http://arxiv.org/abs/2506.06787v1
+---
+
+As integrated circuit scale grows and design complexity rises, effective circuit representation helps support logic synthesis, formal verification, and other automated processes in electronic design automation. And-Inverter Graphs (AIGs), as a compact and canonical structure, are widely adopted for representing Boolean logic in these workflows. However, the increasing complexity and integration density of modern circuits introduce structural heterogeneity and global logic information loss in AIGs, posing significant challenges to accurate circuit modeling. To address these issues, we propose FuncGNN, which integrates hybrid feature aggregation to extract multi-granularity topological patterns, thereby mitigating structural heterogeneity and enhancing logic circuit representations. FuncGNN further introduces gate-aware normalization that adapts to circuit-specific gate distributions, improving robustness to structural heterogeneity. Finally, FuncGNN employs multi-layer integration to merge intermediate features across layers, effectively synthesizing local and global semantic information for comprehensive logic representations. Experimental results on two logic-level analysis tasks (i.e., signal probability prediction and truth-table distance prediction) demonstrate that FuncGNN outperforms existing state-of-the-art methods, achieving improvements of 2.06% and 18.71%, respectively, while reducing training time by approximately 50.6% and GPU memory usage by about 32.8%.

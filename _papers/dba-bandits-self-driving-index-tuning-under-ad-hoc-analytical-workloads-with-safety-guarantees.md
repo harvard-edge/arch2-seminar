@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "DBA bandits: Self-driving index tuning under ad-hoc, analytical workloads with safety guarantees"
+date: 2020-10-19
+arxiv_url: http://arxiv.org/abs/2010.09208v2
+---
+
+Automating physical database design has remained a long-term interest in database research due to substantial performance gains afforded by optimised structures. Despite significant progress, a majority of today's commercial solutions are highly manual, requiring offline invocation by database administrators (DBAs) who are expected to identify and supply representative training workloads. Unfortunately, the latest advancements like query stores provide only limited support for dynamic environments. This status quo is untenable: identifying representative static workloads is no longer realistic; and physical design tools remain susceptible to the query optimiser's cost misestimates (stemming from unrealistic assumptions such as attribute value independence and uniformity of data distribution). We propose a self-driving approach to online index selection that eschews the DBA and query optimiser, and instead learns the benefits of viable structures through strategic exploration and direct performance observation. We view the problem as one of sequential decision making under uncertainty, specifically within the bandit learning setting. Multi-armed bandits balance exploration and exploitation to provably guarantee average performance that converges to a fixed policy that is optimal with perfect hindsight. Our comprehensive empirical results demonstrate up to 75% speed-up on shifting and ad-hoc workloads and 28% speed-up on static workloads compared against a state-of-the-art commercial tuning tool.

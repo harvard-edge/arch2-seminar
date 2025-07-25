@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "Review of Machine Learning for Micro-Electronic Design Verification"
+date: 2025-03-05
+arxiv_url: http://arxiv.org/abs/2503.11687v1
+---
+
+Microelectronic design verification remains a critical bottleneck in device development, traditionally mitigated by expanding verification teams and computational resources. Since the late 1990s, machine learning (ML) has been proposed to enhance verification efficiency, yet many techniques have not achieved mainstream adoption. This review, from the perspective of verification and ML practitioners, examines the application of ML in dynamic-based techniques for functional verification of microelectronic designs, and provides a starting point for those new to this interdisciplinary field. Historical trends, techniques, ML types, and evaluation baselines are analysed to understand why previous research has not been widely adopted in industry. The review highlights the application of ML, the techniques used and critically discusses their limitations and successes. Although there is a wealth of promising research, real-world adoption is hindered by challenges in comparing techniques, identifying suitable applications, and the expertise required for implementation. This review proposes that the field can progress through the creation and use of open datasets, common benchmarks, and verification targets. By establishing open evaluation criteria, industry can guide future research. Parallels with ML in software verification suggest potential for collaboration. Additionally, greater use of open-source designs and verification environments can allow more researchers from outside the hardware verification discipline to contribute to the challenge of verifying microelectronic designs.

@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "Improving Figures of Merit for Quantum Circuit Compilation"
+date: 2025-01-22
+arxiv_url: http://arxiv.org/abs/2501.13155v1
+---
+
+Quantum computing is an emerging technology that has seen significant software and hardware improvements in recent years. Executing a quantum program requires the compilation of its quantum circuit for a target Quantum Processing Unit (QPU). Various methods for qubit mapping, gate synthesis, and optimization of quantum circuits have been proposed and implemented in compilers. These compilers try to generate a quantum circuit that leads to the best execution quality - a criterion that is usually approximated by figures of merit such as the number of (two-qubit) gates, the circuit depth, expected fidelity, or estimated success probability. However, it is often unclear how well these figures of merit represent the actual execution quality on a QPU. In this work, we investigate the correlation between established figures of merit and actual execution quality on real machines - revealing that the correlation is weaker than anticipated and that more complex figures of merit are not necessarily more accurate. Motivated by this finding, we propose an improved figure of merit (based on a machine learning approach) that can be used to predict the expected execution quality of a quantum circuit for a chosen QPU without actually executing it. The employed machine learning model reveals the influence of various circuit features on generating high correlation scores. The proposed figure of merit demonstrates a strong correlation and outperforms all previous ones in a case study - achieving an average correlation improvement of 49%.

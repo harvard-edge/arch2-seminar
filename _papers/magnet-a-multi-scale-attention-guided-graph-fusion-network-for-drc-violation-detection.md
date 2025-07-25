@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "MAGNet: A Multi-Scale Attention-Guided Graph Fusion Network for DRC Violation Detection"
+date: 2025-06-08
+arxiv_url: http://arxiv.org/abs/2506.07126v1
+---
+
+Design rule checking (DRC) is of great significance for cost reduction and design efficiency improvement in integrated circuit (IC) designs. Machine-learning-based DRC has become an important approach in computer-aided design (CAD). In this paper, we propose MAGNet, a hybrid deep learning model that integrates an improved U-Net with a graph neural network for DRC violation prediction. The U-Net backbone is enhanced with a Dynamic Attention Module (DAM) and a Multi-Scale Convolution Module (MSCM) to strengthen its capability in extracting fine-grained and multi-scale spatial features. In parallel, we construct a pixel-aligned graph structure based on chip layout tiles, and apply a specialized GNN to model the topological relationships among pins. During graph construction, a graph-to-grid mapping is generated to align GNN features with the layout image. In addition, a label amplification strategy is adopted during training to enhance the model's sensitivity to sparse violation patterns. Overall, MAGNet effectively combines spatial, semantic, and structural information, achieving improved prediction accuracy and reduced false positive rates in DRC hotspot detection. Subsequently, through incremental training, we achieve a more sensitive discrimination ability for hotspots. The results demonstrate that, in comparison with ibUnet, RouteNet, and J-Net, MAGnet significantly outperforms these models, achieving substantial improvements in overall performance.

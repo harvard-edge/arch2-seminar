@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "Using LLMs to Facilitate Formal Verification of RTL"
+date: 2023-09-18
+arxiv_url: http://arxiv.org/abs/2309.09437v2
+---
+
+Formal property verification (FPV) has existed for decades and has been shown to be effective at finding intricate RTL bugs. However, formal properties, such as those written as SystemVerilog Assertions (SVA), are time-consuming and error-prone to write, even for experienced users. Prior work has attempted to lighten this burden by raising the abstraction level so that SVA is generated from high-level specifications. However, this does not eliminate the manual effort of reasoning and writing about the detailed hardware behavior. Motivated by the increased need for FPV in the era of heterogeneous hardware and the advances in large language models (LLMs), we set out to explore whether LLMs can capture RTL behavior and generate correct SVA properties.   First, we design an FPV-based evaluation framework that measures the correctness and completeness of SVA. Then, we evaluate GPT4 iteratively to craft the set of syntax and semantic rules needed to prompt it toward creating better SVA. We extend the open-source AutoSVA framework by integrating our improved GPT4-based flow to generate safety properties, in addition to facilitating their existing flow for liveness properties. Lastly, our use cases evaluate (1) the FPV coverage of GPT4-generated SVA on complex open-source RTL and (2) using generated SVA to prompt GPT4 to create RTL from scratch.   Through these experiments, we find that GPT4 can generate correct SVA even for flawed RTL, without mirroring design errors. Particularly, it generated SVA that exposed a bug in the RISC-V CVA6 core that eluded the prior work's evaluation.

@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "INSIGHT: Universal Neural Simulator for Analog Circuits Harnessing Autoregressive Transformers"
+date: 2024-07-10
+arxiv_url: http://arxiv.org/abs/2407.07346v3
+---
+
+Analog front-end design heavily relies on specialized human expertise and costly trial-and-error simulations, which motivated many prior works on analog design automation. However, efficient and effective exploration of the vast and complex design space remains constrained by the time-consuming nature of SPICE simulations, making effective design automation a challenging endeavor. In this paper, we introduce INSIGHT, a GPU-powered, technology-agnostic, effective universal neural simulator in the analog front-end design automation loop. INSIGHT accurately predicts the performance metrics of analog circuits across various technologies with just a few microseconds of inference time. Notably, its autoregressive capabilities enable INSIGHT to accurately predict simulation-costly critical transient specifications leveraging less expensive performance metric information. The low cost and high fidelity feature make INSIGHT a good substitute for standard simulators in analog front-end optimization frameworks. INSIGHT is compatible with any optimization framework, facilitating enhanced design space exploration for sample efficiency through sophisticated offline learning and adaptation techniques. Our experiments demonstrate that INSIGHT-M, a model-based batch reinforcement learning sizing framework with INSIGHT as the accurate surrogate, only requires < 20 real-time simulations with 100-1000x lower simulation costs and significant speedup over existing sizing methods.

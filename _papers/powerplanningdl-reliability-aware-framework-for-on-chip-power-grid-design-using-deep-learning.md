@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "PowerPlanningDL: Reliability-Aware Framework for On-Chip Power Grid Design using Deep Learning"
+date: 2020-05-04
+arxiv_url: http://arxiv.org/abs/2005.01386v2
+---
+
+With the increase in the complexity of chip designs, VLSI physical design has become a time-consuming task, which is an iterative design process. Power planning is that part of the floorplanning in VLSI physical design where power grid networks are designed in order to provide adequate power to all the underlying functional blocks. Power planning also requires multiple iterative steps to create the power grid network while satisfying the allowed worst-case IR drop and Electromigration (EM) margin. For the first time, this paper introduces Deep learning (DL)-based framework to approximately predict the initial design of the power grid network, considering different reliability constraints. The proposed framework reduces many iterative design steps and speeds up the total design cycle. Neural Network-based multi-target regression technique is used to create the DL model. Feature extraction is done, and the training dataset is generated from the floorplans of some of the power grid designs extracted from the IBM processor. The DL model is trained using the generated dataset. The proposed DL-based framework is validated using a new set of power grid specifications (obtained by perturbing the designs used in the training phase). The results show that the predicted power grid design is closer to the original design with minimal prediction error (~2%). The proposed DL-based approach also improves the design cycle time with a speedup of ~6X for standard power grid benchmarks.

@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "RobustAnalog: Fast Variation-Aware Analog Circuit Design Via Multi-task RL"
+date: 2022-07-13
+arxiv_url: http://arxiv.org/abs/2207.06412v1
+---
+
+Analog/mixed-signal circuit design is one of the most complex and time-consuming stages in the whole chip design process. Due to various process, voltage, and temperature (PVT) variations from chip manufacturing, analog circuits inevitably suffer from performance degradation. Although there has been plenty of work on automating analog circuit design under the typical condition, limited research has been done on exploring robust designs under real and unpredictable silicon variations. Automatic analog design against variations requires prohibitive computation and time costs. To address the challenge, we present RobustAnalog, a robust circuit design framework that involves the variation information in the optimization process. Specifically, circuit optimizations under different variations are considered as a set of tasks. Similarities among tasks are leveraged and competitions are alleviated to realize a sample-efficient multi-task training. Moreover, RobustAnalog prunes the task space according to the current performance in each iteration, leading to a further simulation cost reduction. In this way, RobustAnalog can rapidly produce a set of circuit parameters that satisfies diverse constraints (e.g. gain, bandwidth, noise...) across variations. We compare RobustAnalog with Bayesian optimization, Evolutionary algorithm, and Deep Deterministic Policy Gradient (DDPG) and demonstrate that RobustAnalog can significantly reduce required optimization time by 14-30 times. Therefore, our study provides a feasible method to handle various real silicon conditions.

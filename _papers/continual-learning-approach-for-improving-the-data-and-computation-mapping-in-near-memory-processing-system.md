@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "Continual Learning Approach for Improving the Data and Computation Mapping in Near-Memory Processing System"
+date: 2021-04-28
+arxiv_url: http://arxiv.org/abs/2104.13671v1
+---
+
+The resurgence of near-memory processing (NMP) with the advent of big data has shifted the computation paradigm from processor-centric to memory-centric computing. To meet the bandwidth and capacity demands of memory-centric computing, 3D memory has been adopted to form a scalable memory-cube network. Along with NMP and memory system development, the mapping for placing data and guiding computation in the memory-cube network has become crucial in driving the performance improvement in NMP. However, it is very challenging to design a universal optimal mapping for all applications due to unique application behavior and intractable decision space. In this paper, we propose an artificially intelligent memory mapping scheme, AIMM, that optimizes data placement and resource utilization through page and computation remapping. Our proposed technique involves continuously evaluating and learning the impact of mapping decisions on system performance for any application. AIMM uses a neural network to achieve a near-optimal mapping during execution, trained using a reinforcement learning algorithm that is known to be effective for exploring a vast design space. We also provide a detailed AIMM hardware design that can be adopted as a plugin module for various NMP systems. Our experimental evaluation shows that AIMM improves the baseline NMP performance in single and multiple program scenario by up to 70% and 50%, respectively.

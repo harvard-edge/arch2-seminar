@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "PGR-DRC: Pre-Global Routing DRC Violation Prediction Using Unsupervised Learning"
+date: 2025-06-08
+arxiv_url: http://arxiv.org/abs/2507.13355v1
+---
+
+Leveraging artificial intelligence (AI)-driven electronic design and automation (EDA) tools, high-performance computing, and parallelized algorithms are essential for next-generation microprocessor innovation, ensuring continued progress in computing, AI, and semiconductor technology. Machine learning-based design rule checking (DRC) and lithography hotspot detection can improve first-pass silicon success. However, conventional ML and neural network (NN)-based models use supervised learning and require a large balanced dataset (in terms of positive and negative classes) and training time. This research addresses those key challenges by proposing the first-ever unsupervised DRC violation prediction methodology. The proposed model can be built using any unbalanced dataset using only one class and set a threshold for it, then fitting any new data querying if they are within the boundary of the model for classification. This research verified the proposed model by implementing different computational cores using CMOS 28 nm technology and Synopsys Design Compiler and IC Compiler II tools. Then, layouts were divided into virtual grids to collect about 60k data for analysis and verification. The proposed method has 99.95% prediction test accuracy, while the existing support vector machine (SVM) and neural network (NN) models have 85.44\% and 98.74\% accuracy, respectively. In addition, the proposed methodology has about 26.3x and up to 6003x lower training times compared to SVM and NN-models, respectively.

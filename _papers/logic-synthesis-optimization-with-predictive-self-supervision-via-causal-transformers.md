@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "Logic Synthesis Optimization with Predictive Self-Supervision via Causal Transformers"
+date: 2024-09-16
+arxiv_url: http://arxiv.org/abs/2409.10653v2
+---
+
+Contemporary hardware design benefits from the abstraction provided by high-level logic gates, streamlining the implementation of logic circuits. Logic Synthesis Optimization (LSO) operates at one level of abstraction within the Electronic Design Automation (EDA) workflow, targeting improvements in logic circuits with respect to performance metrics such as size and speed in the final layout. Recent trends in the field show a growing interest in leveraging Machine Learning (ML) for EDA, notably through ML-guided logic synthesis utilizing policy-based Reinforcement Learning (RL) methods.Despite these advancements, existing models face challenges such as overfitting and limited generalization, attributed to constrained public circuits and the expressiveness limitations of graph encoders. To address these hurdles, and tackle data scarcity issues, we introduce LSOformer, a novel approach harnessing Autoregressive transformer models and predictive SSL to predict the trajectory of Quality of Results (QoR). LSOformer integrates cross-attention modules to merge insights from circuit graphs and optimization sequences, thereby enhancing prediction accuracy for QoR metrics. Experimental studies validate the effectiveness of LSOformer, showcasing its superior performance over baseline architectures in QoR prediction tasks, where it achieves improvements of 5.74%, 4.35%, and 17.06% on the EPFL, OABCD, and proprietary circuits datasets, respectively, in inductive setup.

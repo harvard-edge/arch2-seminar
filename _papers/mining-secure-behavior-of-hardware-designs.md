@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "Mining Secure Behavior of Hardware Designs"
+date: 2021-08-20
+arxiv_url: http://arxiv.org/abs/2108.09249v1
+---
+
+Specification mining offers a solution by automating security specification for hardware. Specification miners use a form of machine learning to specify behaviors of a system by studying a system in execution. However, specification mining was first developed for use with software. Complex hardware designs offer unique challenges for this technique. Further, specification miners traditionally capture functional specifications without a notion of security, and may not use the specification logics necessary to describe some security requirements.   This work demonstrates specification mining for hardware security. On CISC architectures such as x86, I demonstrate that a miner partitioning the design state space along control signals discovers a specification that includes manually defined properties and, if followed, would secure CPU designs against Memory Sinkhole and SYSRET privilege escalation. For temporal properties, I demonstrate that a miner using security specific linear temporal logic (LTL) templates for specification detection may find properties that, if followed, would secure designs against historical documented security vulnerabilities and against potential future attacks targeting system initialization. For information--flow hyperproperties, I demonstrate that a miner may use Information Flow Tracking (IFT) to develop output properties containing designer specified information--flow security properties as well as properties that demonstrate a design does not contain certain Common Weakness Enumerations (CWEs).

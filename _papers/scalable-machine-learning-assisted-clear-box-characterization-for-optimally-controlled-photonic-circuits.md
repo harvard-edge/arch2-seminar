@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "Scalable machine learning-assisted clear-box characterization for optimally controlled photonic circuits"
+date: 2023-10-23
+arxiv_url: http://arxiv.org/abs/2310.15349v2
+---
+
+Photonic integrated circuits offer a compact and stable platform for generating, manipulating, and detecting light. They are instrumental for classical and quantum applications. Imperfections stemming from fabrication constraints, tolerances and operation wavelength impose limitations on the accuracy and thus utility of current photonic integrated devices. Mitigating these imperfections typically necessitates a model of the underlying physical structure and the estimation of parameters that are challenging to access. Direct solutions are currently lacking for mesh configurations extending beyond trivial cases. We introduce a scalable and innovative method to characterize photonic chips through an iterative machine learning-assisted procedure. Our method is based on a clear-box approach that harnesses a fully modeled virtual replica of the photonic chip to characterize. The process is sample-efficient and can be carried out with a continuous-wave laser and powermeters. The model estimates individual passive phases, crosstalk, beamsplitter reflectivity values and relative input/output losses. Building upon the accurate characterization results, we mitigate imperfections to enable enhanced control over the device. We validate our characterization and imperfection mitigation methods on a 12-mode Clements-interferometer equipped with 126 phase shifters, achieving beyond state-of-the-art chip control with an average 99.77 % amplitude fidelity on 100 implemented Haar-random unitary matrices.

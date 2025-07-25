@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "The Validation of Graph Model-Based, Gate Level Low-Dimensional Feature Data for Machine Learning Applications"
+date: 2021-04-05
+arxiv_url: http://arxiv.org/abs/2104.01900v1
+---
+
+As an alternative to traditional fault injection-based methodologies and to explore the applicability of modern machine learning algorithms in the field of reliability engineering, this paper proposes a systemic framework that explores gate-level netlist circuit abstractions to extract and exploit relevant feature representations in a low-dimensional vector space. A scalable feature learning method on a graphical domain called node2vec algorithm had been utilized for efficiently extracting structural features of the netlist, providing a valuable database to exercise a selection of machine learning (ML) or deep learning (DL) algorithms aiming at predicting fault propagation metrics. The current work proposes to model the gate-level netlist as a Probabilistic Bayesian Graph (PGB) in the form of a Graph Modeling Language (GML) format. To accomplish this goal, a Verilog Procedural Interface (VPI) library linked to standard simulation tools has been built to map gate-level netlist into the graph model. The extracted features have been used for predicting the Functional Derating (FDR) factors of individual flip-flops of a given circuit through Support Vector Machine (SVM) and Deep Neural Network (DNN) algorithms. The results of the approach have been compared against data obtained through first-principles approaches. The whole experiment was implemented on the features extracted from the 10-Gigabit Ethernet MAC IEEE 802.3 standard circuit.

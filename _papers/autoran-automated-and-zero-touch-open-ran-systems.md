@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "AutoRAN: Automated and Zero-Touch Open RAN Systems"
+date: 2025-04-15
+arxiv_url: http://arxiv.org/abs/2504.11233v2
+---
+
+[...] This paper presents AutoRAN, an automated, intent-driven framework for zero-touch provisioning of open, programmable cellular networks. Leveraging cloud-native principles, AutoRAN employs virtualization, declarative infrastructure-as-code templates, and disaggregated micro-services to abstract physical resources and protocol stacks. Its orchestration engine integrates Language Models (LLMs) to translate high-level intents into machine-readable configurations, enabling closed-loop control via telemetry-driven observability. Implemented on a multi-architecture OpenShift cluster with heterogeneous compute (x86/ARM CPUs, NVIDIA GPUs) and multi-vendor Radio Access Network (RAN) hardware (Foxconn, NI), AutoRAN automates deployment of O-RAN-compliant stacks-including OpenAirInterface, NVIDIA ARC RAN, Open5GS core, and O-RAN Software Community (OSC) RIC components-using CI/CD pipelines. Experimental results demonstrate that AutoRAN is capable of deploying an end-to-end Private 5G network in less than 60 seconds with 1.6 Gbps throughput, validating its ability to streamline configuration, accelerate testing, and reduce manual intervention with similar performance than non cloud-based implementations. With its novel LLM-assisted intent translation mechanism, and performance-optimized automation workflow for multi-vendor environments, AutoRAN has the potential of advancing the robustness of next-generation cellular supply chains through reproducible, intent-based provisioning across public and private deployments.

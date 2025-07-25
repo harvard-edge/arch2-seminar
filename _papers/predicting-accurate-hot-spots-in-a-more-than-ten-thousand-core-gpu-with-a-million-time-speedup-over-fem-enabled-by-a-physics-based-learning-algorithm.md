@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "Predicting Accurate Hot Spots in a More Than Ten-Thousand-Core GPU with a Million-Time Speedup over FEM Enabled by a Physics-based Learning Algorithm"
+date: 2024-04-15
+arxiv_url: http://arxiv.org/abs/2404.09419v1
+---
+
+The classical proper orthogonal decomposition (POD) with the Galerkin projection (GP) has been revised for chip-level thermal simulation of microprocessors with a large number of cores. An ensemble POD-GP methodology (EnPOD-GP) is introduced to significantly improve the training effectiveness and prediction accuracy by dividing a large number of heat sources into heat source blocks (HSBs) each of which may contains one or a very small number of heat sources. Although very accurate, efficient and robust to any power map, EnPOD-GP suffers from intensive training for microprocessors with an enormous number of cores. A local-domain EnPOD-GP model (LEnPOD-GP) is thus proposed to further minimize the training burden. LEnPOD-GP utilizes the concepts of local domain truncation and generic building blocks to reduce the massive training data. LEnPOD-GP has been demonstrated on thermal simulation of NVIDIA Tesla Volta GV100, a GPU with more than 13,000 cores including FP32, FP64, INT32, and Tensor Cores. Due to the domain truncation for LEnPOD-GP, the least square error (LSE) is degraded but is still as small as 1.6% over the entire space and below 1.4% in the device layer when using 4 modes per HSB. When only the maximum temperature of the entire GPU is of interest, LEnPOD-GP offers a computing speed 1.1 million times faster than the FEM with a maximum error near 1.2 degrees over the entire simulation time.

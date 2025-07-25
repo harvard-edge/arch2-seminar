@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "Variational Label-Correlation Enhancement for Congestion Prediction"
+date: 2023-08-01
+arxiv_url: http://arxiv.org/abs/2308.00529v1
+---
+
+The physical design process of large-scale designs is a time-consuming task, often requiring hours to days to complete, with routing being the most critical and complex step. As the the complexity of Integrated Circuits (ICs) increases, there is an increased demand for accurate routing quality prediction. Accurate congestion prediction aids in identifying design flaws early on, thereby accelerating circuit design and conserving resources. Despite the advancements in current congestion prediction methodologies, an essential aspect that has been largely overlooked is the spatial label-correlation between different grids in congestion prediction. The spatial label-correlation is a fundamental characteristic of circuit design, where the congestion status of a grid is not isolated but inherently influenced by the conditions of its neighboring grids. In order to fully exploit the inherent spatial label-correlation between neighboring grids, we propose a novel approach, {\ours}, i.e., VAriational Label-Correlation Enhancement for Congestion Prediction, which considers the local label-correlation in the congestion map, associating the estimated congestion value of each grid with a local label-correlation weight influenced by its surrounding grids. {\ours} leverages variational inference techniques to estimate this weight, thereby enhancing the regression model's performance by incorporating spatial dependencies. Experiment results validate the superior effectiveness of {\ours} on the public available \texttt{ISPD2011} and \texttt{DAC2012} benchmarks using the superblue circuit line.

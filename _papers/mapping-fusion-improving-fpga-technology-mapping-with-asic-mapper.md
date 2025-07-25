@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "Mapping Fusion: Improving FPGA Technology Mapping with ASIC Mapper"
+date: 2025-07-15
+arxiv_url: http://arxiv.org/abs/2507.10912v1
+---
+
+LUT (Look-Up Table) mapping is a critical step in FPGA logic synthesis, where a logic network is transformed into a form that can be directly implemented using the FPGA's LUTs. An FPGA LUT is a flexible digital memory structure that can implement any logic function of a limited number of inputs, typically 4 to 6 inputs, depending on the FPGA architecture. The goal of LUT mapping is to map the Boolean network into LUTs, where each LUT can implement any function with a fixed number of inputs. In parallel to FPGA technology mapping, ASIC technology mapping maps the Boolean network to user-defined standard cells, which has traditionally been developed separately from LUT mapping algorithms. However, in this work, our motivating examples demonstrate that ASIC technology mappers can potentially improve the performance of LUT mappers, such that standard cell mapping and LUT mapping work in an incremental manner.   Therefore, we propose the FuseMap framework, which explores this opportunity to improve LUT mapping in the FPGA design flow by utilizing reinforcement learning to make design-specific choices during cell selection. The effectiveness of FuseMap is evaluated on a wide range of benchmarks, different technology libraries, and technology mappers. The experimental results demonstrate that FuseMap achieves higher mapping accuracy while reducing delay and area across diverse circuit designs collected from ISCAS 85/89, ITC/ISCAS 99, VTR 8.0, and EPFL benchmarks.

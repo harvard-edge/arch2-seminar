@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<div class="paper-detail">
+  <h1>{{ page.title }}</h1>
+  <p><strong>Published on:</strong> {{ page.date | date: "%B %d, %Y" }}</p>
+  <p><a href="{{ page.arxiv_url }}" target="_blank">Read on arXiv</a></p>
+  <hr>
+  <h2>Abstract</h2>
+  <p>{{ content }}</p>
+</div> 

@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "Machine Learning Based Routing Congestion Prediction in FPGA High-Level Synthesis"
+date: 2019-05-06
+arxiv_url: http://arxiv.org/abs/1905.03852v1
+---
+
+High-level synthesis (HLS) shortens the development time of hardware designs and enables faster design space exploration at a higher abstraction level. Optimization of complex applications in HLS is challenging due to the effects of implementation issues such as routing congestion. Routing congestion estimation is absent or inaccurate in existing HLS design methods and tools. Early and accurate congestion estimation is of great benefit to guide the optimization in HLS and improve the efficiency of implementation. However, routability, a serious concern in FPGA designs, has been difficult to evaluate in HLS without analyzing post-implementation details after Place and Route. To this end, we propose a novel method to predict routing congestion in HLS using machine learning and map the expected congested regions in the design to the relevant high-level source code. This is greatly beneficial in early identification of routability oriented bottlenecks in the high-level source code without running time-consuming register-transfer level (RTL) implementation flow. Experiments demonstrate that our approach accurately estimates vertical and horizontal routing congestion with errors of 6.71% and 10.05% respectively. By presenting Face Detection application as a case study, we show that by discovering the bottlenecks in high-level source code, routing congestion can be easily and quickly resolved compared to the efforts involved in RTL implementation and design feedback.

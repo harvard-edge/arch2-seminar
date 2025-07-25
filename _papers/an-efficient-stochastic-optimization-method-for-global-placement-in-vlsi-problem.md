@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "An Efficient Stochastic Optimization Method for Global Placement in VLSI Problem"
+date: 2024-12-29
+arxiv_url: http://arxiv.org/abs/2412.20425v1
+---
+
+The placement problem in very large-scale integration (VLSI) is a critical step in chip design, the goal of which is to optimize the wirelength of circuit components within a confined area while adhering to non-overlapping constraints. Most analytical placement models often rely on smooth approximations, thereby sacrificing the accuracy of wirelength estimation. To mitigate these inaccuracies, this paper introduces a novel approach that directly optimizes the original nonsmooth wirelength and proposes an innovative penalty model tailored for the global placement problem. Specifically, we transform the non-overlapping constraints into rectified linear penalty functions, allowing for a more precise formulation of the problem. Notably, we reformulate the resultant optimization problem into an equivalent framework resembling deep neural network training. Leveraging automatic differentiation techniques from deep learning, we efficiently compute the subgradient of the objective function, thus facilitating the application of stochastic subgradient methods to solve the model. To enhance the algorithm's performance, several advanced techniques are further introduced, leading to significant improvements in both efficiency and solution quality. Numerical experiments conducted on GSRC benchmark circuits demonstrate that our proposed model and algorithm achieve significant reductions in wirelength while effectively eliminating overlaps, highlighting its potential as a transformative advancement for large-scale VLSI placement.

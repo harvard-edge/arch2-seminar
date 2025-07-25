@@ -1,0 +1,63 @@
+- type: "Upcoming Talks"
+  members:
+    - speaker: "Stefan Abi-Karam"
+      date: "July 31, 2025"
+      title: "HLS-Eval: A Benchmark and Framework for Evaluating LLMs on High-Level Synthesis Design Tasks"
+      abstract: |
+        The rapid scaling of large language model (LLM)
+        training and inference has accelerated their adoption in
+        semiconductor design across academia and industry. Most prior
+        works benchmark LLMs for design tasks involving hardware
+        description languages (HDLs), primarily Verilog. Meanwhile,
+        designers are increasingly using high-level synthesis (HLS) to
+        develop domain-specific accelerators and other hardware systems.
+        However, benchmarks and tooling to comprehensively evaluate
+        LLMs for HLS design tasks remain scarce.
+        To address this, we introduce HLS-Eval, the first comprehensive
+        benchmark and evaluation framework for LLM-driven HLS
+        design tasks. HLS-Eval focuses on evaluating two key high-level
+        tasks: 1) generating HLS code from natural language descriptions,
+        and 2) making HLS-specific code edits to existing HLS code,
+        primarily targeting HW optimization and performance gains.
+        To evaluate these tasks, we construct the HLS-Eval benchmark
+        consisting of 94 unique designs as benchmark cases. These designs
+        are drawn from a diverse mix of established community HLS
+        benchmarks and novel sources. Using a semi-automated flow,
+        we prepare each case to be ”LLM-ready”, supplemented with a
+        natural language description and a corresponding testbench for
+        C-simulation and HLS synthesis validation.
+        Beyond the benchmark designs, HLS-Eval provides a framework
+        for automated, parallel evaluation of both local and hosted LLMs
+        across various HLS design tasks. It features a parallel evaluation
+        engine, seamless HLS tool interfaces for LLMs, and an abstraction
+        to support different LLM interaction paradigms, all wrapped in a
+        modular Python API. With HLS-Eval, users can rapidly prototype
+        and evaluate new benchmark sources, HLS design tasks, and
+        LLM methodologies, speeding up the research and development
+        of new AI-driven HLS workflows.
+        We demonstrate the utility of HLS-Eval through baseline
+        evaluations of popular open-source LLMs for HLS code
+        generation and code editing tasks targeting Vitis HLS. Our
+        evaluation assesses LLM-generated HLS code across four critical
+        metrics: ”parseability”, ”compilability”, ”runnability”, and
+        ”synthesizability” — mirroring the iterative debugging and testing
+        process of an HLS designer. Additionally, we provide pass@k
+        metrics for common design tasks, establishing clear evaluation
+        criteria, baselines, and the necessary infrastructure for others in
+        the LLM hardware design community to build upon.
+        We open-source our benchmark, framework, and evaluation
+        results at https://github.com/stefanpie/hls-eval.
+      bio: "Placeholder bio 1"
+      livestream: "#"
+    - speaker: "Placeholder Speaker 2 -- You"
+      date: "TBA"
+      title: "Placeholder Title 2"
+      abstract: "Placeholder abstract 2"
+      bio: "Placeholder bio 2"
+      livestream: "#"
+    - speaker: "Placeholder Speaker 3 -- You"
+      date: "TBA"
+      title: "Placeholder Title 3"
+      abstract: "Placeholder abstract 3"
+      bio: "Placeholder bio 3"
+      livestream: "#"

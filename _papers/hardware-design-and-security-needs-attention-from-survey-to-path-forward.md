@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "Hardware Design and Security Needs Attention: From Survey to Path Forward"
+date: 2025-04-11
+arxiv_url: http://arxiv.org/abs/2504.08854v2
+---
+
+Recent advances in attention-based artificial intelligence (AI) models have unlocked vast potential to automate digital hardware design while enhancing and strengthening security measures against various threats. This rapidly emerging field leverages Large Language Models (LLMs) to generate HDL code, identify vulnerabilities, and sometimes mitigate them. The state of the art in this design automation space utilizes optimized LLMs with HDL datasets, creating automated systems for register-transfer level (RTL) generation, verification, and debugging, and establishing LLM-driven design environments for streamlined logic designs. Additionally, attention-based models like graph attention have shown promise in chip design applications, including floorplanning. This survey investigates the integration of these models into hardware-related domains, emphasizing logic design and hardware security, with or without the use of IP libraries. This study explores the commercial and academic landscape, highlighting technical hurdles and future prospects for automating hardware design and security. Moreover, it provides new insights into the study of LLM-driven design systems, advances in hardware security mechanisms, and the impact of influential works on industry practices. Through the examination of 30 representative approaches and illustrative case studies, this paper underscores the transformative potential of attention-based models in revolutionizing hardware design while addressing the challenges that lie ahead in this interdisciplinary domain.

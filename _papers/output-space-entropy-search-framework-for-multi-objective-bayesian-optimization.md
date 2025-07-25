@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "Output Space Entropy Search Framework for Multi-Objective Bayesian Optimization"
+date: 2021-10-13
+arxiv_url: http://arxiv.org/abs/2110.06980v2
+---
+
+We consider the problem of black-box multi-objective optimization (MOO) using expensive function evaluations (also referred to as experiments), where the goal is to approximate the true Pareto set of solutions by minimizing the total resource cost of experiments. For example, in hardware design optimization, we need to find the designs that trade-off performance, energy, and area overhead using expensive computational simulations. The key challenge is to select the sequence of experiments to uncover high-quality solutions using minimal resources. In this paper, we propose a general framework for solving MOO problems based on the principle of output space entropy (OSE) search: select the experiment that maximizes the information gained per unit resource cost about the true Pareto front. We appropriately instantiate the principle of OSE search to derive efficient algorithms for the following four MOO problem settings: 1) The most basic em single-fidelity setting, where experiments are expensive and accurate; 2) Handling em black-box constraints} which cannot be evaluated without performing experiments; 3) The discrete multi-fidelity setting, where experiments can vary in the amount of resources consumed and their evaluation accuracy; and 4) The em continuous-fidelity setting, where continuous function approximations result in a huge space of experiments. Experiments on diverse synthetic and real-world benchmarks show that our OSE search based algorithms improve over state-of-the-art methods in terms of both computational-efficiency and accuracy of MOO solutions.

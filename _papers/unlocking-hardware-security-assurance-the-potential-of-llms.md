@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "Unlocking Hardware Security Assurance: The Potential of LLMs"
+date: 2023-08-21
+arxiv_url: http://arxiv.org/abs/2308.11042v1
+---
+
+System-on-Chips (SoCs) form the crux of modern computing systems. SoCs enable high-level integration through the utilization of multiple Intellectual Property (IP) cores. However, the integration of multiple IP cores also presents unique challenges owing to their inherent vulnerabilities, thereby compromising the security of the entire system. Hence, it is imperative to perform hardware security validation to address these concerns. The efficiency of this validation procedure is contingent on the quality of the SoC security properties provided. However, generating security properties with traditional approaches often requires expert intervention and is limited to a few IPs, thereby resulting in a time-consuming and non-robust process. To address this issue, we, for the first time, propose a novel and automated Natural Language Processing (NLP)-based Security Property Generator (NSPG). Specifically, our approach utilizes hardware documentation in order to propose the first hardware security-specific language model, HS-BERT, for extracting security properties dedicated to hardware design. To evaluate our proposed technique, we trained the HS-BERT model using sentences from RISC-V, OpenRISC, MIPS, OpenSPARC, and OpenTitan SoC documentation. When assessedb on five untrained OpenTitan hardware IP documents, NSPG was able to extract 326 security properties from 1723 sentences. This, in turn, aided in identifying eight security bugs in the OpenTitan SoC design presented in the hardware hacking competition, Hack@DAC 2022.

@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "Deep Photonic Networks with Arbitrary and Broadband Functionality"
+date: 2023-04-10
+arxiv_url: http://arxiv.org/abs/2304.04776v1
+---
+
+Growing application space in optical communications, computing, and sensing continues to drive the need for high-performance integrated photonic components. Designing these on-chip systems with complex and application-specific functionality requires beyond what is possible with physical intuition, for which machine learning-based design methods have recently become popular. However, as the expensive computational requirements for physically accurate device simulations last a critical challenge, these methods typically remain limited in scalability and the optical design degrees of freedom they can provide for application-specific and arbitrary photonic integrated circuits. Here, we introduce a highly-scalable, physics-informed framework for the design of on-chip optical systems with arbitrary functionality based on a deep photonic network of custom-designed Mach-Zehnder interferometers. Using this framework, we design ultra-broadband power splitters and a spectral duplexer, each in less than two minutes, and demonstrate state-of-the-art experimental performance with less than 0.66 dB insertion loss and over 120 nm of 1-dB bandwidth for all devices. Our presented framework provides an essential tool with a tractable path towards the systematic design of large-scale photonic systems with custom and broadband power, phase, and dispersion profiles for use in multi-band optical applications including high-throughput communications, quantum information processing, and medical/biological sensing.

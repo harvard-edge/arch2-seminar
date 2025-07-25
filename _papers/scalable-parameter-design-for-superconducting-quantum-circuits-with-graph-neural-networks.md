@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "Scalable Parameter Design for Superconducting Quantum Circuits with Graph Neural Networks"
+date: 2024-11-25
+arxiv_url: http://arxiv.org/abs/2411.16354v2
+---
+
+To demonstrate supremacy of quantum computing, increasingly large-scale superconducting quantum computing chips are being designed and fabricated. However, the complexity of simulating quantum systems poses a significant challenge to computer-aided design of quantum chips, especially for large-scale chips. Harnessing the scalability of graph neural networks (GNNs), we here propose a parameter designing algorithm for large-scale superconducting quantum circuits. The algorithm depends on the so-called 'three-stair scaling' mechanism, which comprises two neural-network models: an evaluator supervisedly trained on small-scale circuits for applying to medium-scale circuits, and a designer unsupervisedly trained on medium-scale circuits for applying to large-scale ones. We demonstrate our algorithm in mitigating quantum crosstalk errors. Frequencies for both single- and two-qubit gates (corresponding to the parameters of nodes and edges) are considered simultaneously. Numerical results indicate that the well-trained designer achieves notable advantages in efficiency, effectiveness, and scalability. For example, for large-scale superconducting quantum circuits consisting of around 870 qubits, our GNNs-based algorithm achieves 51% of the errors produced by the state-of-the-art algorithm, with a time reduction from 90 min to 27 sec. Overall, a better-performing and more scalable algorithm for designing parameters of superconducting quantum chips is proposed, which initially demonstrates the advantages of applying GNNs in superconducting quantum chips.

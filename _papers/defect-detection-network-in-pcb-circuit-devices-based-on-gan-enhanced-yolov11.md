@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "Defect Detection Network In PCB Circuit Devices Based on GAN Enhanced YOLOv11"
+date: 2025-01-12
+arxiv_url: http://arxiv.org/abs/2501.06879v1
+---
+
+This study proposes an advanced method for surface defect detection in printed circuit boards (PCBs) using an improved YOLOv11 model enhanced with a generative adversarial network (GAN). The approach focuses on identifying six common defect types: missing hole, rat bite, open circuit, short circuit, burr, and virtual welding. By employing GAN to generate synthetic defect images, the dataset is augmented with diverse and realistic patterns, improving the model's ability to generalize, particularly for complex and infrequent defects like burrs. The enhanced YOLOv11 model is evaluated on a PCB defect dataset, demonstrating significant improvements in accuracy, recall, and robustness, especially when dealing with defects in complex environments or small targets. This research contributes to the broader field of electronic design automation (EDA), where efficient defect detection is a crucial step in ensuring high-quality PCB manufacturing. By integrating advanced deep learning techniques, this approach enhances the automation and precision of defect detection, reducing reliance on manual inspection and accelerating design-to-production workflows. The findings underscore the importance of incorporating GAN-based data augmentation and optimized detection architectures in EDA processes, providing valuable insights for improving reliability and efficiency in PCB defect detection within industrial applications.

@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "LEAPER: Fast and Accurate FPGA-based System Performance Prediction via Transfer Learning"
+date: 2022-08-22
+arxiv_url: http://arxiv.org/abs/2208.10606v2
+---
+
+Machine learning has recently gained traction as a way to overcome the slow accelerator generation and implementation process on an FPGA. It can be used to build performance and resource usage models that enable fast early-stage design space exploration. First, training requires large amounts of data (features extracted from design synthesis and implementation tools), which is cost-inefficient because of the time-consuming accelerator design and implementation process. Second, a model trained for a specific environment cannot predict performance or resource usage for a new, unknown environment. In a cloud system, renting a platform for data collection to build an ML model can significantly increase the total-cost-ownership (TCO) of a system. Third, ML-based models trained using a limited number of samples are prone to overfitting. To overcome these limitations, we propose LEAPER, a transfer learning-based approach for prediction of performance and resource usage in FPGA-based systems. The key idea of LEAPER is to transfer an ML-based performance and resource usage model trained for a low-end edge environment to a new, high-end cloud environment to provide fast and accurate predictions for accelerator implementation. Experimental results show that LEAPER (1) provides, on average across six workloads and five FPGAs, 85% accuracy when we use our transferred model for prediction in a cloud environment with 5-shot learning and (2) reduces design-space exploration time for accelerator implementation on an FPGA by 10x, from days to only a few hours.

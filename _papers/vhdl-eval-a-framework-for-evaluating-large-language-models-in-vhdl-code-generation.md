@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "VHDL-Eval: A Framework for Evaluating Large Language Models in VHDL Code Generation"
+date: 2024-06-06
+arxiv_url: http://arxiv.org/abs/2406.04379v1
+---
+
+With the unprecedented advancements in Large Language Models (LLMs), their application domains have expanded to include code generation tasks across various programming languages. While significant progress has been made in enhancing LLMs for popular programming languages, there exists a notable gap in comprehensive evaluation frameworks tailored for Hardware Description Languages (HDLs), particularly VHDL. This paper addresses this gap by introducing a comprehensive evaluation framework designed specifically for assessing LLM performance in VHDL code generation task. We construct a dataset for evaluating LLMs on VHDL code generation task. This dataset is constructed by translating a collection of Verilog evaluation problems to VHDL and aggregating publicly available VHDL problems, resulting in a total of 202 problems. To assess the functional correctness of the generated VHDL code, we utilize a curated set of self-verifying testbenches specifically designed for those aggregated VHDL problem set. We conduct an initial evaluation of different LLMs and their variants, including zero-shot code generation, in-context learning (ICL), and Parameter-efficient fine-tuning (PEFT) methods. Our findings underscore the considerable challenges faced by existing LLMs in VHDL code generation, revealing significant scope for improvement. This study emphasizes the necessity of supervised fine-tuning code generation models specifically for VHDL, offering potential benefits to VHDL designers seeking efficient code generation solutions.

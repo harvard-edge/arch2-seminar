@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "High-Level Synthesis Performance Prediction using GNNs: Benchmarking, Modeling, and Advancing"
+date: 2022-01-18
+arxiv_url: http://arxiv.org/abs/2201.06848v1
+---
+
+Agile hardware development requires fast and accurate circuit quality evaluation from early design stages. Existing work of high-level synthesis (HLS) performance prediction usually needs extensive feature engineering after the synthesis process. To expedite circuit evaluation from as earlier design stage as possible, we propose a rapid and accurate performance modeling, exploiting the representation power of graph neural networks (GNNs) by representing C/C++ programs as graphs. The contribution of this work is three-fold. First, we build a standard benchmark containing 40k C synthesizable programs, which includes both synthetic programs and three sets of real-world HLS benchmarks. Each program is implemented on FPGA to generate ground-truth performance metrics. Second, we formally formulate the HLS performance prediction problem on graphs, and propose multiple modeling strategies with GNNs that leverage different trade-offs between prediction timeliness (early/late prediction) and accuracy. Third, we further propose a novel hierarchical GNN that does not sacrifice timeliness but largely improves prediction accuracy, significantly outperforming HLS tools. We apply extensive evaluations for both synthetic and unseen real-case programs; our proposed predictor largely outperforms HLS by up to 40X and excels existing predictors by 2X to 5X in terms of resource usage and timing prediction.

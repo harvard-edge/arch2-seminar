@@ -1,0 +1,506 @@
+---
+---
+
+// IMPORTS
+//
+
+@import "reset";
+@import "variables";
+// Syntax highlighting @import is at the bottom of this file
+
+// Additional module imports
+@import "highlights";
+@import "svg-icons";
+// Syntax highlighting modules were moved here to satisfy Sass @use rule ordering requirements
+
+/**************/
+/* BASE RULES */
+/**************/
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background: $ivory;
+  font: 18px/1.6 $sourceSansPro;
+  color: $darkGray;
+}
+
+.container {
+  margin: 0 auto;
+  // Increase maximum width so content isn't overly narrow on large screens
+  max-width: 1600px;
+  // Slightly reduce horizontal margin percentage to use more screen real-estate
+  width: 90%;
+  padding: 0 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $openSans;
+  color: $darkerGray;
+  font-weight: bold;
+
+  line-height: 1.7;
+  margin: 1em 0 15px;
+  padding: 0;
+
+  @include mobile {
+    line-height: 1.4;
+  }
+}
+
+h1 {
+  font-size: 30px;
+  a {
+    color: inherit;
+  }
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  color: $gray;
+}
+
+p {
+  margin: 15px 0;
+}
+
+a {
+  color: $primary;
+  text-decoration: none;
+	cursor: pointer;
+  &:hover, &:active {
+    color: darken($primary, 5%);
+  }
+}
+
+ul, ol {
+  margin: 15px 0;
+  padding-left: 30px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol ul, ul ol, ul ul, ol ol {
+  margin: 0;
+}
+
+ul ul, ol ul {
+  list-style-type: circle;
+}
+
+em, i {
+  font-style: italic;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+img {
+  max-height: 100%;
+}
+
+// Fixes images in popup boxes from Google Translate
+.gmnoprint img {
+  max-width: none;
+}
+
+.date {
+  font-style: italic;
+  color: $gray;
+}
+
+// Specify the color of the selection
+::-moz-selection {
+  color: $black;
+  background: $lightGray;
+}
+::selection {
+  color: $black;
+  background: $lightGray;
+}
+
+// Nicolas Gallagher's micro clearfix hack
+// http://nicolasgallagher.com/micro-clearfix-hack/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*********************/
+/* LAYOUT / SECTIONS */
+/*********************/
+
+//
+// .masthead
+//
+
+.wrapper-masthead {
+  margin-bottom: 50px;
+  background-color: $primary;
+  color: $white;
+}
+
+.masthead {
+  padding: 20px 0;
+  border-bottom: none;
+
+  @include mobile {
+    text-align: center;
+  }
+}
+
+.site-avatar {
+  float: left;
+  // width: 70px;
+  height: 50px;
+  margin-right: 15px;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  img {
+    border-radius: 5px;
+  }
+}
+
+.site-info {
+  float: left;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.site-name {
+  margin: 0;
+  color: $white;
+  cursor: pointer;
+  font-family: $crimsonPro;
+  font-weight: 600;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.site-description {
+  margin: -5px 0 0 0;
+  color: $white;
+  font-size: 16px;
+
+  @include mobile {
+    margin: 3px 0;
+  }
+}
+
+nav {
+  float: right;
+  margin-top: 23px; // @TODO: Vertically middle align
+  font-family: $sourceSansPro;
+  font-size: 18px;
+
+  @include mobile {
+    float: none;
+    margin-top: 9px;
+    display: block;
+    font-size: 16px;
+  }
+
+  a {
+    margin-left: 20px;
+    color: $white;
+    text-align: right;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+    @include mobile {
+      margin: 0 10px;
+      color: $white;
+    }
+  }
+}
+
+//
+// .main
+//
+
+.posts > .post {
+  padding-bottom: 2em;
+  border-bottom: 1px solid $lightGray;
+}
+
+.posts > .post:last-child {
+  padding-bottom: 1em;
+  border-bottom: none;
+}
+
+.post {
+  blockquote {
+    margin: 1.8em .8em;
+    border-left: 2px solid $gray;
+    padding: 0.1em 1em;
+    color: $gray;
+    font-size: 22px;
+    font-style: italic;
+  }
+
+  .comments {
+    margin-top: 10px;
+  }
+
+  .read-more {
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+}
+
+.wrapper-footer {
+  margin-top: 50px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: $lightGray;
+}
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
+// Talks
+.talk-date {
+  float: right;
+  font-size: 1.1rem;
+}
+
+.talk-presenter {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.talk-title-link {
+  color: $black;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    border: 1px solid $darkGray;
+}
+
+.list-group-item:first-child {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary::marker {
+  display: none;
+}
+
+details > summary {
+  cursor: pointer;
+  color: $stanfordred;
+  list-style: none;
+}
+
+/***************************/
+/* FANCY THEME ENHANCEMENTS*/
+/***************************/
+
+// Global subtle background
+body {
+  background: #fafafa;
+}
+
+// Modern buttons & read-more links
+.btn,
+.read-more {
+  display: inline-block;
+  padding: 0.65rem 1.25rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  background: $primary;
+  color: $white !important;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+
+  &:hover,
+  &:active {
+    background: darken($primary, 7%);
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+}
+
+// Masthead gradient & shadow
+.wrapper-masthead {
+  background: linear-gradient(135deg, darken($primary, 5%) 0%, lighten($primary, 10%) 100%);
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.05);
+}
+
+// Navigation link underline animation
+nav a {
+  position: relative;
+  padding-bottom: 0.25rem;
+
+  &:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background: $white;
+    transition: width 0.2s ease-in-out;
+  }
+
+  &:hover:after,
+  &:focus:after {
+    width: 100%;
+  }
+}
+
+// Card mixin for reusable elevation styling
+@mixin card {
+  background: $white;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+}
+
+// Apply card style to list items
+.list-group-item {
+  @include card;
+  border: 1px solid transparent;
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.08);
+  }
+}
+
+// Grid layout for talk lists
+.talk-list {
+  display: grid;
+  gap: 1rem;
+}
+
+// Improved blockquote styling
+.post blockquote {
+  border-left: 4px solid $primary;
+  font-size: 1.25rem;
+  font-style: italic;
+  color: $gray;
+  background: $lightGray;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+}
+
+/* Section separation enhancements */
+// Section separation enhancements
+h2 {
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  position: relative;
+}
+
+h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.5rem;
+  width: 80px;
+  height: 4px;
+  background: $primary;
+  border-radius: 2px;
+}
+
+// Slogan hero style
+.slogan {
+  font-size: 3rem;
+  font-weight: 700;
+  color: lighten($primary, 10%);
+  text-align: center;
+  margin: 3rem auto 2rem auto;
+  max-width: 900px;
+  line-height: 1.25;
+}
+
+// Hero two-column layout
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.hero-left {
+  flex: 1 1 55%;
+}
+
+.hero-right {
+  flex: 1 1 35%;
+  background: $white;
+  border: 3px solid $primary;
+  color: $darkerGray;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+}
+
+.hero-right h3 {
+  margin-top: 0;
+  color: $primary;
+}
+
+.hero-right .list-group-item {
+  background: lighten($primary, 48%);
+  border: 1px solid $primary;
+  color: $darkerGray;
+  margin-bottom: 1rem;
+}
+
+@include mobile {
+  .hero {
+    flex-direction: column;
+  }
+  .hero-right {
+    order: 2;
+  }
+}

@@ -1,0 +1,8 @@
+---
+layout: paper_detail
+title: "CPINN-ABPI: Physics-Informed Neural Networks for Accurate Power Estimation in MPSoCs"
+date: 2025-05-28
+arxiv_url: http://arxiv.org/abs/2505.22469v1
+---
+
+Efficient thermal and power management in modern multiprocessor systems-on-chip (MPSoCs) demands accurate power consumption estimation. One of the state-of-the-art approaches, Alternative Blind Power Identification (ABPI), theoretically eliminates the dependence on steady-state temperatures, addressing a major shortcoming of previous approaches. However, ABPI performance has remained unverified in actual hardware implementations. In this study, we conduct the first empirical validation of ABPI on commercial hardware using the NVIDIA Jetson Xavier AGX platform. Our findings reveal that, while ABPI provides computational efficiency and independence from steady-state temperature, it exhibits considerable accuracy deficiencies in real-world scenarios. To overcome these limitations, we introduce a novel approach that integrates Custom Physics-Informed Neural Networks (CPINNs) with the underlying thermal model of ABPI. Our approach employs a specialized loss function that harmonizes physical principles with data-driven learning, complemented by multi-objective genetic algorithm optimization to balance estimation accuracy and computational cost. In experimental validation, CPINN-ABPI achieves a reduction of 84.7\% CPU and 73.9\% GPU in the mean absolute error (MAE) relative to ABPI, with the weighted mean absolute percentage error (WMAPE) improving from 47\%--81\% to $\sim$12\%. The method maintains real-time performance with 195.3~$\mu$s of inference time, with similar 85\%--99\% accuracy gains across heterogeneous SoCs.
