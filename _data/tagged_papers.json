@@ -8,7 +8,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 98,
     "highlight": true
   },
   {
@@ -19,8 +18,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 20
+    ]
   },
   {
     "title": "LLM-Based Config Synthesis requires Disambiguation",
@@ -31,8 +29,7 @@
     "tags": [
       "Synthesis",
       "Verification"
-    ],
-    "likes": 36
+    ]
   },
   {
     "title": "SWE-Perf: Can Language Models Optimize Code Performance on Real-World Repositories?",
@@ -42,8 +39,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 69
+    ]
   },
   {
     "title": "Chain-of-Descriptions: Improving Code LLMs for VHDL Code Generation and Summarization",
@@ -53,8 +49,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 78
+    ]
   },
   {
     "title": "Design Automation in Quantum Error Correction",
@@ -66,8 +61,7 @@
       "Synthesis",
       "Verification",
       "System-level Optimization"
-    ],
-    "likes": 62
+    ]
   },
   {
     "title": "Extremal Testing for Network Software using LLMs",
@@ -77,8 +71,7 @@
     "ai_for_hw": true,
     "tags": [
       "Testing"
-    ],
-    "likes": 39
+    ]
   },
   {
     "title": "An Agentic Flow for Finite State Machine Extraction using Prompt Chaining",
@@ -89,8 +82,7 @@
     "tags": [
       "Verification",
       "Security"
-    ],
-    "likes": 6
+    ]
   },
   {
     "title": "SIMCODE: A Benchmark for Natural Language to ns-3 Network Simulation Code Generation",
@@ -100,8 +92,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 76
+    ]
   },
   {
     "title": "Mapping Fusion: Improving FPGA Technology Mapping with ASIC Mapper",
@@ -111,8 +102,7 @@
     "ai_for_hw": true,
     "tags": [
       "Synthesis"
-    ],
-    "likes": 58
+    ]
   },
   {
     "title": "AssertCoder: LLM-Based Assertion Generation via Multimodal Specification Extraction",
@@ -123,8 +113,7 @@
     "tags": [
       "Verification",
       "Code Generation"
-    ],
-    "likes": 33
+    ]
   },
   {
     "title": "SPICEAssistant: LLM using SPICE Simulation Tools for Schematic Design of Switched-Mode Power Supplies",
@@ -134,8 +123,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 2
+    ]
   },
   {
     "title": "Cross-Timeslot Optimization for Distributed GPU Inference Using Reinforcement Learning",
@@ -145,8 +133,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 15
+    ]
   },
   {
     "title": "AnalogTester: A Large Language Model-Based Framework for Automatic Testbench Generation in Analog Circuit Design",
@@ -158,8 +145,7 @@
       "Analog Design",
       "Testing",
       "Code Generation"
-    ],
-    "likes": 72
+    ]
   },
   {
     "title": "Iceberg: Enhancing HLS Modeling with Synthetic Data",
@@ -170,8 +156,7 @@
     "tags": [
       "Synthesis",
       "Code Generation"
-    ],
-    "likes": 6
+    ]
   },
   {
     "title": "CADmium: Fine-Tuning Code Language Models for Text-Driven Sequential CAD Design",
@@ -181,8 +166,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 32
+    ]
   },
   {
     "title": "Prompting for Performance: Exploring LLMs for Configuring Software",
@@ -192,8 +176,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 39
+    ]
   },
   {
     "title": "DALI-PD: Diffusion-based Synthetic Layout Heatmap Generation for ML in Physical Design",
@@ -204,7 +187,6 @@
     "tags": [
       "P&R"
     ],
-    "likes": 82,
     "highlight": true
   },
   {
@@ -215,8 +197,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 18
+    ]
   },
   {
     "title": "Agentic Large Language Models for Conceptual Systems Engineering and Design",
@@ -227,8 +208,7 @@
     "tags": [
       "System-level Optimization",
       "Code Generation"
-    ],
-    "likes": 64
+    ]
   },
   {
     "title": "VerilogDB: The Largest, Highest-Quality Dataset with a Preprocessing Framework for LLM-based RTL Generation",
@@ -238,8 +218,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 26
+    ]
   },
   {
     "title": "Text to model via SysML: Automated generation of dynamical system computational models from unstructured natural language text via enhanced System Modeling Language diagrams",
@@ -250,7 +229,6 @@
     "tags": [
       "Code Generation"
     ],
-    "likes": 100,
     "highlight": true
   },
   {
@@ -262,8 +240,7 @@
     "tags": [
       "Verification",
       "Security"
-    ],
-    "likes": 62
+    ]
   },
   {
     "title": "gigiProfiler: Diagnosing Performance Issues by Uncovering Application Resource Bottlenecks",
@@ -274,7 +251,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 83,
     "highlight": true
   },
   {
@@ -286,8 +262,7 @@
     "tags": [
       "System-level Optimization",
       "Code Generation"
-    ],
-    "likes": 46
+    ]
   },
   {
     "title": "PrefixAgent: An LLM-Powered Design Framework for Efficient Prefix Adder Optimization",
@@ -298,8 +273,7 @@
     "tags": [
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 4
+    ]
   },
   {
     "title": "iThermTroj: Exploiting Intermittent Thermal Trojans in Multi-Processor System-on-Chips",
@@ -309,8 +283,7 @@
     "ai_for_hw": true,
     "tags": [
       "Security"
-    ],
-    "likes": 58
+    ]
   },
   {
     "title": "ChipSeek-R1: Generating Human-Surpassing RTL with LLM via Hierarchical Reward-Driven Reinforcement Learning",
@@ -321,8 +294,7 @@
     "tags": [
       "Code Generation",
       "System-level Optimization"
-    ],
-    "likes": 38
+    ]
   },
   {
     "title": "Performance Evaluation of General Purpose Large Language Models for Basic Linear Algebra Subprograms Code Generation",
@@ -332,8 +304,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 73
+    ]
   },
   {
     "title": "HLStrans: Dataset for LLM-Driven C-to-HLS Hardware Code Synthesis",
@@ -344,8 +315,7 @@
     "tags": [
       "Synthesis",
       "Code Generation"
-    ],
-    "likes": 29
+    ]
   },
   {
     "title": "FIXME: Towards End-to-End Benchmarking of LLM-Aided Design Verification",
@@ -355,8 +325,7 @@
     "ai_for_hw": true,
     "tags": [
       "Verification"
-    ],
-    "likes": 12
+    ]
   },
   {
     "title": "ForgeHLS: A Large-Scale, Open-Source Dataset for High-Level Synthesis",
@@ -366,8 +335,7 @@
     "ai_for_hw": true,
     "tags": [
       "Synthesis"
-    ],
-    "likes": 69
+    ]
   },
   {
     "title": "Hey AI, Generate Me a Hardware Code! Agentic AI-based Hardware Design & Verification",
@@ -378,8 +346,7 @@
     "tags": [
       "Code Generation",
       "Verification"
-    ],
-    "likes": 42
+    ]
   },
   {
     "title": "DecoRTL: A Run-time Decoding Framework for RTL Code Generation with LLMs",
@@ -389,8 +356,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 62
+    ]
   },
   {
     "title": "CROP: Circuit Retrieval and Optimization with Parameter Guidance using LLMs",
@@ -400,8 +366,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 35
+    ]
   },
   {
     "title": "ChatHLS: Towards Systematic Design Automation and Optimization for High-Level Synthesis",
@@ -412,8 +377,7 @@
     "tags": [
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 39
+    ]
   },
   {
     "title": "An AST-guided LLM Approach for SVRF Code Synthesis",
@@ -425,7 +389,6 @@
       "Code Generation",
       "Synthesis"
     ],
-    "likes": 93,
     "highlight": true
   },
   {
@@ -437,7 +400,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 83,
     "highlight": true
   },
   {
@@ -448,8 +410,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 57
+    ]
   },
   {
     "title": "SV-LLM: An Agentic Approach for SoC Security Verification using Large Language Models",
@@ -460,8 +421,7 @@
     "tags": [
       "Security",
       "Verification"
-    ],
-    "likes": 58
+    ]
   },
   {
     "title": "Accelerating Photonic Integrated Circuit Design: Traditional, ML and Quantum Methods",
@@ -471,8 +431,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 62
+    ]
   },
   {
     "title": "A Large Language Model-based Multi-Agent Framework for Analog Circuits' Sizing Relationships Extraction",
@@ -482,8 +441,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 66
+    ]
   },
   {
     "title": "TROJAN-GUARD: Hardware Trojans Detection Using GNN in RTL Designs",
@@ -493,8 +451,7 @@
     "ai_for_hw": true,
     "tags": [
       "Security"
-    ],
-    "likes": 12
+    ]
   },
   {
     "title": "LASA: Enhancing SoC Security Verification with LLM-Aided Property Generation",
@@ -505,8 +462,7 @@
     "tags": [
       "Verification",
       "Security"
-    ],
-    "likes": 42
+    ]
   },
   {
     "title": "VeriLocc: End-to-End Cross-Architecture Register Allocation via LLM",
@@ -517,8 +473,7 @@
     "tags": [
       "Code Generation",
       "Verification"
-    ],
-    "likes": 77
+    ]
   },
   {
     "title": "RCNet: $\u0394\u03a3$ IADCs as Recurrent AutoEncoders",
@@ -530,7 +485,6 @@
       "Analog Design",
       "System-level Optimization"
     ],
-    "likes": 91,
     "highlight": true
   },
   {
@@ -542,7 +496,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 82,
     "highlight": true
   },
   {
@@ -554,8 +507,7 @@
     "tags": [
       "Testing",
       "Other"
-    ],
-    "likes": 29
+    ]
   },
   {
     "title": "Spec2RTL-Agent: Automated Hardware Code Generation from Complex Specifications Using LLM Agent Systems",
@@ -566,8 +518,7 @@
     "tags": [
       "Code Generation",
       "Synthesis"
-    ],
-    "likes": 2
+    ]
   },
   {
     "title": "PRO-V: An Efficient Program Generation Multi-Agent System for Automatic RTL Verification",
@@ -577,8 +528,7 @@
     "ai_for_hw": true,
     "tags": [
       "Verification"
-    ],
-    "likes": 38
+    ]
   },
   {
     "title": "Hybrid-NL2SVA: Integrating RAG and Finetuning for LLM-based NL2SVA",
@@ -589,8 +539,7 @@
     "tags": [
       "Verification",
       "Code Generation"
-    ],
-    "likes": 14
+    ]
   },
   {
     "title": "BugGen: A Self-Correcting Multi-Agent LLM Pipeline for Realistic RTL Bug Synthesis",
@@ -601,8 +550,7 @@
     "tags": [
       "Synthesis",
       "Verification"
-    ],
-    "likes": 75
+    ]
   },
   {
     "title": "Efficient nanophotonic devices optimization using deep neural network trained with physics-based transfer learning (PBTL) methodology",
@@ -612,8 +560,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 21
+    ]
   },
   {
     "title": "HPCTransCompile: An AI Compiler Generated Dataset for High-Performance CUDA Transpilation and LLM Preliminary Exploration",
@@ -623,8 +570,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 16
+    ]
   },
   {
     "title": "SANGAM: SystemVerilog Assertion Generation via Monte Carlo Tree Self-Refine",
@@ -634,8 +580,7 @@
     "ai_for_hw": true,
     "tags": [
       "Verification"
-    ],
-    "likes": 74
+    ]
   },
   {
     "title": "Toward Scalable Quantum Compilation for Modular Architecture: Qubit Mapping and Reuse via Deep Reinforcement Learning",
@@ -645,8 +590,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 37
+    ]
   },
   {
     "title": "CUDA-LLM: LLMs Can Write Efficient CUDA Kernels",
@@ -657,8 +601,7 @@
     "tags": [
       "Code Generation",
       "System-level Optimization"
-    ],
-    "likes": 13
+    ]
   },
   {
     "title": "ORFS-agent: Tool-Using Agents for Chip Design Optimization",
@@ -668,8 +611,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 58
+    ]
   },
   {
     "title": "ProtocolLLM: RTL Benchmark for SystemVerilog Generation of Communication Protocols",
@@ -679,8 +621,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 22
+    ]
   },
   {
     "title": "VeriLoC: Line-of-Code Level Prediction of Hardware Design Quality from Verilog Code",
@@ -691,8 +632,7 @@
     "tags": [
       "Verification",
       "Code Generation"
-    ],
-    "likes": 55
+    ]
   },
   {
     "title": "MAGNet: A Multi-Scale Attention-Guided Graph Fusion Network for DRC Violation Detection",
@@ -702,8 +642,7 @@
     "ai_for_hw": true,
     "tags": [
       "Verification"
-    ],
-    "likes": 45
+    ]
   },
   {
     "title": "PGR-DRC: Pre-Global Routing DRC Violation Prediction Using Unsupervised Learning",
@@ -714,8 +653,7 @@
     "tags": [
       "Verification",
       "P&R"
-    ],
-    "likes": 42
+    ]
   },
   {
     "title": "Recursive Learning-Based Virtual Buffering for Analytical Global Placement",
@@ -725,8 +663,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 38
+    ]
   },
   {
     "title": "FuncGNN: Learning Functional Semantics of Logic Circuits with Graph Neural Networks",
@@ -737,8 +674,7 @@
     "tags": [
       "Synthesis",
       "Verification"
-    ],
-    "likes": 39
+    ]
   },
   {
     "title": "Improving LLM-Powered EDA Assistants with RAFT",
@@ -751,7 +687,6 @@
       "Security",
       "Other"
     ],
-    "likes": 84,
     "highlight": true
   },
   {
@@ -763,8 +698,7 @@
     "tags": [
       "System-level Optimization",
       "Code Generation"
-    ],
-    "likes": 24
+    ]
   },
   {
     "title": "hdl2v: A Code Translation Dataset for Enhanced LLM Verilog Generation",
@@ -774,8 +708,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 6
+    ]
   },
   {
     "title": "VCDiag: Classifying Erroneous Waveforms for Failure Triage Acceleration",
@@ -786,8 +719,7 @@
     "tags": [
       "Verification",
       "Testing"
-    ],
-    "likes": 26
+    ]
   },
   {
     "title": "Fast Machine Learning for Quantum Control of Microwave Qudits on Edge Hardware",
@@ -798,8 +730,7 @@
     "tags": [
       "System-level Optimization",
       "Other"
-    ],
-    "likes": 25
+    ]
   },
   {
     "title": "AUTOCIRCUIT-RL: Reinforcement Learning-Driven LLM for Automated Circuit Topology Generation",
@@ -810,8 +741,7 @@
     "tags": [
       "Analog Design",
       "Synthesis"
-    ],
-    "likes": 46
+    ]
   },
   {
     "title": "Large Processor Chip Model",
@@ -822,8 +752,7 @@
     "tags": [
       "System-level Optimization",
       "Code Generation"
-    ],
-    "likes": 65
+    ]
   },
   {
     "title": "SALAD: Systematic Assessment of Machine Unlearing on LLM-Aided Hardware Design",
@@ -834,8 +763,7 @@
     "tags": [
       "Security",
       "Code Generation"
-    ],
-    "likes": 4
+    ]
   },
   {
     "title": "Inverse Design in Distributed Circuits Using Single-Step Reinforcement Learning",
@@ -846,7 +774,6 @@
     "tags": [
       "Analog Design"
     ],
-    "likes": 94,
     "highlight": true
   },
   {
@@ -858,8 +785,7 @@
     "tags": [
       "Analog Design",
       "System-level Optimization"
-    ],
-    "likes": 46
+    ]
   },
   {
     "title": "CodeV-R1: Reasoning-Enhanced Verilog Generation",
@@ -870,8 +796,7 @@
     "tags": [
       "Code Generation",
       "Verification"
-    ],
-    "likes": 18
+    ]
   },
   {
     "title": "BugWhisperer: Fine-Tuning LLMs for SoC Hardware Vulnerability Detection",
@@ -882,8 +807,7 @@
     "tags": [
       "Security",
       "Verification"
-    ],
-    "likes": 4
+    ]
   },
   {
     "title": "CPINN-ABPI: Physics-Informed Neural Networks for Accurate Power Estimation in MPSoCs",
@@ -893,8 +817,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 78
+    ]
   },
   {
     "title": "DeepRTL2: A Versatile Model for RTL-Related Tasks",
@@ -906,8 +829,7 @@
       "Code Generation",
       "Verification",
       "System-level Optimization"
-    ],
-    "likes": 25
+    ]
   },
   {
     "title": "iDSE: Navigating Design Space Exploration in High-Level Synthesis Using LLMs",
@@ -918,8 +840,7 @@
     "tags": [
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 56
+    ]
   },
   {
     "title": "Functional Matching of Logic Subgraphs: Beyond Structural Isomorphism",
@@ -930,8 +851,7 @@
     "tags": [
       "Verification",
       "Security"
-    ],
-    "likes": 9
+    ]
   },
   {
     "title": "FALCON: An ML Framework for Fully Automated Layout-Constrained Analog Circuit Design",
@@ -942,8 +862,7 @@
     "tags": [
       "Analog Design",
       "Synthesis"
-    ],
-    "likes": 47
+    ]
   },
   {
     "title": "ReChisel: Effective Automatic Chisel Code Generation by LLM with Reflection",
@@ -953,8 +872,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 72
+    ]
   },
   {
     "title": "CASS: Nvidia to AMD Transpilation with Data, Models, and Benchmark",
@@ -964,8 +882,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 11
+    ]
   },
   {
     "title": "HDLxGraph: Bridging Large Language Models and HDL Repositories via HDL Graph Databases",
@@ -977,7 +894,6 @@
       "Code Generation",
       "Other"
     ],
-    "likes": 94,
     "highlight": true
   },
   {
@@ -988,8 +904,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 31
+    ]
   },
   {
     "title": "JARVIS: A Multi-Agent Code Assistant for High-Quality EDA Script Generation",
@@ -1000,8 +915,7 @@
     "tags": [
       "Code Generation",
       "Verification"
-    ],
-    "likes": 66
+    ]
   },
   {
     "title": "Topology-aware Detection and Localization of Distributed Denial-of-Service Attacks in Network-on-Chips",
@@ -1012,8 +926,7 @@
     "tags": [
       "Security",
       "System-level Optimization"
-    ],
-    "likes": 8
+    ]
   },
   {
     "title": "LLM-DSE: Searching Accelerator Parameters with LLM Agents",
@@ -1024,8 +937,7 @@
     "tags": [
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 65
+    ]
   },
   {
     "title": "MARVEL: Multi-Agent RTL Vulnerability Extraction using Large Language Models",
@@ -1036,8 +948,7 @@
     "tags": [
       "Security",
       "Verification"
-    ],
-    "likes": 63
+    ]
   },
   {
     "title": "VeriReason: Reinforcement Learning with Testbench Feedback for Reasoning-Enhanced Verilog Generation",
@@ -1049,8 +960,7 @@
       "Code Generation",
       "Verification",
       "Synthesis"
-    ],
-    "likes": 76
+    ]
   },
   {
     "title": "GLOVA: Global and Local Variation-Aware Analog Circuit Design with Risk-Sensitive Reinforcement Learning",
@@ -1061,8 +971,7 @@
     "tags": [
       "Analog Design",
       "Verification"
-    ],
-    "likes": 35
+    ]
   },
   {
     "title": "Customizing a Large Language Model for VHDL Design of High-Performance Microprocessors",
@@ -1072,8 +981,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 47
+    ]
   },
   {
     "title": "Enhanced Photonic Chip Design via Interpretable Machine Learning Techniques",
@@ -1083,8 +991,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 42
+    ]
   },
   {
     "title": "Emerging ML-AI Techniques for Analog and RF EDA",
@@ -1094,8 +1001,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 4
+    ]
   },
   {
     "title": "Spec2Assertion: Automatic Pre-RTL Assertion Generation using Large Language Models with Progressive Regularization",
@@ -1106,8 +1012,7 @@
     "tags": [
       "Verification",
       "Code Generation"
-    ],
-    "likes": 37
+    ]
   },
   {
     "title": "RTL++: Graph-enhanced LLM for RTL Code Generation",
@@ -1117,8 +1022,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 73
+    ]
   },
   {
     "title": "LATENT: LLM-Augmented Trojan Insertion and Evaluation Framework for Analog Netlist Topologies",
@@ -1129,8 +1033,7 @@
     "tags": [
       "Security",
       "Analog Design"
-    ],
-    "likes": 41
+    ]
   },
   {
     "title": "Free and Fair Hardware: A Pathway to Copyright Infringement-Free Verilog Generation using LLMs",
@@ -1140,8 +1043,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 11
+    ]
   },
   {
     "title": "Veritas: Deterministic Verilog Code Synthesis from LLM-Generated Conjunctive Normal Form",
@@ -1152,8 +1054,7 @@
     "tags": [
       "Synthesis",
       "Code Generation"
-    ],
-    "likes": 72
+    ]
   },
   {
     "title": "Can Large Language Models Predict Parallel Code Performance?",
@@ -1163,8 +1064,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 16
+    ]
   },
   {
     "title": "Leveraging LLMs to Automate Energy-Aware Refactoring of Parallel Scientific Codes",
@@ -1175,8 +1075,7 @@
     "tags": [
       "Code Generation",
       "System-level Optimization"
-    ],
-    "likes": 26
+    ]
   },
   {
     "title": "CircuitFusion: Multimodal Circuit Representation Learning for Agile Chip Design",
@@ -1188,8 +1087,7 @@
       "Synthesis",
       "System-level Optimization",
       "Code Generation"
-    ],
-    "likes": 48
+    ]
   },
   {
     "title": "QiMeng-Xpiler: Transcompiling Tensor Programs for Deep Learning Systems with a Neural-Symbolic Approach",
@@ -1200,8 +1098,7 @@
     "tags": [
       "Code Generation",
       "Synthesis"
-    ],
-    "likes": 56
+    ]
   },
   {
     "title": "Deep Representation Learning for Electronic Design Automation",
@@ -1213,7 +1110,6 @@
       "P&R",
       "System-level Optimization"
     ],
-    "likes": 96,
     "highlight": true
   },
   {
@@ -1225,8 +1121,7 @@
     "tags": [
       "System-level Optimization",
       "Other"
-    ],
-    "likes": 67
+    ]
   },
   {
     "title": "Artificial Intelligence implementation of onboard flexible payload and adaptive beamforming using commercial off-the-shelf devices",
@@ -1236,8 +1131,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 50
+    ]
   },
   {
     "title": "OneDSE: A Unified Microprocessor Metric Prediction and Design Space Exploration Framework",
@@ -1247,8 +1141,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 79
+    ]
   },
   {
     "title": "ComplexVCoder: An LLM-Driven Framework for Systematic Generation of Complex Verilog Code",
@@ -1258,8 +1151,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 65
+    ]
   },
   {
     "title": "From Concept to Practice: an Automated LLM-aided UVM Machine for RTL Verification",
@@ -1269,8 +1161,7 @@
     "ai_for_hw": true,
     "tags": [
       "Verification"
-    ],
-    "likes": 9
+    ]
   },
   {
     "title": "Intelligent4DSE: Optimizing High-Level Synthesis Design Space Exploration with Graph Neural Networks and Large Language Models",
@@ -1281,8 +1172,7 @@
     "tags": [
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 55
+    ]
   },
   {
     "title": "ChiseLLM: Unleashing the Power of Reasoning LLMs for Chisel Agile Hardware Development",
@@ -1293,7 +1183,6 @@
     "tags": [
       "Code Generation"
     ],
-    "likes": 95,
     "highlight": true
   },
   {
@@ -1305,7 +1194,6 @@
     "tags": [
       "Verification"
     ],
-    "likes": 98,
     "highlight": true
   },
   {
@@ -1316,8 +1204,7 @@
     "ai_for_hw": true,
     "tags": [
       "Verification"
-    ],
-    "likes": 54
+    ]
   },
   {
     "title": "Reinforcement learning framework for the mechanical design of microelectronic components under multiphysics constraints",
@@ -1328,7 +1215,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 81,
     "highlight": true
   },
   {
@@ -1340,8 +1226,7 @@
     "tags": [
       "Code Generation",
       "Verification"
-    ],
-    "likes": 38
+    ]
   },
   {
     "title": "VeriCoder: Enhancing LLM-Based RTL Code Generation through Functional Correctness Validation",
@@ -1352,8 +1237,7 @@
     "tags": [
       "Code Generation",
       "Verification"
-    ],
-    "likes": 72
+    ]
   },
   {
     "title": "Advancing AI-assisted Hardware Design with Hierarchical Decentralized Training and Personalized Inference-Time Optimization",
@@ -1364,8 +1248,7 @@
     "tags": [
       "Code Generation",
       "System-level Optimization"
-    ],
-    "likes": 41
+    ]
   },
   {
     "title": "HLSTester: Efficient Testing of Behavioral Discrepancies with LLMs for High-Level Synthesis",
@@ -1375,8 +1258,7 @@
     "ai_for_hw": true,
     "tags": [
       "Testing"
-    ],
-    "likes": 38
+    ]
   },
   {
     "title": "Towards Optimal Circuit Generation: Multi-Agent Collaboration Meets Collective Intelligence",
@@ -1387,8 +1269,7 @@
     "tags": [
       "Code Generation",
       "Synthesis"
-    ],
-    "likes": 52
+    ]
   },
   {
     "title": "ReasoningV: Efficient Verilog Code Generation with Adaptive Hybrid Reasoning Model",
@@ -1398,8 +1279,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 67
+    ]
   },
   {
     "title": "A Novel Frequency-Spatial Domain Aware Network for Fast Thermal Prediction in 2.5D ICs",
@@ -1409,8 +1289,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 23
+    ]
   },
   {
     "title": "Evolution of Optimization Algorithms for Global Placement via Large Language Models",
@@ -1420,8 +1299,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 76
+    ]
   },
   {
     "title": "MetaDSE: A Few-shot Meta-learning Framework for Cross-workload CPU Design Space Exploration",
@@ -1431,8 +1309,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 28
+    ]
   },
   {
     "title": "HLS-Eval: A Benchmark and Framework for Evaluating LLMs on High-Level Synthesis Design Tasks",
@@ -1443,8 +1320,7 @@
     "tags": [
       "Synthesis",
       "Code Generation"
-    ],
-    "likes": 32
+    ]
   },
   {
     "title": "AutoRAN: Automated and Zero-Touch Open RAN Systems",
@@ -1455,8 +1331,7 @@
     "tags": [
       "System-level Optimization",
       "Code Generation"
-    ],
-    "likes": 37
+    ]
   },
   {
     "title": "Timing Analysis Agent: Autonomous Multi-Corner Multi-Mode (MCMM) Timing Debugging with Timing Debug Relation Graph",
@@ -1466,8 +1341,7 @@
     "ai_for_hw": true,
     "tags": [
       "Verification"
-    ],
-    "likes": 7
+    ]
   },
   {
     "title": "LLM-based AI Agent for Sizing of Analog and Mixed Signal Circuit",
@@ -1478,7 +1352,6 @@
     "tags": [
       "Analog Design"
     ],
-    "likes": 89,
     "highlight": true
   },
   {
@@ -1489,8 +1362,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 33
+    ]
   },
   {
     "title": "NetTAG: A Multimodal RTL-and-Layout-Aligned Netlist Foundation Model via Text-Attributed Graph",
@@ -1502,8 +1374,7 @@
       "Synthesis",
       "P&R",
       "Code Generation"
-    ],
-    "likes": 63
+    ]
   },
   {
     "title": "RAG-Based Fuzzing of Cross-Architecture Compilers",
@@ -1514,8 +1385,7 @@
     "tags": [
       "Testing",
       "Security"
-    ],
-    "likes": 74
+    ]
   },
   {
     "title": "An Adaptive Vector Index Partitioning Scheme for Low-Latency RAG Pipeline",
@@ -1525,8 +1395,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 42
+    ]
   },
   {
     "title": "RTLRepoCoder: Repository-Level RTL Code Completion through the Combination of Fine-Tuning and Retrieval Augmentation",
@@ -1536,8 +1405,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 75
+    ]
   },
   {
     "title": "Hardware Design and Security Needs Attention: From Survey to Path Forward",
@@ -1549,8 +1417,7 @@
       "Code Generation",
       "Security",
       "Synthesis"
-    ],
-    "likes": 21
+    ]
   },
   {
     "title": "BRIDGES: Bridging Graph Modality and Large Language Models within EDA Tasks",
@@ -1562,7 +1429,6 @@
       "Code Generation",
       "System-level Optimization"
     ],
-    "likes": 100,
     "highlight": true
   },
   {
@@ -1575,7 +1441,6 @@
       "Code Generation",
       "Synthesis"
     ],
-    "likes": 83,
     "highlight": true
   },
   {
@@ -1586,8 +1451,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 42
+    ]
   },
   {
     "title": "VFlow: Discovering Optimal Agentic Workflows for Verilog Generation",
@@ -1598,8 +1462,7 @@
     "tags": [
       "Code Generation",
       "Verification"
-    ],
-    "likes": 42
+    ]
   },
   {
     "title": "Concorde: Fast and Accurate CPU Performance Modeling with Compositional Analytical-ML Fusion",
@@ -1610,7 +1473,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 98,
     "highlight": true
   },
   {
@@ -1621,8 +1483,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 53
+    ]
   },
   {
     "title": "NLS: Natural-Level Synthesis for Hardware Implementation Through GenAI",
@@ -1633,8 +1494,7 @@
     "tags": [
       "Synthesis",
       "Code Generation"
-    ],
-    "likes": 18
+    ]
   },
   {
     "title": "A Survey of Circuit Foundation Model: Foundation AI Models for VLSI Circuit Design and EDA",
@@ -1644,8 +1504,7 @@
     "ai_for_hw": true,
     "tags": [
       "Other"
-    ],
-    "likes": 67
+    ]
   },
   {
     "title": "A Self-Supervised Learning of a Foundation Model for Analog Layout Design Automation",
@@ -1655,8 +1514,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 20
+    ]
   },
   {
     "title": "RocketPPA: Code-Level Power, Performance, and Area Prediction via LLM and Mixture of Experts",
@@ -1667,8 +1525,7 @@
     "tags": [
       "System-level Optimization",
       "Code Generation"
-    ],
-    "likes": 27
+    ]
   },
   {
     "title": "Enhancing Finite State Machine Design Automation with Large Language Models and Prompt Engineering Techniques",
@@ -1679,7 +1536,6 @@
     "tags": [
       "Code Generation"
     ],
-    "likes": 95,
     "highlight": true
   },
   {
@@ -1691,8 +1547,7 @@
     "tags": [
       "Verification",
       "Code Generation"
-    ],
-    "likes": 18
+    ]
   },
   {
     "title": "AssertionForge: Enhancing Formal Verification Assertion Generation with Structured Representation of Specifications and RTL",
@@ -1702,8 +1557,7 @@
     "ai_for_hw": true,
     "tags": [
       "Verification"
-    ],
-    "likes": 1
+    ]
   },
   {
     "title": "LIMCA: LLM for Automating Analog In-Memory Computing Architecture Design Exploration",
@@ -1714,8 +1568,7 @@
     "tags": [
       "Analog Design",
       "System-level Optimization"
-    ],
-    "likes": 11
+    ]
   },
   {
     "title": "Can Reasoning Models Reason about Hardware? An Agentic HLS Perspective",
@@ -1726,8 +1579,7 @@
     "tags": [
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 23
+    ]
   },
   {
     "title": "VeriMind: Agentic LLM for Automated Verilog Generation with a Novel Evaluation Metric",
@@ -1738,8 +1590,7 @@
     "tags": [
       "Code Generation",
       "Synthesis"
-    ],
-    "likes": 9
+    ]
   },
   {
     "title": "LLMPerf: GPU Performance Modeling meets Large Language Models",
@@ -1749,8 +1600,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 46
+    ]
   },
   {
     "title": "Towards Efficient PCSEL Design: A Fully AI-driven Approach",
@@ -1760,8 +1610,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 73
+    ]
   },
   {
     "title": "Enhancing Large Language Models for Hardware Verification: A Novel SystemVerilog Assertion Dataset",
@@ -1772,8 +1621,7 @@
     "tags": [
       "Verification",
       "Code Generation"
-    ],
-    "likes": 4
+    ]
   },
   {
     "title": "ResBench: Benchmarking LLM-Generated FPGA Designs with Resource Awareness",
@@ -1785,8 +1633,7 @@
       "Code Generation",
       "Verification",
       "System-level Optimization"
-    ],
-    "likes": 51
+    ]
   },
   {
     "title": "Insights from Rights and Wrongs: A Large Language Model for Solving Assertion Failures in RTL Design",
@@ -1796,8 +1643,7 @@
     "ai_for_hw": true,
     "tags": [
       "Verification"
-    ],
-    "likes": 25
+    ]
   },
   {
     "title": "Review of Machine Learning for Micro-Electronic Design Verification",
@@ -1807,8 +1653,7 @@
     "ai_for_hw": true,
     "tags": [
       "Verification"
-    ],
-    "likes": 41
+    ]
   },
   {
     "title": "Are LLMs Ready for Practical Adoption for Assertion Generation?",
@@ -1819,8 +1664,7 @@
     "tags": [
       "Verification",
       "Code Generation"
-    ],
-    "likes": 61
+    ]
   },
   {
     "title": "Transfer Learning Assisted Fast Design Migration Over Technology Nodes: A Study on Transformer Matching Network",
@@ -1831,8 +1675,7 @@
     "tags": [
       "Synthesis",
       "Analog Design"
-    ],
-    "likes": 66
+    ]
   },
   {
     "title": "DeepCircuitX: A Comprehensive Repository-Level Dataset for RTL Code Understanding, Generation, and PPA Analysis",
@@ -1844,7 +1687,6 @@
       "Code Generation",
       "System-level Optimization"
     ],
-    "likes": 100,
     "highlight": true
   },
   {
@@ -1855,8 +1697,7 @@
     "ai_for_hw": true,
     "tags": [
       "Synthesis"
-    ],
-    "likes": 19
+    ]
   },
   {
     "title": "Marco: Configurable Graph-Based Task Solving and Multi-AI Agents Framework for Hardware Design",
@@ -1868,8 +1709,7 @@
       "System-level Optimization",
       "Code Generation",
       "P&R"
-    ],
-    "likes": 3
+    ]
   },
   {
     "title": "The Power of Graph Signal Processing for Chip Placement Acceleration",
@@ -1879,8 +1719,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 25
+    ]
   },
   {
     "title": "Optimizing Coverage-Driven Verification Using Machine Learning and PyUVM: A Novel Approach",
@@ -1890,8 +1729,7 @@
     "ai_for_hw": true,
     "tags": [
       "Verification"
-    ],
-    "likes": 27
+    ]
   },
   {
     "title": "Machine Learning Framework for Early Power, Performance, and Area Estimation of RTL",
@@ -1901,8 +1739,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 37
+    ]
   },
   {
     "title": "DeepRTL: Bridging Verilog Understanding and Generation with a Unified Representation Model",
@@ -1912,8 +1749,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 25
+    ]
   },
   {
     "title": "Exploring Code Language Models for Automated HLS-based Hardware Generation: Benchmark, Infrastructure and Analysis",
@@ -1924,8 +1760,7 @@
     "tags": [
       "Synthesis",
       "Code Generation"
-    ],
-    "likes": 20
+    ]
   },
   {
     "title": "Architect of the Bits World: Masked Autoregressive Modeling for Circuit Generation Guided by Truth Table",
@@ -1935,8 +1770,7 @@
     "ai_for_hw": true,
     "tags": [
       "Synthesis"
-    ],
-    "likes": 55
+    ]
   },
   {
     "title": "Circuit Representation Learning with Masked Gate Modeling and Verilog-AIG Alignment",
@@ -1947,8 +1781,7 @@
     "tags": [
       "Synthesis",
       "Code Generation"
-    ],
-    "likes": 73
+    ]
   },
   {
     "title": "Divergent Thoughts toward One Goal: LLM-based Multi-Agent Collaboration System for Electronic Design Automation",
@@ -1958,8 +1791,7 @@
     "ai_for_hw": true,
     "tags": [
       "Other"
-    ],
-    "likes": 61
+    ]
   },
   {
     "title": "LintLLM: An Open-Source Verilog Linting Framework Based on Large Language Models",
@@ -1970,7 +1802,6 @@
     "tags": [
       "Verification"
     ],
-    "likes": 85,
     "highlight": true
   },
   {
@@ -1981,8 +1812,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 74
+    ]
   },
   {
     "title": "KernelBench: Can LLMs Write Efficient GPU Kernels?",
@@ -1992,8 +1822,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 15
+    ]
   },
   {
     "title": "Open-Source AI-Powered Optimization in Scalene: Advancing Python Performance Profiling with DeepSeek-R1 and LLaMA 3.2",
@@ -2003,8 +1832,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 59
+    ]
   },
   {
     "title": "DICE: Device-level Integrated Circuits Encoder with Graph Contrastive Pretraining",
@@ -2014,8 +1842,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 65
+    ]
   },
   {
     "title": "Estimating Voltage Drop: Models, Features and Data Representation Towards a Neural Surrogate",
@@ -2025,8 +1852,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 9
+    ]
   },
   {
     "title": "Deep Learning-Optimized, Fabrication Error-Tolerant Photonic Crystal Nanobeam Cavities for Scalable On-Chip Diamond Quantum Systems",
@@ -2036,8 +1862,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 76
+    ]
   },
   {
     "title": "Accelerating OTA Circuit Design: Transistor Sizing Based on a Transformer Model and Precomputed Lookup Tables",
@@ -2048,7 +1873,6 @@
     "tags": [
       "Analog Design"
     ],
-    "likes": 86,
     "highlight": true
   },
   {
@@ -2060,8 +1884,7 @@
     "tags": [
       "Analog Design",
       "Code Generation"
-    ],
-    "likes": 52
+    ]
   },
   {
     "title": "DeepCell: Self-Supervised Multiview Fusion for Circuit Representation Learning",
@@ -2072,8 +1895,7 @@
     "tags": [
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 30
+    ]
   },
   {
     "title": "LLM-USO: Large Language Model-based Universal Sizing Optimizer",
@@ -2083,8 +1905,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 25
+    ]
   },
   {
     "title": "DeepGate4: Efficient and Effective Representation Learning for Circuit Design at Scale",
@@ -2094,8 +1915,7 @@
     "ai_for_hw": true,
     "tags": [
       "Other"
-    ],
-    "likes": 48
+    ]
   },
   {
     "title": "Optimizing Code Runtime Performance through Context-Aware Retrieval-Augmented Generation",
@@ -2105,8 +1925,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 5
+    ]
   },
   {
     "title": "Improving Figures of Merit for Quantum Circuit Compilation",
@@ -2116,8 +1935,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 16
+    ]
   },
   {
     "title": "VRank: Enhancing Verilog Code Generation from Large Language Models via Self-Consistency",
@@ -2127,8 +1945,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 38
+    ]
   },
   {
     "title": "Paradigm-Based Automatic HDL Code Generation Using LLMs",
@@ -2140,7 +1957,6 @@
       "Code Generation",
       "Verification"
     ],
-    "likes": 81,
     "highlight": true
   },
   {
@@ -2152,8 +1968,7 @@
     "tags": [
       "Security",
       "System-level Optimization"
-    ],
-    "likes": 58
+    ]
   },
   {
     "title": "Supervised Learning for Analog and RF Circuit Design: Benchmarks and Comparative Insights",
@@ -2163,8 +1978,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 8
+    ]
   },
   {
     "title": "A Survey of Research in Large Language Models for Electronic Design Automation",
@@ -2174,8 +1988,7 @@
     "ai_for_hw": true,
     "tags": [
       "Other"
-    ],
-    "likes": 9
+    ]
   },
   {
     "title": "CuAsmRL: Optimizing GPU SASS Schedules via Deep Reinforcement Learning",
@@ -2185,8 +1998,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 12
+    ]
   },
   {
     "title": "E2ESlack: An End-to-End Graph-Based Framework for Pre-Routing Slack Prediction",
@@ -2196,8 +2008,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 67
+    ]
   },
   {
     "title": "Defect Detection Network In PCB Circuit Devices Based on GAN Enhanced YOLOv11",
@@ -2207,8 +2018,7 @@
     "ai_for_hw": true,
     "tags": [
       "Testing"
-    ],
-    "likes": 60
+    ]
   },
   {
     "title": "TransPlace: Transferable Circuit Global Placement via Graph Neural Network",
@@ -2218,8 +2028,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 30
+    ]
   },
   {
     "title": "HaVen: Hallucination-Mitigated LLM for Verilog Code Generation Aligned with HDL Engineers",
@@ -2229,8 +2038,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 6
+    ]
   },
   {
     "title": "Enabling New HDLs with Agents",
@@ -2240,8 +2048,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 60
+    ]
   },
   {
     "title": "AGON: Automated Design Framework for Customizing Processors from ISA Documents",
@@ -2254,7 +2061,6 @@
       "Code Generation",
       "System-level Optimization"
     ],
-    "likes": 92,
     "highlight": true
   },
   {
@@ -2266,7 +2072,6 @@
     "tags": [
       "P&R"
     ],
-    "likes": 88,
     "highlight": true
   },
   {
@@ -2277,8 +2082,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 9
+    ]
   },
   {
     "title": "Accelerating Hardware Verification with Graph Models",
@@ -2288,8 +2092,7 @@
     "ai_for_hw": true,
     "tags": [
       "Verification"
-    ],
-    "likes": 55
+    ]
   },
   {
     "title": "AnalogXpert: Automating Analog Topology Synthesis by Incorporating Circuit Design Expertise into Large Language Models",
@@ -2300,8 +2103,7 @@
     "tags": [
       "Analog Design",
       "Synthesis"
-    ],
-    "likes": 23
+    ]
   },
   {
     "title": "CoopetitiveV: Leveraging LLM-powered Coopetitive Multi-Agent Prompting for High-quality Verilog Generation",
@@ -2311,8 +2113,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 14
+    ]
   },
   {
     "title": "Explainable Fuzzy Neural Network with Multi-Fidelity Reinforcement Learning for Micro-Architecture Design Space Exploration",
@@ -2322,8 +2123,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 18
+    ]
   },
   {
     "title": "AiEDA: Agentic AI Design Framework for Digital ASIC System Design",
@@ -2334,8 +2134,7 @@
     "tags": [
       "Code Generation",
       "System-level Optimization"
-    ],
-    "likes": 45
+    ]
   },
   {
     "title": "MAGE: A Multi-Agent Engine for Automated RTL Code Generation",
@@ -2346,7 +2145,6 @@
     "tags": [
       "Code Generation"
     ],
-    "likes": 98,
     "highlight": true
   },
   {
@@ -2357,8 +2155,7 @@
     "ai_for_hw": true,
     "tags": [
       "Security"
-    ],
-    "likes": 44
+    ]
   },
   {
     "title": "Reinforcement Learning Policy as Macro Regulator Rather than Macro Placer",
@@ -2370,7 +2167,6 @@
       "P&R",
       "System-level Optimization"
     ],
-    "likes": 86,
     "highlight": true
   },
   {
@@ -2382,7 +2178,6 @@
     "tags": [
       "Code Generation"
     ],
-    "likes": 97,
     "highlight": true
   },
   {
@@ -2394,8 +2189,7 @@
     "tags": [
       "Code Generation",
       "System-level Optimization"
-    ],
-    "likes": 58
+    ]
   },
   {
     "title": "Deep Learning Modeling Method for RF Devices Based on Uniform Noise Training Set",
@@ -2406,7 +2200,6 @@
     "tags": [
       "Analog Design"
     ],
-    "likes": 96,
     "highlight": true
   },
   {
@@ -2419,7 +2212,6 @@
       "Synthesis",
       "Code Generation"
     ],
-    "likes": 99,
     "highlight": true
   },
   {
@@ -2430,8 +2222,7 @@
     "ai_for_hw": true,
     "tags": [
       "Synthesis"
-    ],
-    "likes": 63
+    ]
   },
   {
     "title": "Agentic-HLS: An agentic reasoning based high-level synthesis system using large language models (AI for EDA workshop 2024)",
@@ -2441,8 +2232,7 @@
     "ai_for_hw": true,
     "tags": [
       "Synthesis"
-    ],
-    "likes": 25
+    ]
   },
   {
     "title": "C2HLSC: Leveraging Large Language Models to Bridge the Software-to-Hardware Design Gap",
@@ -2453,8 +2243,7 @@
     "tags": [
       "Synthesis",
       "Code Generation"
-    ],
-    "likes": 62
+    ]
   },
   {
     "title": "Core Placement Optimization of Many-core Brain-Inspired Near-Storage Systems for Spiking Neural Network Training",
@@ -2464,8 +2253,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 15
+    ]
   },
   {
     "title": "DRC-Coder: Automated DRC Checker Code Generation Using LLM Autonomous Agent",
@@ -2475,8 +2263,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 49
+    ]
   },
   {
     "title": "DocEDA: Automated Extraction and Design of Analog Circuits from Documents with Large Language Model",
@@ -2486,8 +2273,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 68
+    ]
   },
   {
     "title": "SynDCIM: A Performance-Aware Digital Computing-in-Memory Compiler with Multi-Spec-Oriented Subcircuit Synthesis",
@@ -2498,8 +2284,7 @@
     "tags": [
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 73
+    ]
   },
   {
     "title": "Scalable Parameter Design for Superconducting Quantum Circuits with Graph Neural Networks",
@@ -2509,8 +2294,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 36
+    ]
   },
   {
     "title": "UVLLM: An Automated Universal RTL Verification Framework using LLMs",
@@ -2521,7 +2305,6 @@
     "tags": [
       "Verification"
     ],
-    "likes": 95,
     "highlight": true
   },
   {
@@ -2533,8 +2316,7 @@
     "tags": [
       "Verification",
       "Code Generation"
-    ],
-    "likes": 49
+    ]
   },
   {
     "title": "Masala-CHAI: A Large-Scale SPICE Netlist Dataset for Analog Circuits by Harnessing AI",
@@ -2546,7 +2328,6 @@
       "Analog Design",
       "Code Generation"
     ],
-    "likes": 84,
     "highlight": true
   },
   {
@@ -2557,8 +2338,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 80
+    ]
   },
   {
     "title": "Physics-Informed LLM-Agent for Automated Modulation Design in Power Electronics Systems",
@@ -2569,8 +2349,7 @@
     "tags": [
       "Analog Design",
       "System-level Optimization"
-    ],
-    "likes": 17
+    ]
   },
   {
     "title": "Schemato -- An LLM for Netlist-to-Schematic Conversion",
@@ -2580,8 +2359,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 24
+    ]
   },
   {
     "title": "EDA-Aware RTL Generation with Large Language Models",
@@ -2593,7 +2371,6 @@
       "Code Generation",
       "Verification"
     ],
-    "likes": 100,
     "highlight": true
   },
   {
@@ -2605,8 +2382,7 @@
     "tags": [
       "Analog Design",
       "System-level Optimization"
-    ],
-    "likes": 31
+    ]
   },
   {
     "title": "That Chip Has Sailed: A Critique of Unfounded Skepticism Around AI for Chip Design",
@@ -2616,8 +2392,7 @@
     "ai_for_hw": true,
     "tags": [
       "Other"
-    ],
-    "likes": 45
+    ]
   },
   {
     "title": "OpenLS-DGF: An Adaptive Open-Source Dataset Generation Framework for Machine Learning Tasks in Logic Synthesis",
@@ -2627,8 +2402,7 @@
     "ai_for_hw": true,
     "tags": [
       "Synthesis"
-    ],
-    "likes": 55
+    ]
   },
   {
     "title": "CorrectBench: Automatic Testbench Generation with Functional Self-Correction using LLMs for HDL Design",
@@ -2639,8 +2413,7 @@
     "tags": [
       "Testing",
       "Code Generation"
-    ],
-    "likes": 45
+    ]
   },
   {
     "title": "AMSnet-KG: A Netlist Dataset for LLM-based AMS Circuit Auto-Design Using Knowledge Graph RAG",
@@ -2651,8 +2424,7 @@
     "tags": [
       "Analog Design",
       "Synthesis"
-    ],
-    "likes": 8
+    ]
   },
   {
     "title": "MetRex: A Benchmark for Verilog Code Metric Reasoning Using LLMs",
@@ -2663,8 +2435,7 @@
     "tags": [
       "Code Generation",
       "Synthesis"
-    ],
-    "likes": 21
+    ]
   },
   {
     "title": "P-MOSS: Learned Scheduling For Indexes Over NUMA Servers Using Low-Level Hardware Statistics",
@@ -2674,8 +2445,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 80
+    ]
   },
   {
     "title": "Automatically Improving LLM-based Verilog Generation using EDA Tool Feedback",
@@ -2686,7 +2456,6 @@
     "tags": [
       "Code Generation"
     ],
-    "likes": 99,
     "highlight": true
   },
   {
@@ -2697,8 +2466,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 40
+    ]
   },
   {
     "title": "Neural Model Checking",
@@ -2708,8 +2476,7 @@
     "ai_for_hw": true,
     "tags": [
       "Verification"
-    ],
-    "likes": 80
+    ]
   },
   {
     "title": "The Graph's Apprentice: Teaching an LLM Low Level Knowledge for Circuit Quality Estimation",
@@ -2721,7 +2488,6 @@
       "Synthesis",
       "Code Generation"
     ],
-    "likes": 86,
     "highlight": true
   },
   {
@@ -2733,8 +2499,7 @@
     "tags": [
       "Code Generation",
       "Analog Design"
-    ],
-    "likes": 40
+    ]
   },
   {
     "title": "CodeRosetta: Pushing the Boundaries of Unsupervised Code Translation for Parallel Programming",
@@ -2744,8 +2509,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 80
+    ]
   },
   {
     "title": "LLM-Aided Efficient Hardware Design Automation",
@@ -2758,7 +2522,6 @@
       "Verification",
       "P&R"
     ],
-    "likes": 88,
     "highlight": true
   },
   {
@@ -2769,8 +2532,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 66
+    ]
   },
   {
     "title": "Automated Placement of Analog Integrated Circuits using Priority-based Constructive Heuristic",
@@ -2781,8 +2543,7 @@
     "tags": [
       "Analog Design",
       "P&R"
-    ],
-    "likes": 29
+    ]
   },
   {
     "title": "FVEval: Understanding Language Model Capabilities in Formal Verification of Digital Hardware",
@@ -2792,8 +2553,7 @@
     "ai_for_hw": true,
     "tags": [
       "Verification"
-    ],
-    "likes": 38
+    ]
   },
   {
     "title": "Machine Learning-based feasibility estimation of digital blocks in BCD technology",
@@ -2805,7 +2565,6 @@
       "P&R",
       "Analog Design"
     ],
-    "likes": 83,
     "highlight": true
   },
   {
@@ -2816,8 +2575,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 23
+    ]
   },
   {
     "title": "Optimizing High-Level Synthesis Designs with Retrieval-Augmented Large Language Models",
@@ -2828,8 +2586,7 @@
     "tags": [
       "Synthesis",
       "Code Generation"
-    ],
-    "likes": 3
+    ]
   },
   {
     "title": "A Benchmark on Directed Graph Representation Learning in Hardware Designs",
@@ -2839,8 +2596,7 @@
     "ai_for_hw": true,
     "tags": [
       "Other"
-    ],
-    "likes": 27
+    ]
   },
   {
     "title": "ORAssistant: A Custom RAG-based Conversational Assistant for OpenROAD",
@@ -2850,8 +2606,7 @@
     "ai_for_hw": true,
     "tags": [
       "Other"
-    ],
-    "likes": 25
+    ]
   },
   {
     "title": "Location is Key: Leveraging Large Language Model for Functional Bug Localization in Verilog",
@@ -2862,7 +2617,6 @@
     "tags": [
       "Verification"
     ],
-    "likes": 96,
     "highlight": true
   },
   {
@@ -2873,8 +2627,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 58
+    ]
   },
   {
     "title": "Learning to Compare Hardware Designs for High-Level Synthesis",
@@ -2884,8 +2637,7 @@
     "ai_for_hw": true,
     "tags": [
       "Synthesis"
-    ],
-    "likes": 7
+    ]
   },
   {
     "title": "CraftRTL: High-quality Synthetic Data Generation for Verilog Code Models with Correct-by-Construction Non-Textual Representations and Targeted Code Repair",
@@ -2896,8 +2648,7 @@
     "tags": [
       "Code Generation",
       "Verification"
-    ],
-    "likes": 69
+    ]
   },
   {
     "title": "Bayer-type Vis-NIR Routing via Inverse Design for Submicron-pixel Image Sensing Chip",
@@ -2907,8 +2658,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 61
+    ]
   },
   {
     "title": "Logic Synthesis Optimization with Predictive Self-Supervision via Causal Transformers",
@@ -2918,8 +2668,7 @@
     "ai_for_hw": true,
     "tags": [
       "Synthesis"
-    ],
-    "likes": 39
+    ]
   },
   {
     "title": "MTLSO: A Multi-Task Learning Approach for Logic Synthesis Optimization",
@@ -2929,8 +2678,7 @@
     "ai_for_hw": true,
     "tags": [
       "Synthesis"
-    ],
-    "likes": 54
+    ]
   },
   {
     "title": "AIvril: AI-Driven RTL Generation With Verification In-The-Loop",
@@ -2941,8 +2689,7 @@
     "tags": [
       "Code Generation",
       "Verification"
-    ],
-    "likes": 18
+    ]
   },
   {
     "title": "VLSI Hypergraph Partitioning with Deep Learning",
@@ -2952,8 +2699,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 14
+    ]
   },
   {
     "title": "Generation of Compiler Backends from Formal Models of Hardware",
@@ -2964,8 +2710,7 @@
     "tags": [
       "Code Generation",
       "Synthesis"
-    ],
-    "likes": 57
+    ]
   },
   {
     "title": "SPICED: Syntactical Bug and Trojan Pattern Identification in A/MS Circuits using LLM-Enhanced Detection",
@@ -2976,8 +2721,7 @@
     "tags": [
       "Security",
       "Analog Design"
-    ],
-    "likes": 32
+    ]
   },
   {
     "title": "Intelligent OPC Engineer Assistant for Semiconductor Manufacturing",
@@ -2987,8 +2731,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 46
+    ]
   },
   {
     "title": "Revisiting VerilogEval: A Year of Improvements in Large-Language Models for Hardware Code Generation",
@@ -2998,8 +2741,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 41
+    ]
   },
   {
     "title": "Are LLMs Any Good for High-Level Synthesis?",
@@ -3010,8 +2752,7 @@
     "tags": [
       "Synthesis",
       "Code Generation"
-    ],
-    "likes": 39
+    ]
   },
   {
     "title": "ShortCircuit: AlphaZero-Driven Circuit Design",
@@ -3021,8 +2762,7 @@
     "ai_for_hw": true,
     "tags": [
       "Synthesis"
-    ],
-    "likes": 80
+    ]
   },
   {
     "title": "Efficient Task Transfer for HLS DSE",
@@ -3033,8 +2773,7 @@
     "tags": [
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 41
+    ]
   },
   {
     "title": "VerilogCoder: Autonomous Verilog Coding Agents with Graph-based Planning and Abstract Syntax Tree (AST)-based Waveform Tracing Tool",
@@ -3044,8 +2783,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 52
+    ]
   },
   {
     "title": "HLSPilot: LLM-based High-Level Synthesis",
@@ -3057,8 +2795,7 @@
       "Synthesis",
       "Code Generation",
       "System-level Optimization"
-    ],
-    "likes": 68
+    ]
   },
   {
     "title": "LAAG-RV: LLM Assisted Assertion Generation for RTL Design Verification",
@@ -3068,8 +2805,7 @@
     "ai_for_hw": true,
     "tags": [
       "Verification"
-    ],
-    "likes": 15
+    ]
   },
   {
     "title": "LLM-Aided Compilation for Tensor Accelerators",
@@ -3079,8 +2815,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 43
+    ]
   },
   {
     "title": "Evaluating Large Language Models for Automatic Register Transfer Logic Generation via High-Level Synthesis",
@@ -3091,8 +2826,7 @@
     "tags": [
       "Synthesis",
       "Code Generation"
-    ],
-    "likes": 42
+    ]
   },
   {
     "title": "Quantum noise modeling through Reinforcement Learning",
@@ -3103,8 +2837,7 @@
     "tags": [
       "Testing",
       "Other"
-    ],
-    "likes": 36
+    ]
   },
   {
     "title": "Automated Physical Design Watermarking Leveraging Graph Neural Networks",
@@ -3115,8 +2848,7 @@
     "tags": [
       "P&R",
       "Security"
-    ],
-    "likes": 9
+    ]
   },
   {
     "title": "RoSE-Opt: Robust and Efficient Analog Circuit Parameter Optimization with Knowledge-infused Reinforcement Learning",
@@ -3127,7 +2859,6 @@
     "tags": [
       "Analog Design"
     ],
-    "likes": 87,
     "highlight": true
   },
   {
@@ -3138,8 +2869,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 56
+    ]
   },
   {
     "title": "HDL-GPT: High-Quality HDL is All You Need",
@@ -3150,8 +2880,7 @@
     "tags": [
       "Code Generation",
       "Verification"
-    ],
-    "likes": 59
+    ]
   },
   {
     "title": "MapTune: Advancing ASIC Technology Mapping via Reinforcement Learning Guided Library Tuning",
@@ -3161,8 +2890,7 @@
     "ai_for_hw": true,
     "tags": [
       "Synthesis"
-    ],
-    "likes": 62
+    ]
   },
   {
     "title": "Utilizing Generative Adversarial Networks for Image Data Augmentation and Classification of Semiconductor Wafer Dicing Induced Defects",
@@ -3172,8 +2900,7 @@
     "ai_for_hw": true,
     "tags": [
       "Testing"
-    ],
-    "likes": 19
+    ]
   },
   {
     "title": "Rome was Not Built in a Single Step: Hierarchical Prompting for LLM-based Chip Design",
@@ -3184,8 +2911,7 @@
     "tags": [
       "Synthesis",
       "Code Generation"
-    ],
-    "likes": 46
+    ]
   },
   {
     "title": "AutoVCoder: A Systematic Framework for Automated Verilog Code Generation using LLMs",
@@ -3195,8 +2921,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 74
+    ]
   },
   {
     "title": "Large Language Model for Verilog Generation with Code-Structure-Guided Reinforcement Learning",
@@ -3206,8 +2931,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 75
+    ]
   },
   {
     "title": "Generative AI Augmented Induction-based Formal Verification",
@@ -3217,8 +2941,7 @@
     "ai_for_hw": true,
     "tags": [
       "Verification"
-    ],
-    "likes": 42
+    ]
   },
   {
     "title": "ChipXplore: Natural Language Exploration of Hardware Designs and Libraries",
@@ -3229,7 +2952,6 @@
     "tags": [
       "Other"
     ],
-    "likes": 100,
     "highlight": true
   },
   {
@@ -3242,7 +2964,6 @@
       "P&R",
       "System-level Optimization"
     ],
-    "likes": 81,
     "highlight": true
   },
   {
@@ -3254,8 +2975,7 @@
     "tags": [
       "Security",
       "Code Generation"
-    ],
-    "likes": 22
+    ]
   },
   {
     "title": "Chip Placement with Diffusion Models",
@@ -3265,8 +2985,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 12
+    ]
   },
   {
     "title": "CodeV: Empowering LLMs with HDL Generation through Multi-Level Summarization",
@@ -3277,7 +2996,6 @@
     "tags": [
       "Code Generation"
     ],
-    "likes": 90,
     "highlight": true
   },
   {
@@ -3288,8 +3006,7 @@
     "ai_for_hw": true,
     "tags": [
       "Other"
-    ],
-    "likes": 34
+    ]
   },
   {
     "title": "Deep Inverse Design for High-Level Synthesis",
@@ -3300,8 +3017,7 @@
     "tags": [
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 36
+    ]
   },
   {
     "title": "Natural language is not enough: Benchmarking multi-modal generative AI for Verilog generation",
@@ -3312,7 +3028,6 @@
     "tags": [
       "Code Generation"
     ],
-    "likes": 92,
     "highlight": true
   },
   {
@@ -3324,7 +3039,6 @@
     "tags": [
       "Analog Design"
     ],
-    "likes": 85,
     "highlight": true
   },
   {
@@ -3336,7 +3050,6 @@
     "tags": [
       "Testing"
     ],
-    "likes": 81,
     "highlight": true
   },
   {
@@ -3348,7 +3061,6 @@
     "tags": [
       "P&R"
     ],
-    "likes": 99,
     "highlight": true
   },
   {
@@ -3360,8 +3072,7 @@
     "tags": [
       "Testing",
       "Verification"
-    ],
-    "likes": 80
+    ]
   },
   {
     "title": "NeuroSteiner: A Graph Transformer for Wirelength Estimation",
@@ -3371,8 +3082,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 57
+    ]
   },
   {
     "title": "Classification-Based Automatic HDL Code Generation Using LLMs",
@@ -3382,8 +3092,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 57
+    ]
   },
   {
     "title": "Efficient Inverse Design of Plasmonic Patch Nanoantennas using Deep Learning",
@@ -3393,8 +3102,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 39
+    ]
   },
   {
     "title": "Benchmarking End-To-End Performance of AI-Based Chip Placement Algorithms",
@@ -3405,7 +3113,6 @@
     "tags": [
       "P&R"
     ],
-    "likes": 97,
     "highlight": true
   },
   {
@@ -3416,8 +3123,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 23
+    ]
   },
   {
     "title": "Global calibration of large-scale photonic integrated circuits",
@@ -3427,8 +3133,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 48
+    ]
   },
   {
     "title": "Hierarchical Decoupling Capacitor Optimization for Power Distribution Network of 2.5D ICs with Co-Analysis of Frequency and Time Domains Based on Deep Reinforcement Learning",
@@ -3438,8 +3143,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 61
+    ]
   },
   {
     "title": "MG-Verilog: Multi-grained Dataset Towards Enhanced LLM-assisted Verilog Generation",
@@ -3449,8 +3153,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 57
+    ]
   },
   {
     "title": "Reconfigurable Intelligent Surfaces for 6G Mobile Networks: An Industry R&D Perspective",
@@ -3460,8 +3163,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 16
+    ]
   },
   {
     "title": "ASCENT: Amplifying Power Side-Channel Resilience via Learning & Monte-Carlo Tree Search",
@@ -3472,8 +3174,7 @@
     "tags": [
       "Security",
       "Synthesis"
-    ],
-    "likes": 74
+    ]
   },
   {
     "title": "LayoutCopilot: An LLM-powered Multi-agent Collaborative Framework for Interactive Analog Layout Design",
@@ -3483,8 +3184,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 35
+    ]
   },
   {
     "title": "ADO-LLM: Analog Design Bayesian Optimization with In-Context Learning of Large Language Models",
@@ -3494,8 +3194,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 69
+    ]
   },
   {
     "title": "AssertionBench: A Benchmark to Evaluate Large-Language Models for Assertion Generation",
@@ -3505,8 +3204,7 @@
     "ai_for_hw": true,
     "tags": [
       "Verification"
-    ],
-    "likes": 66
+    ]
   },
   {
     "title": "LLM-Aided Testbench Generation and Bug Detection for Finite-State Machines",
@@ -3516,8 +3214,7 @@
     "ai_for_hw": true,
     "tags": [
       "Testing"
-    ],
-    "likes": 73
+    ]
   },
   {
     "title": "PIC2O-Sim: A Physics-Inspired Causality-Aware Dynamic Convolutional Neural Operator for Ultra-Fast Photonic Device FDTD Simulation",
@@ -3528,7 +3225,6 @@
     "tags": [
       "Analog Design"
     ],
-    "likes": 84,
     "highlight": true
   },
   {
@@ -3540,7 +3236,6 @@
     "tags": [
       "Other"
     ],
-    "likes": 91,
     "highlight": true
   },
   {
@@ -3551,8 +3246,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 2
+    ]
   },
   {
     "title": "Cross-Modality Program Representation Learning for Electronic Design Automation with High-Level Synthesis",
@@ -3564,7 +3258,6 @@
       "Synthesis",
       "System-level Optimization"
     ],
-    "likes": 88,
     "highlight": true
   },
   {
@@ -3576,8 +3269,7 @@
     "tags": [
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 10
+    ]
   },
   {
     "title": "Brief research of traditional and AI-based models for IMD2 cancellation",
@@ -3587,8 +3279,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 27
+    ]
   },
   {
     "title": "LLM-Enhanced Bayesian Optimization for Efficient Analog Layout Constraint Generation",
@@ -3598,8 +3289,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 79
+    ]
   },
   {
     "title": "Differentiable Combinatorial Scheduling at Scale",
@@ -3609,8 +3299,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 71
+    ]
   },
   {
     "title": "VHDL-Eval: A Framework for Evaluating Large Language Models in VHDL Code Generation",
@@ -3620,8 +3309,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 74
+    ]
   },
   {
     "title": "RoutePlacer: An End-to-End Routability-Aware Placer with Graph Neural Network",
@@ -3631,8 +3319,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 42
+    ]
   },
   {
     "title": "Ask-EDA: A Design Assistant Empowered by LLM, Hybrid RAG and Abbreviation De-hallucination",
@@ -3642,8 +3329,7 @@
     "ai_for_hw": true,
     "tags": [
       "Other"
-    ],
-    "likes": 17
+    ]
   },
   {
     "title": "VerilogReader: LLM-Aided Hardware Test Generation",
@@ -3653,8 +3339,7 @@
     "ai_for_hw": true,
     "tags": [
       "Testing"
-    ],
-    "likes": 30
+    ]
   },
   {
     "title": "Towards LLM-Powered Verilog RTL Assistant: Self-Verification and Self-Correction",
@@ -3666,7 +3351,6 @@
       "Code Generation",
       "Verification"
     ],
-    "likes": 88,
     "highlight": true
   },
   {
@@ -3677,8 +3361,7 @@
     "ai_for_hw": true,
     "tags": [
       "Verification"
-    ],
-    "likes": 61
+    ]
   },
   {
     "title": "Artificial Intelligence Satellite Telecommunication Testbed using Commercial Off-The-Shelf Chipsets",
@@ -3689,8 +3372,7 @@
     "tags": [
       "System-level Optimization",
       "Testing"
-    ],
-    "likes": 34
+    ]
   },
   {
     "title": "RTL-Repo: A Benchmark for Evaluating LLMs on Large-Scale RTL Design Projects",
@@ -3701,7 +3383,6 @@
     "tags": [
       "Code Generation"
     ],
-    "likes": 99,
     "highlight": true
   },
   {
@@ -3712,8 +3393,7 @@
     "ai_for_hw": true,
     "tags": [
       "Synthesis"
-    ],
-    "likes": 30
+    ]
   },
   {
     "title": "Improving Simulation Regression Efficiency using a Machine Learning-based Method in Design Verification",
@@ -3723,8 +3403,7 @@
     "ai_for_hw": true,
     "tags": [
       "Verification"
-    ],
-    "likes": 22
+    ]
   },
   {
     "title": "Large Language Model (LLM) for Standard Cell Layout Design Optimization",
@@ -3735,8 +3414,7 @@
     "tags": [
       "P&R",
       "System-level Optimization"
-    ],
-    "likes": 21
+    ]
   },
   {
     "title": "AnalogCoder: Analog Circuit Design via Training-Free Code Generation",
@@ -3748,7 +3426,6 @@
       "Analog Design",
       "Code Generation"
     ],
-    "likes": 84,
     "highlight": true
   },
   {
@@ -3760,8 +3437,7 @@
     "tags": [
       "Security",
       "Verification"
-    ],
-    "likes": 6
+    ]
   },
   {
     "title": "Automated Hardware Logic Obfuscation Framework Using GPT",
@@ -3773,7 +3449,6 @@
       "Security",
       "Code Generation"
     ],
-    "likes": 98,
     "highlight": true
   },
   {
@@ -3786,7 +3461,6 @@
       "Analog Design",
       "Verification"
     ],
-    "likes": 85,
     "highlight": true
   },
   {
@@ -3797,8 +3471,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 65
+    ]
   },
   {
     "title": "LLMs and the Future of Chip Design: Unveiling Security Risks and Building Trust",
@@ -3810,7 +3483,6 @@
       "Security",
       "Code Generation"
     ],
-    "likes": 81,
     "highlight": true
   },
   {
@@ -3821,8 +3493,7 @@
     "ai_for_hw": true,
     "tags": [
       "Verification"
-    ],
-    "likes": 49
+    ]
   },
   {
     "title": "Scalable and Effective Arithmetic Tree Generation for Adder and Multiplier Designs",
@@ -3832,8 +3503,7 @@
     "ai_for_hw": true,
     "tags": [
       "Synthesis"
-    ],
-    "likes": 71
+    ]
   },
   {
     "title": "FloorSet -- a VLSI Floorplanning Dataset with Design Constraints of Real-World SoCs",
@@ -3843,8 +3513,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 25
+    ]
   },
   {
     "title": "ILILT: Implicit Learning of Inverse Lithography Technologies",
@@ -3854,8 +3523,7 @@
     "ai_for_hw": true,
     "tags": [
       "Synthesis"
-    ],
-    "likes": 42
+    ]
   },
   {
     "title": "EDA Corpus: A Large Language Model Dataset for Enhanced Interaction with OpenROAD",
@@ -3865,8 +3533,7 @@
     "ai_for_hw": true,
     "tags": [
       "Other"
-    ],
-    "likes": 31
+    ]
   },
   {
     "title": "Natural Language to Verilog: Design of a Recurrent Spiking Neural Network using Large Language Models and ChatGPT",
@@ -3877,8 +3544,7 @@
     "tags": [
       "Code Generation",
       "Synthesis"
-    ],
-    "likes": 3
+    ]
   },
   {
     "title": "HLSFactory: A Framework Empowering High-Level Synthesis Datasets for Machine Learning and Beyond",
@@ -3889,8 +3555,7 @@
     "tags": [
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 26
+    ]
   },
   {
     "title": "Evolutionary Large Language Models for Hardware Security: A Comparative Survey",
@@ -3900,8 +3565,7 @@
     "ai_for_hw": true,
     "tags": [
       "Security"
-    ],
-    "likes": 75
+    ]
   },
   {
     "title": "Digital ASIC Design with Ongoing LLMs: Strategies and Prospects",
@@ -3912,7 +3576,6 @@
     "tags": [
       "Code Generation"
     ],
-    "likes": 88,
     "highlight": true
   },
   {
@@ -3925,8 +3588,7 @@
       "Code Generation",
       "Verification",
       "Testing"
-    ],
-    "likes": 80
+    ]
   },
   {
     "title": "Skip the Benchmark: Generating System-Level High-Level Synthesis Data using Generative Machine Learning",
@@ -3937,8 +3599,7 @@
     "tags": [
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 50
+    ]
   },
   {
     "title": "Efficient Verification of a RADAR SoC Using Formal and Simulation-Based Methods",
@@ -3949,7 +3610,6 @@
     "tags": [
       "Verification"
     ],
-    "likes": 99,
     "highlight": true
   },
   {
@@ -3960,8 +3620,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 21
+    ]
   },
   {
     "title": "CreativEval: Evaluating Creativity of LLM-Based Hardware Code Generation",
@@ -3972,7 +3631,6 @@
     "tags": [
       "Code Generation"
     ],
-    "likes": 88,
     "highlight": true
   },
   {
@@ -3983,8 +3641,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 63
+    ]
   },
   {
     "title": "Late Breaking Results: Fast System Technology Co-Optimization Framework for Emerging Technology Based on Graph Neural Networks",
@@ -3995,7 +3652,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 93,
     "highlight": true
   },
   {
@@ -4008,7 +3664,6 @@
       "Security",
       "Testing"
     ],
-    "likes": 100,
     "highlight": true
   },
   {
@@ -4019,8 +3674,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 10
+    ]
   },
   {
     "title": "Logic Optimization Meets SAT: A Novel Framework for Circuit-SAT Solving",
@@ -4031,8 +3685,7 @@
     "tags": [
       "Verification",
       "Synthesis"
-    ],
-    "likes": 48
+    ]
   },
   {
     "title": "Annotating Slack Directly on Your Verilog: Fine-Grained RTL Timing Evaluation for Early Optimization",
@@ -4043,8 +3696,7 @@
     "tags": [
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 54
+    ]
   },
   {
     "title": "DL2Fence: Integrating Deep Learning and Frame Fusion for Enhanced Detection and Localization of Refined Denial-of-Service in Large-Scale NoCs",
@@ -4055,8 +3707,7 @@
     "tags": [
       "Security",
       "System-level Optimization"
-    ],
-    "likes": 27
+    ]
   },
   {
     "title": "Thermal Crosstalk Modelling and Compensation Methods for Programmable Photonic Integrated Circuits",
@@ -4067,7 +3718,6 @@
     "tags": [
       "Analog Design"
     ],
-    "likes": 92,
     "highlight": true
   },
   {
@@ -4079,8 +3729,7 @@
     "tags": [
       "Code Generation",
       "Other"
-    ],
-    "likes": 3
+    ]
   },
   {
     "title": "Advanced Knowledge Extraction of Physical Design Drawings, Translation and conversion to CAD formats using Deep Learning",
@@ -4090,8 +3739,7 @@
     "ai_for_hw": true,
     "tags": [
       "Other"
-    ],
-    "likes": 68
+    ]
   },
   {
     "title": "Data is all you need: Finetuning LLMs for Chip Design via an Automated design-data augmentation framework",
@@ -4101,8 +3749,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 41
+    ]
   },
   {
     "title": "DG-RePlAce: A Dataflow-Driven GPU-Accelerated Analytical Global Placement Framework for Machine Learning Accelerators",
@@ -4112,8 +3759,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 24
+    ]
   },
   {
     "title": "AutoHLS: Learning to Accelerate Design Space Exploration for HLS Designs",
@@ -4125,7 +3771,6 @@
       "Synthesis",
       "System-level Optimization"
     ],
-    "likes": 90,
     "highlight": true
   },
   {
@@ -4136,8 +3781,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 40
+    ]
   },
   {
     "title": "The Dawn of AI-Native EDA: Opportunities and Challenges of Large Circuit Models",
@@ -4149,8 +3793,7 @@
       "Synthesis",
       "System-level Optimization",
       "Other"
-    ],
-    "likes": 77
+    ]
   },
   {
     "title": "From English to ASIC: Hardware Implementation with Large Language Model",
@@ -4160,8 +3803,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 44
+    ]
   },
   {
     "title": "Less is More: Hop-Wise Graph Attention for Scalable and Generalizable Learning on Circuits",
@@ -4172,8 +3814,7 @@
     "tags": [
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 62
+    ]
   },
   {
     "title": "Go Beyond Black-box Policies: Rethinking the Design of Learning Agent for Interpretable and Verifiable HVAC Control",
@@ -4185,7 +3826,6 @@
       "Verification",
       "System-level Optimization"
     ],
-    "likes": 82,
     "highlight": true
   },
   {
@@ -4197,8 +3837,7 @@
     "tags": [
       "P&R",
       "Other"
-    ],
-    "likes": 9
+    ]
   },
   {
     "title": "PreRoutGNN for Timing Prediction with Order Preserving Partition: Global Circuit Pre-training, Local Delay Learning and Attentional Cell Modeling",
@@ -4208,8 +3847,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 38
+    ]
   },
   {
     "title": "Automated Design and Optimization of Distributed Filtering Circuits via Reinforcement Learning",
@@ -4221,7 +3859,6 @@
       "Analog Design",
       "System-level Optimization"
     ],
-    "likes": 87,
     "highlight": true
   },
   {
@@ -4232,8 +3869,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 26
+    ]
   },
   {
     "title": "IR-Aware ECO Timing Optimization Using Reinforcement Learning",
@@ -4243,8 +3879,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 6
+    ]
   },
   {
     "title": "Optimizing Predictive AI in Physical Design Flows with Mini Pixel Batch Gradient Descent",
@@ -4254,8 +3889,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 68
+    ]
   },
   {
     "title": "A Lightweight Inception Boosted U-Net Neural Network for Routability Prediction",
@@ -4265,8 +3899,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 65
+    ]
   },
   {
     "title": "LIPSTICK: Corruptibility-Aware and Explainable Graph Neural Network-based Oracle-Less Attack on Logic Locking",
@@ -4276,8 +3909,7 @@
     "ai_for_hw": true,
     "tags": [
       "Security"
-    ],
-    "likes": 35
+    ]
   },
   {
     "title": "BetterV: Controlled Verilog Generation with Discriminative Guidance",
@@ -4290,7 +3922,6 @@
       "Synthesis",
       "Verification"
     ],
-    "likes": 88,
     "highlight": true
   },
   {
@@ -4302,8 +3933,7 @@
     "tags": [
       "Analog Design",
       "System-level Optimization"
-    ],
-    "likes": 16
+    ]
   },
   {
     "title": "ChIRAAG: ChatGPT Informed Rapid and Automated Assertion Generation",
@@ -4314,8 +3944,7 @@
     "tags": [
       "Verification",
       "Code Generation"
-    ],
-    "likes": 18
+    ]
   },
   {
     "title": "Fine Time Measurement for the Internet of Things: A Practical Approach Using ESP32",
@@ -4326,7 +3955,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 95,
     "highlight": true
   },
   {
@@ -4338,8 +3966,7 @@
     "tags": [
       "Security",
       "Testing"
-    ],
-    "likes": 28
+    ]
   },
   {
     "title": "Hardware Phi-1.5B: A Large Language Model Encodes Hardware Domain Specific Knowledge",
@@ -4351,7 +3978,6 @@
       "Verification",
       "Other"
     ],
-    "likes": 100,
     "highlight": true
   },
   {
@@ -4363,8 +3989,7 @@
     "tags": [
       "Code Generation",
       "Verification"
-    ],
-    "likes": 53
+    ]
   },
   {
     "title": "SpecLLM: Exploring Generation and Review of VLSI Design Specification with Large Language Model",
@@ -4374,8 +3999,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 4
+    ]
   },
   {
     "title": "Retrieval-Guided Reinforcement Learning for Boolean Circuit Minimization",
@@ -4386,7 +4010,6 @@
     "tags": [
       "Synthesis"
     ],
-    "likes": 87,
     "highlight": true
   },
   {
@@ -4397,8 +4020,7 @@
     "ai_for_hw": true,
     "tags": [
       "Synthesis"
-    ],
-    "likes": 26
+    ]
   },
   {
     "title": "Using LLM such as ChatGPT for Designing and Implementing a RISC Processor: Execution,Challenges and Limitations",
@@ -4409,8 +4031,7 @@
     "tags": [
       "Code Generation",
       "Verification"
-    ],
-    "likes": 11
+    ]
   },
   {
     "title": "VeriBug: An Attention-based Framework for Bug-Localization in Hardware Designs",
@@ -4420,8 +4041,7 @@
     "ai_for_hw": true,
     "tags": [
       "Verification"
-    ],
-    "likes": 66
+    ]
   },
   {
     "title": "Uncertainty-Aware Hardware Trojan Detection Using Multimodal Deep Learning",
@@ -4431,8 +4051,7 @@
     "ai_for_hw": true,
     "tags": [
       "Security"
-    ],
-    "likes": 3
+    ]
   },
   {
     "title": "Hierarchical Source-to-Post-Route QoR Prediction in High-Level Synthesis with GNNs",
@@ -4443,8 +4062,7 @@
     "tags": [
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 64
+    ]
   },
   {
     "title": "Zero-Shot RTL Code Generation with Attention Sink Augmented Large Language Models",
@@ -4455,7 +4073,6 @@
     "tags": [
       "Code Generation"
     ],
-    "likes": 84,
     "highlight": true
   },
   {
@@ -4466,8 +4083,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 11
+    ]
   },
   {
     "title": "Design Space Exploration of Approximate Computing Techniques with a Reinforcement Learning Approach",
@@ -4478,7 +4094,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 84,
     "highlight": true
   },
   {
@@ -4491,8 +4106,7 @@
       "Code Generation",
       "Verification",
       "Synthesis"
-    ],
-    "likes": 33
+    ]
   },
   {
     "title": "RTLCoder: Fully Open-Source and Efficient LLM-Assisted RTL Code Generation Technique",
@@ -4502,8 +4116,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 46
+    ]
   },
   {
     "title": "A Machine Learning Approach Towards SKILL Code Autocompletion",
@@ -4513,8 +4126,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 53
+    ]
   },
   {
     "title": "EDALearn: A Comprehensive RTL-to-Signoff EDA Benchmark for Democratized and Reproducible ML for EDA Research",
@@ -4526,8 +4138,7 @@
       "Synthesis",
       "P&R",
       "Other"
-    ],
-    "likes": 55
+    ]
   },
   {
     "title": "On-sensor Printed Machine Learning Classification via Bespoke ADC and Decision Tree Co-Design",
@@ -4538,8 +4149,7 @@
     "tags": [
       "Analog Design",
       "System-level Optimization"
-    ],
-    "likes": 21
+    ]
   },
   {
     "title": "Advanced Large Language Model (LLM)-Driven Verilog Development: Enhancing Power, Performance, and Area Optimization in Code Synthesis",
@@ -4551,8 +4161,7 @@
       "Code Generation",
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 68
+    ]
   },
   {
     "title": "RTLFixer: Automatically Fixing RTL Syntax Errors with Large Language Models",
@@ -4562,8 +4171,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 46
+    ]
   },
   {
     "title": "Practical Layout-Aware Analog/Mixed-Signal Design Automation with Bayesian Neural Networks",
@@ -4573,8 +4181,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 76
+    ]
   },
   {
     "title": "Verilog-to-PyG -- A Framework for Graph Learning and Augmentation on RTL Designs",
@@ -4585,8 +4192,7 @@
     "tags": [
       "Code Generation",
       "System-level Optimization"
-    ],
-    "likes": 77
+    ]
   },
   {
     "title": "AutoChip: Automating HDL Generation Using LLM Feedback",
@@ -4596,8 +4202,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 42
+    ]
   },
   {
     "title": "Leveraging High-Level Synthesis and Large Language Models to Generate, Simulate, and Deploy a Uniform Random Number Generator Hardware Design",
@@ -4610,7 +4215,6 @@
       "Code Generation",
       "Verification"
     ],
-    "likes": 91,
     "highlight": true
   },
   {
@@ -4622,7 +4226,6 @@
     "tags": [
       "P&R"
     ],
-    "likes": 90,
     "highlight": true
   },
   {
@@ -4634,8 +4237,7 @@
     "tags": [
       "Code Generation",
       "Other"
-    ],
-    "likes": 4
+    ]
   },
   {
     "title": "Learning Generalizable Program and Architecture Representations for Performance Modeling",
@@ -4645,8 +4247,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 10
+    ]
   },
   {
     "title": "Scalable machine learning-assisted clear-box characterization for optimally controlled photonic circuits",
@@ -4657,8 +4258,7 @@
     "tags": [
       "Analog Design",
       "System-level Optimization"
-    ],
-    "likes": 72
+    ]
   },
   {
     "title": "Towards the Imagenets of ML4EDA",
@@ -4670,8 +4270,7 @@
       "Synthesis",
       "Code Generation",
       "Security"
-    ],
-    "likes": 2
+    ]
   },
   {
     "title": "Risk-Aware and Explainable Framework for Ensuring Guaranteed Coverage in Evolving Hardware Trojan Detection",
@@ -4682,7 +4281,6 @@
     "tags": [
       "Security"
     ],
-    "likes": 97,
     "highlight": true
   },
   {
@@ -4693,8 +4291,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 44
+    ]
   },
   {
     "title": "SCAR: Power Side-Channel Analysis at RTL-Level",
@@ -4706,7 +4303,6 @@
       "Security",
       "Verification"
     ],
-    "likes": 88,
     "highlight": true
   },
   {
@@ -4719,7 +4315,6 @@
       "Security",
       "Verification"
     ],
-    "likes": 99,
     "highlight": true
   },
   {
@@ -4730,8 +4325,7 @@
     "ai_for_hw": true,
     "tags": [
       "Testing"
-    ],
-    "likes": 6
+    ]
   },
   {
     "title": "Regulating CPU Temperature With Thermal-Aware Scheduling Using a Reduced Order Learning Thermal Model",
@@ -4741,8 +4335,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 25
+    ]
   },
   {
     "title": "MORPH: Design Co-optimization with Reinforcement Learning via a Differentiable Hardware Model Proxy",
@@ -4752,8 +4345,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 26
+    ]
   },
   {
     "title": "AxOCS: Scaling FPGA-based Approximate Operators using Configuration Supersampling",
@@ -4764,7 +4356,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 96,
     "highlight": true
   },
   {
@@ -4776,7 +4367,6 @@
     "tags": [
       "Verification"
     ],
-    "likes": 100,
     "highlight": true
   },
   {
@@ -4789,7 +4379,6 @@
       "Code Generation",
       "Verification"
     ],
-    "likes": 95,
     "highlight": true
   },
   {
@@ -4800,8 +4389,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 68
+    ]
   },
   {
     "title": "Best Memory Architecture Exploration under Parameters Variations accelerated with Machine Learning",
@@ -4811,8 +4399,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 15
+    ]
   },
   {
     "title": "Packet Header Recognition Utilizing an All-Optical Reservoir Based on Reinforcement-Learning-Optimized Double-Ring Resonator",
@@ -4822,8 +4409,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 68
+    ]
   },
   {
     "title": "A Circuit Domain Generalization Framework for Efficient Logic Synthesis in Chip Design",
@@ -4833,8 +4419,7 @@
     "ai_for_hw": true,
     "tags": [
       "Synthesis"
-    ],
-    "likes": 22
+    ]
   },
   {
     "title": "Unlocking Hardware Security Assurance: The Potential of LLMs",
@@ -4844,8 +4429,7 @@
     "ai_for_hw": true,
     "tags": [
       "Security"
-    ],
-    "likes": 71
+    ]
   },
   {
     "title": "ChatEDA: A Large Language Model Powered Autonomous Agent for EDA",
@@ -4857,7 +4441,6 @@
       "Code Generation",
       "System-level Optimization"
     ],
-    "likes": 83,
     "highlight": true
   },
   {
@@ -4868,8 +4451,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 55
+    ]
   },
   {
     "title": "DIVAS: An LLM-based End-to-End Framework for SoC Security Analysis and Policy-based Protection",
@@ -4880,7 +4462,6 @@
     "tags": [
       "Security"
     ],
-    "likes": 86,
     "highlight": true
   },
   {
@@ -4891,8 +4472,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 66
+    ]
   },
   {
     "title": "GraPhSyM: Graph Physical Synthesis Model",
@@ -4903,8 +4483,7 @@
     "tags": [
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 27
+    ]
   },
   {
     "title": "Imbalanced Large Graph Learning Framework for FPGA Logic Elements Packing Prediction",
@@ -4914,8 +4493,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 20
+    ]
   },
   {
     "title": "Variational Label-Correlation Enhancement for Congestion Prediction",
@@ -4925,8 +4503,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 20
+    ]
   },
   {
     "title": "Revolutionizing TCAD Simulations with Universal Device Encoding and Graph Attention Networks",
@@ -4937,7 +4514,6 @@
     "tags": [
       "Analog Design"
     ],
-    "likes": 81,
     "highlight": true
   },
   {
@@ -4948,8 +4524,7 @@
     "ai_for_hw": true,
     "tags": [
       "Testing"
-    ],
-    "likes": 8
+    ]
   },
   {
     "title": "VeriGen: A Large Language Model for Verilog Code Generation",
@@ -4960,7 +4535,6 @@
     "tags": [
       "Code Generation"
     ],
-    "likes": 94,
     "highlight": true
   },
   {
@@ -4972,7 +4546,6 @@
     "tags": [
       "Other"
     ],
-    "likes": 99,
     "highlight": true
   },
   {
@@ -4984,7 +4557,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 91,
     "highlight": true
   },
   {
@@ -4996,7 +4568,6 @@
     "tags": [
       "Code Generation"
     ],
-    "likes": 97,
     "highlight": true
   },
   {
@@ -5007,8 +4578,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 35
+    ]
   },
   {
     "title": "Macro Placement by Wire-Mask-Guided Black-Box Optimization",
@@ -5018,8 +4588,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 52
+    ]
   },
   {
     "title": "OpenPARF: An Open-Source Placement and Routing Framework for Large-Scale Heterogeneous FPGAs with Deep Learning Toolkit",
@@ -5029,8 +4598,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 45
+    ]
   },
   {
     "title": "ChiPFormer: Transferable Chip Placement via Offline Decision Transformer",
@@ -5040,8 +4608,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 37
+    ]
   },
   {
     "title": "(Security) Assertions by Large Language Models",
@@ -5053,8 +4620,7 @@
       "Security",
       "Code Generation",
       "Verification"
-    ],
-    "likes": 70
+    ]
   },
   {
     "title": "Pushing the Limits of Machine Design: Automated CPU Design with AI",
@@ -5065,7 +4631,6 @@
     "tags": [
       "Synthesis"
     ],
-    "likes": 82,
     "highlight": true
   },
   {
@@ -5077,8 +4642,7 @@
     "tags": [
       "P&R",
       "Other"
-    ],
-    "likes": 74
+    ]
   },
   {
     "title": "ArchGym: An Open-Source Gymnasium for Machine Learning Assisted Architecture Design",
@@ -5088,8 +4652,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 15
+    ]
   },
   {
     "title": "Design and implementation of intelligent packet filtering in IoT microcontroller-based devices",
@@ -5099,8 +4662,7 @@
     "ai_for_hw": true,
     "tags": [
       "Security"
-    ],
-    "likes": 42
+    ]
   },
   {
     "title": "DeepGate2: Functionality-Aware Circuit Representation Learning",
@@ -5112,7 +4674,6 @@
       "Synthesis",
       "Other"
     ],
-    "likes": 82,
     "highlight": true
   },
   {
@@ -5124,8 +4685,7 @@
     "tags": [
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 74
+    ]
   },
   {
     "title": "ChipGPT: How far are we from natural language hardware design",
@@ -5136,8 +4696,7 @@
     "tags": [
       "Code Generation",
       "Synthesis"
-    ],
-    "likes": 41
+    ]
   },
   {
     "title": "XRoute Environment: A Novel Reinforcement Learning Environment for Routing",
@@ -5147,8 +4706,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 3
+    ]
   },
   {
     "title": "Chip-Chat: Challenges and Opportunities in Conversational Hardware Design",
@@ -5158,8 +4716,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 68
+    ]
   },
   {
     "title": "INVICTUS: Optimizing Boolean Logic Circuit Synthesis via Synergistic Learning and Search",
@@ -5169,8 +4726,7 @@
     "ai_for_hw": true,
     "tags": [
       "Synthesis"
-    ],
-    "likes": 7
+    ]
   },
   {
     "title": "ProgSG: Cross-Modality Representation Learning for Programs in Electronic Design Automation",
@@ -5181,8 +4737,7 @@
     "tags": [
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 66
+    ]
   },
   {
     "title": "HybridNet: Dual-Branch Fusion of Geometrical and Topological Views for VLSI Congestion Prediction",
@@ -5192,8 +4747,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 26
+    ]
   },
   {
     "title": "PODTherm-GP: A Physics-based Data-Driven Approach for Effective Architecture-Level Thermal Simulation of Multi-Core CPUs",
@@ -5203,8 +4757,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 71
+    ]
   },
   {
     "title": "AutoLock: Automatic Design of Logic Locking with Evolutionary Computation",
@@ -5214,8 +4767,7 @@
     "ai_for_hw": true,
     "tags": [
       "Security"
-    ],
-    "likes": 35
+    ]
   },
   {
     "title": "A Deep Learning Framework for Verilog Autocompletion Towards Design and Verification Automation",
@@ -5225,8 +4777,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 67
+    ]
   },
   {
     "title": "Hier-RTLMP: A Hierarchical Automatic Macro Placer for Large-scale Complex IP Blocks",
@@ -5236,8 +4787,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 53
+    ]
   },
   {
     "title": "RESPECT: Reinforcement Learning based Edge Scheduling on Pipelined Coral Edge TPUs",
@@ -5247,8 +4797,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 2
+    ]
   },
   {
     "title": "Deep Photonic Networks with Arbitrary and Broadband Functionality",
@@ -5258,8 +4807,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 62
+    ]
   },
   {
     "title": "Gamora: Graph Learning based Symbolic Reasoning for Large-Scale Boolean Networks",
@@ -5269,8 +4817,7 @@
     "ai_for_hw": true,
     "tags": [
       "Verification"
-    ],
-    "likes": 74
+    ]
   },
   {
     "title": "Statistical Hardware Design With Multi-model Active Learning",
@@ -5280,8 +4827,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 26
+    ]
   },
   {
     "title": "Quantile Online Learning for Semiconductor Failure Analysis",
@@ -5291,8 +4837,7 @@
     "ai_for_hw": true,
     "tags": [
       "Testing"
-    ],
-    "likes": 38
+    ]
   },
   {
     "title": "MOELA: A Multi-Objective Evolutionary/Learning Design Space Exploration Framework for 3D Heterogeneous Manycore Platforms",
@@ -5302,8 +4847,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 72
+    ]
   },
   {
     "title": "Quantum Power Electronics: From Theory to Implementation",
@@ -5313,8 +4857,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 50
+    ]
   },
   {
     "title": "Xel-FPGAs: An End-to-End Automated Exploration Framework for Approximate Accelerators in FPGA-Based Systems",
@@ -5326,7 +4869,6 @@
       "System-level Optimization",
       "Synthesis"
     ],
-    "likes": 82,
     "highlight": true
   },
   {
@@ -5339,7 +4881,6 @@
       "Synthesis",
       "Security"
     ],
-    "likes": 93,
     "highlight": true
   },
   {
@@ -5350,8 +4891,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 20
+    ]
   },
   {
     "title": "AutoML for neuromorphic computing and application-driven co-design: asynchronous, massively parallel optimization of spiking architectures",
@@ -5361,8 +4901,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 61
+    ]
   },
   {
     "title": "DeepOHeat: Operator Learning-based Ultra-fast Thermal Simulation in 3D-IC Design",
@@ -5372,8 +4911,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 60
+    ]
   },
   {
     "title": "Machine Learning-based Low Overhead Congestion Control Algorithm for Industrial NoCs",
@@ -5384,7 +4922,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 90,
     "highlight": true
   },
   {
@@ -5397,7 +4934,6 @@
       "Synthesis",
       "System-level Optimization"
     ],
-    "likes": 90,
     "highlight": true
   },
   {
@@ -5409,8 +4945,7 @@
     "tags": [
       "Analog Design",
       "System-level Optimization"
-    ],
-    "likes": 24
+    ]
   },
   {
     "title": "Semiconductor Fab Scheduling with Self-Supervised and Reinforcement Learning",
@@ -5420,8 +4955,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 55
+    ]
   },
   {
     "title": "SF-SGL: Solver-Free Spectral Graph Learning from Linear Measurements",
@@ -5433,8 +4967,7 @@
       "Analog Design",
       "System-level Optimization",
       "Verification"
-    ],
-    "likes": 9
+    ]
   },
   {
     "title": "AISYN: AI-driven Reinforcement Learning-Based Logic Synthesis Framework",
@@ -5444,8 +4977,7 @@
     "ai_for_hw": true,
     "tags": [
       "Synthesis"
-    ],
-    "likes": 2
+    ]
   },
   {
     "title": "Fixing Hardware Security Bugs with Large Language Models",
@@ -5456,8 +4988,7 @@
     "tags": [
       "Security",
       "Code Generation"
-    ],
-    "likes": 36
+    ]
   },
   {
     "title": "Feature space exploration as an alternative for design space exploration beyond the parametric space",
@@ -5468,7 +4999,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 99,
     "highlight": true
   },
   {
@@ -5481,7 +5011,6 @@
       "Analog Design",
       "System-level Optimization"
     ],
-    "likes": 88,
     "highlight": true
   },
   {
@@ -5492,8 +5021,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 71
+    ]
   },
   {
     "title": "NoSQL Database Tuning through Machine Learning",
@@ -5503,8 +5031,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 58
+    ]
   },
   {
     "title": "Benchmarking Large Language Models for Automated Verilog RTL Code Generation",
@@ -5514,8 +5041,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 9
+    ]
   },
   {
     "title": "Compiler Optimization for Quantum Computing Using Reinforcement Learning",
@@ -5525,8 +5051,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 30
+    ]
   },
   {
     "title": "Denoising Diffusion for Sampling SAT Solutions",
@@ -5537,8 +5062,7 @@
     "tags": [
       "Verification",
       "Testing"
-    ],
-    "likes": 35
+    ]
   },
   {
     "title": "Graph Neural Networks: A Powerful and Versatile Tool for Advancing Design, Reliability, and Security of ICs",
@@ -5550,8 +5074,7 @@
       "Security",
       "System-level Optimization",
       "Other"
-    ],
-    "likes": 53
+    ]
   },
   {
     "title": "Multi-Agent Reinforcement Learning for Microprocessor Design Space Exploration",
@@ -5562,7 +5085,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 89,
     "highlight": true
   },
   {
@@ -5573,8 +5095,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 1
+    ]
   },
   {
     "title": "DeepFlow: A Cross-Stack Pathfinding Framework for Distributed AI Systems",
@@ -5584,8 +5105,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 23
+    ]
   },
   {
     "title": "Theta-Resonance: A Single-Step Reinforcement Learning Method for Design Space Exploration",
@@ -5595,8 +5115,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 77
+    ]
   },
   {
     "title": "An Adversarial Active Sampling-based Data Augmentation Framework for Manufacturable Chip Design",
@@ -5607,7 +5126,6 @@
     "tags": [
       "Other"
     ],
-    "likes": 86,
     "highlight": true
   },
   {
@@ -5618,8 +5136,7 @@
     "ai_for_hw": true,
     "tags": [
       "Verification"
-    ],
-    "likes": 63
+    ]
   },
   {
     "title": "A Thermal Machine Learning Solver For Chip Simulation",
@@ -5630,7 +5147,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 95,
     "highlight": true
   },
   {
@@ -5642,7 +5158,6 @@
     "tags": [
       "Security"
     ],
-    "likes": 95,
     "highlight": true
   },
   {
@@ -5653,8 +5168,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 5
+    ]
   },
   {
     "title": "Deep Neural Network Augmented Wireless Channel Estimation for Preamble-based OFDM PHY on Zynq System on Chip",
@@ -5665,7 +5179,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 87,
     "highlight": true
   },
   {
@@ -5676,8 +5189,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 12
+    ]
   },
   {
     "title": "Hermes: Accelerating Long-Latency Load Requests via Perceptron-Based Off-Chip Load Prediction",
@@ -5687,8 +5199,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 22
+    ]
   },
   {
     "title": "Reinforcement Learning for Hardware Security: Opportunities, Developments, and Challenges",
@@ -5698,8 +5209,7 @@
     "ai_for_hw": true,
     "tags": [
       "Security"
-    ],
-    "likes": 28
+    ]
   },
   {
     "title": "DETERRENT: Detecting Trojans using Reinforcement Learning",
@@ -5710,8 +5220,7 @@
     "tags": [
       "Security",
       "Testing"
-    ],
-    "likes": 62
+    ]
   },
   {
     "title": "LEAPER: Fast and Accurate FPGA-based System Performance Prediction via Transfer Learning",
@@ -5721,8 +5230,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 56
+    ]
   },
   {
     "title": "Embracing Graph Neural Networks for Hardware Security (Invited Paper)",
@@ -5733,7 +5241,6 @@
     "tags": [
       "Security"
     ],
-    "likes": 88,
     "highlight": true
   },
   {
@@ -5744,8 +5251,7 @@
     "ai_for_hw": true,
     "tags": [
       "Other"
-    ],
-    "likes": 61
+    ]
   },
   {
     "title": "Deep Reinforcement Learning for System-on-Chip: Myths and Realities",
@@ -5755,8 +5261,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 76
+    ]
   },
   {
     "title": "EVHA: Explainable Vision System for Hardware Testing and Assurance -- An Overview",
@@ -5767,8 +5272,7 @@
     "tags": [
       "Security",
       "Testing"
-    ],
-    "likes": 46
+    ]
   },
   {
     "title": "Bayesian Optimization for Macro Placement",
@@ -5778,8 +5282,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 63
+    ]
   },
   {
     "title": "RobustAnalog: Fast Variation-Aware Analog Circuit Design Via Multi-task RL",
@@ -5789,8 +5292,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 1
+    ]
   },
   {
     "title": "Chimera: A Hybrid Machine Learning Driven Multi-Objective Design Space Exploration Tool for FPGA High-Level Synthesis",
@@ -5801,8 +5303,7 @@
     "tags": [
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 18
+    ]
   },
   {
     "title": "A Deep-Learning-Aided Pipeline for Efficient Post-Silicon Tuning",
@@ -5812,8 +5313,7 @@
     "ai_for_hw": true,
     "tags": [
       "Testing"
-    ],
-    "likes": 73
+    ]
   },
   {
     "title": "Homunculus: Auto-Generating Efficient Data-Plane ML Pipelines for Datacenter Networks",
@@ -5825,7 +5325,6 @@
       "System-level Optimization",
       "Code Generation"
     ],
-    "likes": 99,
     "highlight": true
   },
   {
@@ -5838,8 +5337,7 @@
       "System-level Optimization",
       "P&R",
       "Synthesis"
-    ],
-    "likes": 20
+    ]
   },
   {
     "title": "Multi-agent Databases via Independent Learning",
@@ -5850,7 +5348,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 96,
     "highlight": true
   },
   {
@@ -5862,8 +5359,7 @@
     "tags": [
       "Synthesis",
       "Verification"
-    ],
-    "likes": 41
+    ]
   },
   {
     "title": "DevFormer: A Symmetric Transformer for Context-Aware Device Placement",
@@ -5873,8 +5369,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 12
+    ]
   },
   {
     "title": "RACE: A Reinforcement Learning Framework for Improved Adaptive Control of NoC Channel Buffers",
@@ -5884,8 +5379,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 79
+    ]
   },
   {
     "title": "Predicting Post-Route Quality of Results Estimates for HLS Designs using Machine Learning",
@@ -5896,8 +5390,7 @@
     "tags": [
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 7
+    ]
   },
   {
     "title": "Digital Twin for Secure Semiconductor Lifecycle Management: Prospects and Applications",
@@ -5909,8 +5402,7 @@
       "Security",
       "Verification",
       "Testing"
-    ],
-    "likes": 21
+    ]
   },
   {
     "title": "Demo: low-power communications based on RIS and AI for 6G",
@@ -5921,7 +5413,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 81,
     "highlight": true
   },
   {
@@ -5932,8 +5423,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 61
+    ]
   },
   {
     "title": "Supervised Learning for Coverage-Directed Test Selection in Simulation-Based Verification",
@@ -5944,8 +5434,7 @@
     "tags": [
       "Verification",
       "Testing"
-    ],
-    "likes": 61
+    ]
   },
   {
     "title": "POViT: Vision Transformer for Multi-objective Design and Characterization of Nanophotonic Devices",
@@ -5955,8 +5444,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 13
+    ]
   },
   {
     "title": "PrefixRL: Optimization of Parallel Prefix Circuits using Deep Reinforcement Learning",
@@ -5968,7 +5456,6 @@
       "Synthesis",
       "System-level Optimization"
     ],
-    "likes": 90,
     "highlight": true
   },
   {
@@ -5981,7 +5468,6 @@
       "Security",
       "Testing"
     ],
-    "likes": 85,
     "highlight": true
   },
   {
@@ -5992,8 +5478,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 38
+    ]
   },
   {
     "title": "Worst-Case Dynamic Power Distribution Network Noise Prediction Using Convolutional Neural Network",
@@ -6003,8 +5488,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 45
+    ]
   },
   {
     "title": "Hardware Trojan Detection using Graph Neural Networks",
@@ -6014,8 +5498,7 @@
     "ai_for_hw": true,
     "tags": [
       "Security"
-    ],
-    "likes": 71
+    ]
   },
   {
     "title": "A Survey and Perspective on Artificial Intelligence for Security-Aware Electronic Design Automation",
@@ -6025,8 +5508,7 @@
     "ai_for_hw": true,
     "tags": [
       "Security"
-    ],
-    "likes": 79
+    ]
   },
   {
     "title": "Automatic Hardware Trojan Insertion using Machine Learning",
@@ -6036,8 +5518,7 @@
     "ai_for_hw": true,
     "tags": [
       "Security"
-    ],
-    "likes": 50
+    ]
   },
   {
     "title": "DRAGON (Differentiable Graph Execution) : A suite of Hardware Simulation and Optimization tools for Modern AI/Non-AI Workloads",
@@ -6047,8 +5528,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 63
+    ]
   },
   {
     "title": "Flexible Multiple-Objective Reinforcement Learning for Chip Placement",
@@ -6059,7 +5539,6 @@
     "tags": [
       "P&R"
     ],
-    "likes": 93,
     "highlight": true
   },
   {
@@ -6071,8 +5550,7 @@
     "tags": [
       "Security",
       "Testing"
-    ],
-    "likes": 28
+    ]
   },
   {
     "title": "Uncertainty-Aware Search Framework for Multi-Objective Bayesian Optimization",
@@ -6082,8 +5560,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 26
+    ]
   },
   {
     "title": "Design and Experimental Verification of a Novel Error-Backpropagation-Based Background Calibration for Time Interleaved ADC in Digital Communication Receivers",
@@ -6094,8 +5571,7 @@
     "tags": [
       "Analog Design",
       "Verification"
-    ],
-    "likes": 2
+    ]
   },
   {
     "title": "Towards Collaborative Intelligence: Routability Estimation based on Decentralized Private Data",
@@ -6107,7 +5583,6 @@
       "P&R",
       "Other"
     ],
-    "likes": 82,
     "highlight": true
   },
   {
@@ -6119,7 +5594,6 @@
     "tags": [
       "Security"
     ],
-    "likes": 84,
     "highlight": true
   },
   {
@@ -6130,8 +5604,7 @@
     "ai_for_hw": true,
     "tags": [
       "Other"
-    ],
-    "likes": 66
+    ]
   },
   {
     "title": "Designing ML-Resilient Locking at Register-Transfer Level",
@@ -6141,8 +5614,7 @@
     "ai_for_hw": true,
     "tags": [
       "Security"
-    ],
-    "likes": 41
+    ]
   },
   {
     "title": "Deep Bidirectional Transformers for SoC Flow Specification Mining",
@@ -6152,8 +5624,7 @@
     "ai_for_hw": true,
     "tags": [
       "Verification"
-    ],
-    "likes": 42
+    ]
   },
   {
     "title": "Contrastive Graph Convolutional Networks for Hardware Trojan Detection in Third Party IP Cores",
@@ -6164,7 +5635,6 @@
     "tags": [
       "Security"
     ],
-    "likes": 99,
     "highlight": true
   },
   {
@@ -6175,8 +5645,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 23
+    ]
   },
   {
     "title": "Domain Knowledge-Based Automated Analog Circuit Design with Deep Reinforcement Learning",
@@ -6186,8 +5655,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 52
+    ]
   },
   {
     "title": "AI/ML Algorithms and Applications in VLSI Design and Technology",
@@ -6199,8 +5667,7 @@
       "System-level Optimization",
       "Testing",
       "Other"
-    ],
-    "likes": 26
+    ]
   },
   {
     "title": "Efficient Memory Partitioning in Software Defined Hardware",
@@ -6211,7 +5678,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 95,
     "highlight": true
   },
   {
@@ -6223,8 +5689,7 @@
     "tags": [
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 53
+    ]
   },
   {
     "title": "LOSTIN: Logic Optimization via Spatio-Temporal Information with Hybrid Graph Models",
@@ -6234,8 +5699,7 @@
     "ai_for_hw": true,
     "tags": [
       "Synthesis"
-    ],
-    "likes": 78
+    ]
   },
   {
     "title": "High-Level Synthesis Performance Prediction using GNNs: Benchmarking, Modeling, and Advancing",
@@ -6245,8 +5709,7 @@
     "ai_for_hw": true,
     "tags": [
       "Synthesis"
-    ],
-    "likes": 3
+    ]
   },
   {
     "title": "Deep Learning Assisted End-to-End Synthesis of mm-Wave Passive Networks with 3D EM Structures: A Study on A Transformer-Based Matching Network",
@@ -6257,8 +5720,7 @@
     "tags": [
       "Synthesis",
       "Analog Design"
-    ],
-    "likes": 80
+    ]
   },
   {
     "title": "Using Machine Learning for Anomaly Detection on a System-on-Chip under Gamma Radiation",
@@ -6268,8 +5730,7 @@
     "ai_for_hw": true,
     "tags": [
       "Testing"
-    ],
-    "likes": 49
+    ]
   },
   {
     "title": "A Survey of Deep Learning Techniques for Dynamic Branch Prediction",
@@ -6280,7 +5741,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 86,
     "highlight": true
   },
   {
@@ -6291,8 +5751,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 18
+    ]
   },
   {
     "title": "TAFA: Design Automation of Analog Mixed-Signal FIR Filters Using Time Approximation Architecture",
@@ -6303,8 +5762,7 @@
     "tags": [
       "Analog Design",
       "Synthesis"
-    ],
-    "likes": 66
+    ]
   },
   {
     "title": "Analog/Mixed-Signal Circuit Synthesis Enabled by the Advancements of Circuit Architectures and Machine Learning Algorithms",
@@ -6316,7 +5774,6 @@
       "Analog Design",
       "Synthesis"
     ],
-    "likes": 91,
     "highlight": true
   },
   {
@@ -6328,7 +5785,6 @@
     "tags": [
       "Security"
     ],
-    "likes": 91,
     "highlight": true
   },
   {
@@ -6339,8 +5795,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 58
+    ]
   },
   {
     "title": "Third-Party Hardware IP Assurance against Trojans through Supervised Learning and Post-processing",
@@ -6352,7 +5807,6 @@
       "Security",
       "Verification"
     ],
-    "likes": 88,
     "highlight": true
   },
   {
@@ -6364,8 +5818,7 @@
     "tags": [
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 47
+    ]
   },
   {
     "title": "DeepGate: Learning Neural Representations of Logic Gates",
@@ -6375,8 +5828,7 @@
     "ai_for_hw": true,
     "tags": [
       "Other"
-    ],
-    "likes": 10
+    ]
   },
   {
     "title": "Vulcan: Solving the Steiner Tree Problem with Graph Neural Networks and Deep Reinforcement Learning",
@@ -6386,8 +5838,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 41
+    ]
   },
   {
     "title": "A photosensor employing data-driven binning for ultrafast image recognition",
@@ -6399,7 +5850,6 @@
       "Analog Design",
       "System-level Optimization"
     ],
-    "likes": 93,
     "highlight": true
   },
   {
@@ -6410,8 +5860,7 @@
     "ai_for_hw": true,
     "tags": [
       "Testing"
-    ],
-    "likes": 70
+    ]
   },
   {
     "title": "Enabling Automated FPGA Accelerator Optimization Using Graph Neural Networks",
@@ -6422,8 +5871,7 @@
     "tags": [
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 15
+    ]
   },
   {
     "title": "Generalizable Cross-Graph Embedding for GNN-based Congestion Prediction",
@@ -6435,7 +5883,6 @@
       "Synthesis",
       "P&R"
     ],
-    "likes": 85,
     "highlight": true
   },
   {
@@ -6447,7 +5894,6 @@
     "tags": [
       "Testing"
     ],
-    "likes": 81,
     "highlight": true
   },
   {
@@ -6458,8 +5904,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 65
+    ]
   },
   {
     "title": "Encoder-Decoder Networks for Analyzing Thermal and Power Delivery Networks",
@@ -6469,8 +5914,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 65
+    ]
   },
   {
     "title": "OpeNPDN: A Neural-network-based Framework for Power Delivery Network Synthesis",
@@ -6481,8 +5925,7 @@
     "tags": [
       "Synthesis",
       "P&R"
-    ],
-    "likes": 72
+    ]
   },
   {
     "title": "OpenABC-D: A Large-Scale Dataset For Machine Learning Guided Integrated Circuit Synthesis",
@@ -6492,8 +5935,7 @@
     "ai_for_hw": true,
     "tags": [
       "Synthesis"
-    ],
-    "likes": 60
+    ]
   },
   {
     "title": "Output Space Entropy Search Framework for Multi-Objective Bayesian Optimization",
@@ -6503,8 +5945,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 37
+    ]
   },
   {
     "title": "Machine Learning for the Control and Monitoring of Electric Machine Drives: Advances and Trends",
@@ -6514,8 +5955,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 46
+    ]
   },
   {
     "title": "DNN-Opt: An RL Inspired Optimization for Analog Circuit Sizing using Deep Neural Networks",
@@ -6525,8 +5965,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 69
+    ]
   },
   {
     "title": "Device-to-System Performance Evaluation: from Transistor/Interconnect Modeling to VLSI Physical Design and Neural-Network Predictor",
@@ -6537,8 +5976,7 @@
     "tags": [
       "System-level Optimization",
       "P&R"
-    ],
-    "likes": 37
+    ]
   },
   {
     "title": "Cohmeleon: Learning-Based Orchestration of Accelerator Coherence in Heterogeneous SoCs",
@@ -6548,8 +5986,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 20
+    ]
   },
   {
     "title": "Delving into Macro Placement with Reinforcement Learning",
@@ -6559,8 +5996,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 67
+    ]
   },
   {
     "title": "Fast Accurate Defect Detection in Wafer Fabrication",
@@ -6570,8 +6006,7 @@
     "ai_for_hw": true,
     "tags": [
       "Testing"
-    ],
-    "likes": 5
+    ]
   },
   {
     "title": "No DBA? No regret! Multi-armed bandits for index tuning of analytical and HTAP workloads with provable guarantees",
@@ -6581,8 +6016,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 2
+    ]
   },
   {
     "title": "Mining Secure Behavior of Hardware Designs",
@@ -6592,8 +6026,7 @@
     "ai_for_hw": true,
     "tags": [
       "Security"
-    ],
-    "likes": 52
+    ]
   },
   {
     "title": "AIRCHITECT: Learning Custom Architecture Design and Mapping Space",
@@ -6603,8 +6036,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 69
+    ]
   },
   {
     "title": "Technical Report for HW2VEC -- A Graph Learning Tool for Automating Hardware Security",
@@ -6614,8 +6046,7 @@
     "ai_for_hw": true,
     "tags": [
       "Security"
-    ],
-    "likes": 23
+    ]
   },
   {
     "title": "HW2VEC: A Graph Learning Tool for Automating Hardware Security",
@@ -6625,8 +6056,7 @@
     "ai_for_hw": true,
     "tags": [
       "Security"
-    ],
-    "likes": 3
+    ]
   },
   {
     "title": "GNN4IP: Graph Neural Network for Hardware Intellectual Property Piracy Detection",
@@ -6636,8 +6066,7 @@
     "ai_for_hw": true,
     "tags": [
       "Security"
-    ],
-    "likes": 50
+    ]
   },
   {
     "title": "Transformer-based Machine Learning for Fast SAT Solvers and Logic Synthesis",
@@ -6648,8 +6077,7 @@
     "tags": [
       "Synthesis",
       "Verification"
-    ],
-    "likes": 25
+    ]
   },
   {
     "title": "Deep Learning Assisted Compact Modeling of Nanoscale Transistor",
@@ -6659,8 +6087,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 28
+    ]
   },
   {
     "title": "Improving Semiconductor Device Modeling for Electronic Design Automation by Machine Learning Techniques",
@@ -6670,8 +6097,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 37
+    ]
   },
   {
     "title": "Continual Learning Approach for Improving the Data and Computation Mapping in Near-Memory Processing System",
@@ -6682,7 +6108,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 83,
     "highlight": true
   },
   {
@@ -6693,8 +6118,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 44
+    ]
   },
   {
     "title": "The Validation of Graph Model-Based, Gate Level Low-Dimensional Feature Data for Machine Learning Applications",
@@ -6705,8 +6129,7 @@
     "tags": [
       "Verification",
       "Testing"
-    ],
-    "likes": 8
+    ]
   },
   {
     "title": "Fast Design Space Exploration of Nonlinear Systems: Part I",
@@ -6716,8 +6139,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 48
+    ]
   },
   {
     "title": "UDO: Universal Database Optimization using Reinforcement Learning",
@@ -6727,8 +6149,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 55
+    ]
   },
   {
     "title": "IronMan: GNN-assisted Design Space Exploration in High-Level Synthesis via Reinforcement Learning",
@@ -6740,7 +6161,6 @@
       "Synthesis",
       "System-level Optimization"
     ],
-    "likes": 90,
     "highlight": true
   },
   {
@@ -6753,8 +6173,7 @@
       "System-level Optimization",
       "Code Generation",
       "Other"
-    ],
-    "likes": 24
+    ]
   },
   {
     "title": "Feature Engineering for Scalable Application-Level Post-Silicon Debugging",
@@ -6764,8 +6183,7 @@
     "ai_for_hw": true,
     "tags": [
       "Testing"
-    ],
-    "likes": 63
+    ]
   },
   {
     "title": "AutoPilot: Automating SoC Design Space Exploration for SWaP Constrained Autonomous UAVs",
@@ -6776,7 +6194,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 85,
     "highlight": true
   },
   {
@@ -6788,7 +6205,6 @@
     "tags": [
       "Other"
     ],
-    "likes": 92,
     "highlight": true
   },
   {
@@ -6799,8 +6215,7 @@
     "ai_for_hw": true,
     "tags": [
       "Testing"
-    ],
-    "likes": 1
+    ]
   },
   {
     "title": "A Dual-Store Structure for Knowledge Graphs",
@@ -6810,8 +6225,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 17
+    ]
   },
   {
     "title": "MLComp: A Methodology for Machine Learning-based Performance Estimation and Adaptive Selection of Pareto-Optimal Compiler Optimization Sequences",
@@ -6821,8 +6235,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 70
+    ]
   },
   {
     "title": "Logic Synthesis Meets Machine Learning: Trading Exactness for Generalization",
@@ -6832,8 +6245,7 @@
     "ai_for_hw": true,
     "tags": [
       "Synthesis"
-    ],
-    "likes": 45
+    ]
   },
   {
     "title": "Optimising Design Verification Using Machine Learning: An Open Source Solution",
@@ -6843,8 +6255,7 @@
     "ai_for_hw": true,
     "tags": [
       "Verification"
-    ],
-    "likes": 52
+    ]
   },
   {
     "title": "Automatic Routability Predictor Development Using Neural Architecture Search",
@@ -6854,8 +6265,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 17
+    ]
   },
   {
     "title": "Net2: A Graph Attention Network Method Customized for Pre-Placement Net Length Estimation",
@@ -6865,8 +6275,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 22
+    ]
   },
   {
     "title": "PowerNet: Transferable Dynamic IR Drop Estimation via Maximum Convolutional Neural Network",
@@ -6877,7 +6286,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 99,
     "highlight": true
   },
   {
@@ -6888,8 +6296,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 67
+    ]
   },
   {
     "title": "Fast IR Drop Estimation with Machine Learning",
@@ -6899,8 +6306,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 10
+    ]
   },
   {
     "title": "Challenging the Security of Logic Locking Schemes in the Era of Deep Learning: A Neuroevolutionary Approach",
@@ -6910,8 +6316,7 @@
     "ai_for_hw": true,
     "tags": [
       "Security"
-    ],
-    "likes": 69
+    ]
   },
   {
     "title": "Placement in Integrated Circuits using Cyclic Reinforcement Learning and Simulated Annealing",
@@ -6922,7 +6327,6 @@
     "tags": [
       "P&R"
     ],
-    "likes": 87,
     "highlight": true
   },
   {
@@ -6934,8 +6338,7 @@
     "tags": [
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 73
+    ]
   },
   {
     "title": "DBA bandits: Self-driving index tuning under ad-hoc, analytical workloads with safety guarantees",
@@ -6945,8 +6348,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 69
+    ]
   },
   {
     "title": "Trust-Region Method with Deep Reinforcement Learning in Analog Design Space Exploration",
@@ -6956,8 +6358,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 48
+    ]
   },
   {
     "title": "DISPATCH: Design Space Exploration of Cyber-Physical Systems",
@@ -6968,8 +6369,7 @@
     "tags": [
       "System-level Optimization",
       "Analog Design"
-    ],
-    "likes": 2
+    ]
   },
   {
     "title": "HL-Pow: A Learning-Based Power Modeling Framework for High-Level Synthesis",
@@ -6980,8 +6380,7 @@
     "tags": [
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 16
+    ]
   },
   {
     "title": "DAVE: Deriving Automatically Verilog from English",
@@ -6991,8 +6390,7 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
-    ],
-    "likes": 41
+    ]
   },
   {
     "title": "Online Adaptive Learning for Runtime Resource Management of Heterogeneous SoCs",
@@ -7003,7 +6401,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 100,
     "highlight": true
   },
   {
@@ -7014,8 +6411,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 40
+    ]
   },
   {
     "title": "A Machine Learning Pipeline Stage for Adaptive Frequency Adjustment",
@@ -7026,7 +6422,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 100,
     "highlight": true
   },
   {
@@ -7037,8 +6432,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 10
+    ]
   },
   {
     "title": "A Unified Learning Platform for Dynamic Frequency Scaling in Pipelined Processors",
@@ -7049,7 +6443,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 95,
     "highlight": true
   },
   {
@@ -7062,7 +6455,6 @@
       "System-level Optimization",
       "Verification"
     ],
-    "likes": 87,
     "highlight": true
   },
   {
@@ -7073,8 +6465,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 74
+    ]
   },
   {
     "title": "GCN-RL Circuit Designer: Transferable Transistor Sizing with Graph Neural Networks and Reinforcement Learning",
@@ -7085,8 +6476,7 @@
     "tags": [
       "Analog Design",
       "System-level Optimization"
-    ],
-    "likes": 46
+    ]
   },
   {
     "title": "Bias Busters: Robustifying DL-based Lithographic Hotspot Detectors Against Backdooring Attacks",
@@ -7096,8 +6486,7 @@
     "ai_for_hw": true,
     "tags": [
       "Security"
-    ],
-    "likes": 28
+    ]
   },
   {
     "title": "ApproxFPGAs: Embracing ASIC-Based Approximate Arithmetic Components for FPGA-Based Systems",
@@ -7108,7 +6497,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 96,
     "highlight": true
   },
   {
@@ -7119,8 +6507,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 69
+    ]
   },
   {
     "title": "Placement Optimization with Deep Reinforcement Learning",
@@ -7130,8 +6517,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 71
+    ]
   },
   {
     "title": "GENIEx: A Generalized Approach to Emulating Non-Ideality in Memristive Xbars using Neural Networks",
@@ -7141,8 +6527,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 28
+    ]
   },
   {
     "title": "AutoCkt: Deep Reinforcement Learning of Analog Circuit Designs",
@@ -7152,8 +6537,7 @@
     "ai_for_hw": true,
     "tags": [
       "Analog Design"
-    ],
-    "likes": 73
+    ]
   },
   {
     "title": "VLSI Mask Optimization: From Shallow To Deep Learning",
@@ -7163,8 +6547,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 73
+    ]
   },
   {
     "title": "Bayesian Optimization Approach for Analog Circuit Synthesis Using Neural Network",
@@ -7175,8 +6558,7 @@
     "tags": [
       "Analog Design",
       "Synthesis"
-    ],
-    "likes": 79
+    ]
   },
   {
     "title": "DRiLLS: Deep Reinforcement Learning for Logic Synthesis",
@@ -7186,8 +6568,7 @@
     "ai_for_hw": true,
     "tags": [
       "Synthesis"
-    ],
-    "likes": 55
+    ]
   },
   {
     "title": "Optimizing Design Verification using Machine Learning: Doing better than Random",
@@ -7197,8 +6578,7 @@
     "ai_for_hw": true,
     "tags": [
       "Verification"
-    ],
-    "likes": 68
+    ]
   },
   {
     "title": "Pyramid: Machine Learning Framework to Estimate the Optimal Timing and Resource Usage of a High-Level Synthesis Design",
@@ -7209,8 +6589,7 @@
     "tags": [
       "Synthesis",
       "System-level Optimization"
-    ],
-    "likes": 2
+    ]
   },
   {
     "title": "Adaptive Predictive Power Management for Mobile LTE Devices",
@@ -7220,8 +6599,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 39
+    ]
   },
   {
     "title": "iVAMS 2.0: Machine-Learning-Metamodel-Integrated Intelligent Verilog-AMS for Fast and Accurate Mixed-Signal Design Optimization",
@@ -7232,8 +6610,7 @@
     "tags": [
       "Analog Design",
       "System-level Optimization"
-    ],
-    "likes": 33
+    ]
   },
   {
     "title": "Machine Learning Based Routing Congestion Prediction in FPGA High-Level Synthesis",
@@ -7245,7 +6622,6 @@
       "P&R",
       "Synthesis"
     ],
-    "likes": 94,
     "highlight": true
   },
   {
@@ -7256,8 +6632,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 35
+    ]
   },
   {
     "title": "Automated Circuit Approximation Method Driven by Data Distribution",
@@ -7267,8 +6642,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 2
+    ]
   },
   {
     "title": "Coloring Big Graphs with AlphaGoZero",
@@ -7278,8 +6652,7 @@
     "ai_for_hw": true,
     "tags": [
       "Other"
-    ],
-    "likes": 44
+    ]
   },
   {
     "title": "autoAx: An Automatic Design Space Exploration and Circuit Building Methodology utilizing Libraries of Approximate Components",
@@ -7289,8 +6662,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 42
+    ]
   },
   {
     "title": "Estimating the Circuit Deobfuscating Runtime based on Graph Deep Learning",
@@ -7300,8 +6672,7 @@
     "ai_for_hw": true,
     "tags": [
       "Security"
-    ],
-    "likes": 62
+    ]
   },
   {
     "title": "Predictive Indexing",
@@ -7311,8 +6682,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 58
+    ]
   },
   {
     "title": "Design Rule Violation Hotspot Prediction Based on Neural Network Ensembles",
@@ -7322,8 +6692,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 33
+    ]
   },
   {
     "title": "Learning-based Application-Agnostic 3D NoC Design for Heterogeneous Manycore Systems",
@@ -7334,7 +6703,6 @@
     "tags": [
       "System-level Optimization"
     ],
-    "likes": 92,
     "highlight": true
   },
   {
@@ -7345,8 +6713,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 35
+    ]
   },
   {
     "title": "Context-Aware DFM Rule Analysis and Scoring Using Machine Learning",
@@ -7356,8 +6723,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 76
+    ]
   },
   {
     "title": "Cross-layer Optimization for High Speed Adders: A Pareto Driven Machine Learning Approach",
@@ -7369,8 +6735,7 @@
       "Synthesis",
       "System-level Optimization",
       "P&R"
-    ],
-    "likes": 39
+    ]
   },
   {
     "title": "Developing Synthesis Flows Without Human Knowledge",
@@ -7380,8 +6745,7 @@
     "ai_for_hw": true,
     "tags": [
       "Synthesis"
-    ],
-    "likes": 73
+    ]
   },
   {
     "title": "A Machine Learning Framework for Register Placement Optimization in Digital Circuit Design",
@@ -7391,8 +6755,7 @@
     "ai_for_hw": true,
     "tags": [
       "P&R"
-    ],
-    "likes": 80
+    ]
   },
   {
     "title": "Customized Routing Optimization Based on Gradient Boost Regressor Model",
@@ -7403,7 +6766,6 @@
     "tags": [
       "P&R"
     ],
-    "likes": 85,
     "highlight": true
   },
   {
@@ -7414,8 +6776,7 @@
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
-    ],
-    "likes": 78
+    ]
   },
   {
     "title": "Supervised quantum gate \"teaching\" for quantum hardware design",
@@ -7425,8 +6786,7 @@
     "ai_for_hw": true,
     "tags": [
       "Other"
-    ],
-    "likes": 76
+    ]
   },
   {
     "title": "Lithography Hotspot Detection and Mitigation in Nanometer VLSI",
@@ -7437,7 +6797,6 @@
     "tags": [
       "Verification"
     ],
-    "likes": 85,
     "highlight": true
   },
   {
@@ -7449,8 +6808,7 @@
     "tags": [
       "Verification",
       "P&R"
-    ],
-    "likes": 61
+    ]
   },
   {
     "title": "Specification Test Compaction for Analog Circuits and MEMS",
@@ -7461,7 +6819,6 @@
     "tags": [
       "Testing",
       "Analog Design"
-    ],
-    "likes": 18
+    ]
   }
 ]

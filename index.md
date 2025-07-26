@@ -44,7 +44,6 @@ If you have topics you'd like to hear about, you can fill out [this form](https:
       </div>
       <div>
         <a class="talk-title-link" href="{{ site.baseurl }}{{ paper.url }}">Details <i class="bi bi-box-arrow-up-right"></i></a>
-        <span class="likes-count"><i class="bi bi-hand-thumbs-up"></i> {{ paper.likes }}</span>
       </div>
       <details>
         <summary>Abstract</summary>
