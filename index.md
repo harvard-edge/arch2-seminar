@@ -30,7 +30,7 @@ If you have topics you'd like to hear about, you can fill out this form. If you'
 <div class="card" style="margin: 2em 0; padding: 1em; border: 1px solid #ddd; border-radius: 5px; background-color: #f9f9f9; text-align: center;">
     <h3 style="margin-top: 0;">Have a topic idea or want to be a speaker?</h3>
     <p>We are always looking for new ideas and speakers for our seminar series. <br>Let us know what you'd like to hear about or apply to be a speaker!</p>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfiT1oW92a-i-k-m-g-m-q-g-g-q-g-q-g-q-g-Q/viewform?usp=dialog" class="btn btn-primary" style="margin-right: 1em;">Suggest a Topic</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2Y9h-B74eIiRfFhDxnWPgSVlou_4uXULEAczkBjGhsXfI6A/viewform?usp=dialog" class="btn btn-primary" style="margin-right: 1em;">Suggest a Topic</a>
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSeCBYzO0PSNhpRnuy7MpR4zJ8MtW2zIqGU-8-TQF0PWGpnBCA/viewform?usp=dialog" class="btn btn-secondary">Become a Speaker</a>
 </div>
 
