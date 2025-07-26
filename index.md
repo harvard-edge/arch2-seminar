@@ -25,8 +25,6 @@ We want to bring the community together to discuss the future of computer system
 
 To understand why these discussions are vital, explore these insightful pieces on Architecture 2.0: the [blog post](https://www.sigarch.org/architecture-2-0-why-computer-architects-need-a-data-centric-ai-gymnasium/) and [this related paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10857820).
 
-If you have topics you'd like to hear about, you can fill out this form. If you're interested in becoming a speaker, you can fill out the [speaker invitation form](https://docs.google.com/forms/d/e/1FAIpQLSeCBYzO0PSNhpRnuy7MpR4zJ8MtW2zIqGU-8-TQF0PWGpnBCA/viewform?usp=dialog).
-
 <div class="card" style="margin: 2em 0; padding: 1em; border: 1px solid #ddd; border-radius: 5px; background-color: #f9f9f9; text-align: center;">
     <h3 style="margin-top: 0;">Have a topic idea or want to be a speaker?</h3>
     <p>We are always looking for new ideas and speakers for our seminar series. <br>Let us know what you'd like to hear about or apply to be a speaker!</p>
