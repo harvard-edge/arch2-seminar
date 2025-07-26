@@ -43,7 +43,7 @@ If you have topics you'd like to hear about, you can fill out [this form](https:
         {% endif %}
       </div>
       <div>
-        <a class="talk-title-link" href="{{ site.baseurl }}{{ paper.url }}">Details <i class="bi bi-box-arrow-up-right"></i></a>
+        <a class="talk-title-link" href="{{ paper.url }}">Details <i class="bi bi-box-arrow-up-right"></i></a>
       </div>
       <details>
         <summary>Abstract</summary>
