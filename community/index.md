@@ -34,6 +34,10 @@ title: Community Papers
           <div class="paper-date" style="display:none;">{{ paper.date | date: '%B %Y' }}</div>
           <div>
             <a class="talk-title-link" href="{{ paper.url }}">Details <i class="bi bi-box-arrow-up-right"></i></a>
+            <span class="like-widget" data-paper-id="{{ paper.title | slugify }}">
+              <button class="like-button"><i class="bi bi-heart"></i></button>
+              <span class="likes-count">0</span>
+            </span>
           </div>
           <details>
             <summary>Abstract</summary>
@@ -110,6 +114,86 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initial display - show all papers sorted by date
     allPaperElements.forEach(p => papersList.appendChild(p));
     displayPapers();
+
+    // --- Like functionality (same as on homepage) ---
+
+    const API_GATEWAY_URL = 'https://your-api-gateway-url.execute-api.us-east-1.amazonaws.com/prod'; // Placeholder
+    const WEBSOCKET_URL = 'wss://your-websocket-url.execute-api.us-east-1.amazonaws.com/prod'; // Placeholder
+
+    function getLikedPapers() {
+        return JSON.parse(localStorage.getItem('likedPapers') || '{}');
+    }
+
+    function isPaperLiked(paperId) {
+        return !!getLikedPapers()[paperId];
+    }
+
+    function setPaperLiked(paperId) {
+        const likedPapers = getLikedPapers();
+        likedPapers[paperId] = true;
+        localStorage.setItem('likedPapers', JSON.stringify(likedPapers));
+    }
+
+    async function fetchLikes(paperId) {
+        // MOCK: Default to 0 when no backend is available.
+        return 0;
+    }
+
+    async function postLike(paperId) {
+        // MOCK
+        const countEl = document.querySelector(`.like-widget[data-paper-id="${paperId}"] .likes-count`);
+        if (!countEl) return 0;
+        const currentLikes = parseInt(countEl.textContent, 10);
+        return currentLikes + 1;
+    }
+
+    function updateLikeButtonUI(button, paperId) {
+        const icon = button.querySelector('i');
+        if (isPaperLiked(paperId)) {
+            button.classList.add('liked');
+            icon.className = 'bi bi-heart-fill';
+        } else {
+            button.classList.remove('liked');
+            icon.className = 'bi bi-heart';
+        }
+    }
+
+    document.querySelectorAll('.like-widget').forEach(async (widget) => {
+        const paperId = widget.dataset.paperId;
+        const button = widget.querySelector('.like-button');
+        const countEl = widget.querySelector('.likes-count');
+
+        const initialLikes = await fetchLikes(paperId);
+        countEl.textContent = initialLikes;
+        
+        updateLikeButtonUI(button, paperId);
+
+        button.addEventListener('click', async () => {
+            if (isPaperLiked(paperId)) {
+                console.log('Already liked:', paperId);
+                return;
+            }
+            
+            const newLikes = await postLike(paperId);
+            countEl.textContent = newLikes;
+            setPaperLiked(paperId);
+            updateLikeButtonUI(button, paperId);
+        });
+    });
+
+    // Mock WebSocket for real-time updates
+    function connectWebSocket() {
+        setInterval(() => {
+            const allWidgets = Array.from(document.querySelectorAll('.like-widget:not([style*="display: none"]) .likes-count'));
+            if (allWidgets.length === 0) return;
+            
+            const randomCountEl = allWidgets[Math.floor(Math.random() * allWidgets.length)];
+            const currentLikes = parseInt(randomCountEl.textContent, 10);
+            randomCountEl.textContent = currentLikes + 1;
+        }, 5000);
+    }
+    
+    connectWebSocket();
 });
 </script>
 
@@ -120,6 +204,34 @@ document.addEventListener('DOMContentLoaded', function() {
   border: 1px solid #ddd;
   padding: 10px;
   border-radius: 4px;
+}
+.like-widget {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 1em;
+  color: #dc3545;
+}
+.like-button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: inherit;
+  padding: 0 5px 0 0;
+  font-size: 1.1em;
+}
+.like-button .bi-heart-fill {
+  display: none;
+}
+.like-button.liked .bi-heart {
+  display: none;
+}
+.like-button.liked .bi-heart-fill {
+  display: inline-block;
+}
+.likes-count {
+  margin-left: 0.25em;
+  min-width: 1em;
+  text-align: left;
 }
 #paper-search {
     width: 100%;
