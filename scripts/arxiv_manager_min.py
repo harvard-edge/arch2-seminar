@@ -97,8 +97,14 @@ def fetch_papers(query: str, max_results: int = DEFAULT_MAX_RESULTS):
         delay_seconds=3,    # 遵守 arXiv 速率限制
     )
 
+    count = 0
     try:
         for result in client.results(search):
+            if count == 0:
+                print(f'  Fetching for "{query}"...')
+            count += 1
+            if count > 0 and count % 100 == 0:
+                print(f"  ... fetched {count} results so far.")
             yield {
                 "title": result.title.strip(),
                 "url": result.entry_id,
@@ -106,11 +112,18 @@ def fetch_papers(query: str, max_results: int = DEFAULT_MAX_RESULTS):
                 "published": result.published.replace(tzinfo=timezone.utc)
                              .strftime("%Y-%m-%dT%H:%M:%SZ"),
             }
+        
+        if count > 0:
+            print(f"  Finished query. Found {count} papers.")
+        else:
+            print(f"  No results for query.")
+
     except UnexpectedEmptyPageError as e:
         # 某些分页可能因 arXiv API 状态异常返回空白，此时直接跳过当前关键词
         # 在 arxiv >= 2.1.0 中，当结果总数是 page_size 的整数倍时，
         # 在取完最后一页后会触发此“异常”，但这属于正常行为。
         # 我们在此处捕获它并直接忽略，以允许生成器正常退出。
+        print(f"  Query finished (hit an empty page). Found {count} papers.")
         pass
     except Exception as e:
         # 捕获其它未知错误，保证脚本不中断
@@ -155,23 +168,30 @@ def main():
     # 依次执行多组查询，并按 URL 去重
     new_items = []
     seen_urls = set()
-    for q in queries:
+    total_queries = len(queries)
+    for i, q in enumerate(queries):
+        print(f"\n--- Running query {i+1}/{total_queries} ---")
         for item in fetch_papers(q, args.max_results):
             if item["url"] in seen_urls:
                 continue
             new_items.append(item)
             seen_urls.add(item["url"])
 
+    print(f"\nTotal unique papers fetched: {len(new_items)}")
     # 按发布时间倒序排列（ISO 字符串直接比较即可）
     new_items.sort(key=lambda x: x["published"], reverse=True)
 
     if args.mode == 0:
         # 覆盖写入
+        print(f"Mode 0: Saving {len(new_items)} papers (overwrite)...")
         save_json(args.output, new_items)
         return
 
     # mode == 1 → 读旧文件，去重后追加
+    print(f"\nMode 1: Merging with existing file at {args.output}...")
     existing_data, existing_urls = load_existing(args.output)
+    print(f"Loaded {len(existing_data)} existing papers.")
+    
     add_count = 0
     merged = []
 
@@ -185,8 +205,8 @@ def main():
     if add_count == 0:
         print("没有发现新论文，JSON 未修改。")
     else:
+        print(f"Adding {add_count} new papers.")
         save_json(args.output, merged)
-        print(f"新增 {add_count} 篇论文，已合并。")
 
 
 if __name__ == "__main__":
