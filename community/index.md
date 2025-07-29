@@ -50,6 +50,9 @@ title: Community Papers
   </div>
 </div>
 
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const searchInput = document.getElementById('paper-search');
@@ -115,38 +118,42 @@ document.addEventListener('DOMContentLoaded', function() {
     allPaperElements.forEach(p => papersList.appendChild(p));
     displayPapers();
 
-    // --- Like functionality (same as on homepage) ---
+    // --- Like functionality using Firebase ---
 
-    const API_GATEWAY_URL = 'https://your-api-gateway-url.execute-api.us-east-1.amazonaws.com/prod'; // Placeholder
-    const WEBSOCKET_URL = 'wss://your-websocket-url.execute-api.us-east-1.amazonaws.com/prod'; // Placeholder
-
-    function getLikedPapers() {
-        return JSON.parse(localStorage.getItem('likedPapers') || '{}');
-    }
-
-    function isPaperLiked(paperId) {
-        return !!getLikedPapers()[paperId];
-    }
-
-    function setPaperLiked(paperId) {
-        const likedPapers = getLikedPapers();
-        likedPapers[paperId] = true;
-        localStorage.setItem('likedPapers', JSON.stringify(likedPapers));
-    }
-
-    async function fetchLikes(paperId) {
-        // MOCK: Default to 0 when no backend is available.
-        return 0;
-    }
-
-    async function postLike(paperId) {
-        // MOCK
-        const countEl = document.querySelector(`.like-widget[data-paper-id="${paperId}"] .likes-count`);
-        if (!countEl) return 0;
-        const currentLikes = parseInt(countEl.textContent, 10);
-        return currentLikes + 1;
-    }
-
+    // =================================================================================
+    // TODO: PASTE YOUR FIREBASE CONFIGURATION HERE
+    //
+    // 1. Go to the Firebase console (https://console.firebase.google.com/).
+    // 2. Create a new project.
+    // 3. In your project, create a "Realtime Database".
+    //    - Start in "test mode" for now (allows public read/write).
+    // 4. Go to Project Settings > General, and find your web app's configuration object.
+    // 5. Paste that configuration object here.
+    // =================================================================================
+    const firebaseConfig = {
+      apiKey: "AIzaSyC7JxyxwsOxiDI3jVSz1Du7fXVNYhKuDyM",
+      authDomain: "my-awesome-seminar-likes.firebaseapp.com",
+      databaseURL: "https://my-awesome-seminar-likes-default-rtdb.firebaseio.com",
+      projectId: "my-awesome-seminar-likes",
+      storageBucket: "my-awesome-seminar-likes.firebasestorage.app",
+      messagingSenderId: "1064951229888",
+      appId: "1:1064951229888:web:c8234ad6cd99df348e6c25"
+    };
+ 
+     function getLikedPapers() {
+         return JSON.parse(localStorage.getItem('likedPapers') || '{}');
+     }
+ 
+     function isPaperLiked(paperId) {
+         return !!getLikedPapers()[paperId];
+     }
+ 
+     function setPaperLiked(paperId) {
+         const likedPapers = getLikedPapers();
+         likedPapers[paperId] = true;
+         localStorage.setItem('likedPapers', JSON.stringify(likedPapers));
+     }
+ 
     function updateLikeButtonUI(button, paperId) {
         const icon = button.querySelector('i');
         if (isPaperLiked(paperId)) {
@@ -158,42 +165,54 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    document.querySelectorAll('.like-widget').forEach(async (widget) => {
-        const paperId = widget.dataset.paperId;
-        const button = widget.querySelector('.like-button');
-        const countEl = widget.querySelector('.likes-count');
+    function initializeLikeButtons(database) {
+        const likesRef = database.ref('likes');
 
-        const initialLikes = await fetchLikes(paperId);
-        countEl.textContent = initialLikes;
-        
-        updateLikeButtonUI(button, paperId);
-
-        button.addEventListener('click', async () => {
-            if (isPaperLiked(paperId)) {
-                console.log('Already liked:', paperId);
-                return;
-            }
-            
-            const newLikes = await postLike(paperId);
-            countEl.textContent = newLikes;
-            setPaperLiked(paperId);
-            updateLikeButtonUI(button, paperId);
+        // This function will be called once with the initial state,
+        // and then again every time the data changes.
+        likesRef.on('value', (snapshot) => {
+            const allLikes = snapshot.val() || {};
+            document.querySelectorAll('.like-widget').forEach(widget => {
+                const paperId = widget.dataset.paperId;
+                const countEl = widget.querySelector('.likes-count');
+                countEl.textContent = allLikes[paperId] || 0;
+            });
         });
-    });
 
-    // Mock WebSocket for real-time updates
-    function connectWebSocket() {
-        setInterval(() => {
-            const allWidgets = Array.from(document.querySelectorAll('.like-widget:not([style*="display: none"]) .likes-count'));
-            if (allWidgets.length === 0) return;
-            
-            const randomCountEl = allWidgets[Math.floor(Math.random() * allWidgets.length)];
-            const currentLikes = parseInt(randomCountEl.textContent, 10);
-            randomCountEl.textContent = currentLikes + 1;
-        }, 5000);
+        document.querySelectorAll('.like-widget').forEach(widget => {
+            const paperId = widget.dataset.paperId;
+            const button = widget.querySelector('.like-button');
+            const paperLikesRef = database.ref(`likes/${paperId}`);
+
+            updateLikeButtonUI(button, paperId);
+
+            button.addEventListener('click', () => {
+                if (isPaperLiked(paperId)) {
+                    console.log('Already liked:', paperId);
+                    return;
+                }
+
+                // Use a transaction to safely increment the like count.
+                // This prevents race conditions if multiple people like at the same time.
+                paperLikesRef.transaction((currentLikes) => {
+                    return (currentLikes || 0) + 1;
+                }).then(() => {
+                     setPaperLiked(paperId);
+                     updateLikeButtonUI(button, paperId);
+                });
+            });
+        });
     }
-    
-    connectWebSocket();
+
+    // Initialize Firebase, but only if the config has been filled out.
+    if (firebaseConfig.apiKey !== "YOUR_API_KEY") {
+        firebase.initializeApp(firebaseConfig);
+        const database = firebase.database();
+        initializeLikeButtons(database);
+    } else {
+        console.warn("Firebase is not configured. Please add your project credentials to index.md. Like functionality will be disabled.");
+        document.querySelectorAll('.like-widget').forEach(widget => widget.style.display = 'none');
+    }
 });
 </script>
 
