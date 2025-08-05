@@ -42,6 +42,7 @@ from openai._exceptions import OpenAIError
 # ---------------------------------- Configuration ----------------------------------
 DEFAULT_INPUT = "_data/llm_hw_design_papers.json"
 DEFAULT_OUTPUT_SUFFIX = "_labeled.json"
+DEFAULT_DIFF_AGAINST = "_data/llm_hw_design_papers_labeled.json"
 DEFAULT_FILTERED_FILENAME = "filter_papers.json"
 DEFAULT_MODEL = "gpt-4o"
 MAX_RETRY = 3
@@ -49,6 +50,26 @@ RETRY_BACKOFF_SEC = 5
 DEFAULT_API_KEY_FILE = "secrets/api_key.json"
 
 # ------------------------------ Core Functions -----------------------------------
+
+def safe_json_write(data_to_write: List[Dict[str, Any]], path: str) -> None:
+    """
+    Safely writes data to a JSON file by first writing to a temporary file
+    and then atomically renaming it. This prevents data corruption if the
+    script is interrupted.
+    """
+    temp_path = path + ".tmp"
+    try:
+        with open(temp_path, "w", encoding="utf-8") as f:
+            json.dump(data_to_write, f, indent=2, ensure_ascii=False)
+        # If write is successful, atomically move the file
+        os.rename(temp_path, path)
+    except Exception as e:
+        print(f"❌ Failed to write file {path}. Error: {e}", file=sys.stderr)
+        # Clean up the temp file if it exists
+        if os.path.exists(temp_path):
+            os.remove(temp_path)
+        raise  # Re-raise to signal failure
+
 
 def build_prompt(title: str, abstract: str) -> List[Dict[str, str]]:
     """Constructs the messages required for Chat Completion."""
@@ -134,7 +155,8 @@ def main() -> None:
     parser.add_argument("--jobs", "-j", type=int, default=20, help="Number of concurrent API requests (default: 8)")
     parser.add_argument("--api-key-file", default=DEFAULT_API_KEY_FILE,
                         help="Path to file containing OpenAI API Key (JSON or plain text, default: secrets/api_key.json)")
-    parser.add_argument("--overwrite", action="store_true", help="Force re-evaluation even if ai_for_hw field already exists")
+    parser.add_argument("--diff-against", default=DEFAULT_DIFF_AGAINST, help="Path to a pre-existing labeled JSON to diff against. Only new papers will be classified.")
+    parser.add_argument("--overwrite", action="store_true", help="Force re-evaluation even if ai_for_hw field already exists (ignored if --diff-against is used)")
 
     args = parser.parse_args()
 
@@ -185,15 +207,46 @@ def main() -> None:
     client = OpenAI()
 
     total = len(data)
-    items_to_process = [
-        item for item in data if args.overwrite or "ai_for_hw" not in item
-    ]
+    # --- Diff Logic ---
+    if args.diff_against and os.path.isfile(args.diff_against):
+        print(f"🔍 Diffing against {args.diff_against} to find new papers...")
+        with open(args.diff_against, "r", encoding="utf-8") as f:
+            labeled_data = json.load(f)
+        
+        # Use URL as the unique identifier for a paper
+        labeled_urls = {item.get("url") for item in labeled_data if item.get("url")}
+        
+        # Items to process are those in the main data list that are NOT in the labeled list
+        items_to_process = [
+            item for item in data if item.get("url") not in labeled_urls
+        ]
+        
+        # The final dataset will be the already labeled data plus the newly processed items
+        final_data = labeled_data
+        data = final_data # For progress reporting and final saving
+    else:
+        # Original logic: process items that are missing the 'ai_for_hw' field
+        items_to_process = [
+            item for item in data if args.overwrite or "ai_for_hw" not in item
+        ]
+        final_data = data
 
     if not items_to_process:
         print("✓ No papers to classify.")
     else:
+        # Save a list of papers to be processed for inspection and control
+        output_dir = os.path.dirname(output_path) or "."
+        input_basename = os.path.splitext(os.path.basename(args.input))[0]
+        unlabeled_filename = f"{input_basename}_unlabeled.json"
+        unlabeled_output_path = os.path.join(output_dir, unlabeled_filename)
+
+        print(f"Found {len(items_to_process)} papers to classify. Saving this list to: {unlabeled_output_path}")
+        with open(unlabeled_output_path, "w", encoding="utf-8") as f:
+            json.dump(items_to_process, f, indent=2, ensure_ascii=False)
+
         print(f"Classifying {len(items_to_process)} papers using {args.jobs} concurrent workers...")
-        processed_count = total - len(items_to_process)
+        processed_count = 0
+        total_to_process = len(items_to_process)
         lock = threading.Lock()
 
         def process_wrapper(item: Dict[str, Any]) -> None:
@@ -205,25 +258,39 @@ def main() -> None:
             finally:
                 with lock:
                     processed_count += 1
-                    if processed_count % 10 == 0 or processed_count == total:
-                        positive = sum(1 for p in data if p.get("ai_for_hw"))
-                        print(f"Processed {processed_count}/{total} papers (AI-for-HW: {positive})")
+                    if processed_count % 10 == 0 or processed_count == total_to_process:
+                        print(f"Processed {processed_count}/{total_to_process} new papers...")
 
         with concurrent.futures.ThreadPoolExecutor(max_workers=args.jobs) as executor:
-            executor.map(process_wrapper, items_to_process)
+            # Note: We are mapping over `items_to_process`, and the results are directly mutated in the items themselves.
+            list(executor.map(process_wrapper, items_to_process)) # Use list() to ensure all futures complete
 
-    positive = sum(1 for item in data if item.get("ai_for_hw"))
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+        # Add the newly processed items to the final dataset
+        final_data.extend(items_to_process)
 
-    print(f"✓ Classification complete: Total {total} papers, AI-for-HW {positive} papers → {output_path}")
+    # --- Final Saving Step ---
+    positive = sum(1 for item in final_data if item.get("ai_for_hw"))
+    total = len(final_data)
+
+    try:
+        safe_json_write(final_data, output_path)
+        print(f"✓ Classification complete: Total {total} papers, AI-for-HW {positive} papers → {output_path}")
+    except Exception:
+        # If the main output fails, it's a critical error. Exit.
+        print("❌ A critical error occurred while writing the main output file. The original file has been preserved.", file=sys.stderr)
+        sys.exit(1)
 
     if positive > 0:
-        filtered_data = [item for item in data if item.get("ai_for_hw")]
-        with open(filtered_output_path, "w", encoding="utf-8") as f:
-            json.dump(filtered_data, f, indent=2, ensure_ascii=False)
-        print(f"✓ Filtered list of {positive} AI-for-HW papers saved to → {filtered_output_path}")
+        # Bug fix: use final_data, not data, for filtering.
+        filtered_data = [item for item in final_data if item.get("ai_for_hw")]
+        try:
+            safe_json_write(filtered_data, filtered_output_path)
+            print(f"✓ Filtered list of {positive} AI-for-HW papers saved to → {filtered_output_path}")
+        except Exception:
+            # If the filtered list fails, it's not critical. The main file is safe.
+            print(f"⚠️  Warning: Could not write the filtered output file. The main labeled file at {output_path} is safe.", file=sys.stderr)
+
 
 
 if __name__ == "__main__":
-    main() 
+    main()
