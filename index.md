@@ -35,11 +35,11 @@ To understand why these discussions are vital, explore these insightful pieces o
 <div markdown="1" id="community-papers">
 ## Community Papers
 </div>
-<p>We have a collection of {{ site.papers | size }} papers from the community. <a href="{{ site.baseurl }}/community/">View all papers</a>.</p>
+<p>We have a collection of {{ site.data.tagged_papers | size }} papers from the community. <a href="{{ site.baseurl }}/community/">View all papers</a>.</p>
 <input type="text" id="paper-search-home" placeholder="Search papers by title or abstract...">
 <div class="talk-list" id="home-papers-list">
   {% assign sorted_papers = site.data.tagged_papers | sort: 'published' | reverse %}
-  {% for paper in sorted_papers %}
+  {% for paper in sorted_papers limit: 50 %}
     <div class="talk list-group-item paper-item-home" data-date="{{ paper.published }}">
       <div class="paper-title">
         {{ paper.title }}

@@ -1,5 +1,10 @@
 - type: "Past Talks"
   members:
+    - speaker: "Stefan Abi-Karam"
+      date: "July 31, 2025"
+      title: "HLS-Eval: A Benchmark and Framework for Evaluating LLMs on High-Level Synthesis Design Tasks"
+      recording: "https://github.com/stefanpie/hls-eval"
+      affiliation: ""
     - speaker: "Elisavet Lydia Alvanaki"
       date: ""
       title: "An End-To-End Heterogeneous System-on-Chip Benchmark Suite for LLM-Aided Design"
@@ -14,4 +19,4 @@
       date: ""
       title: "QuArch: A Question-Answering Dataset for AI Agents in Computer Architecture"
       recording: "https://arxiv.org/pdf/2501.01892"
-      affiliation: "Harvard University" 
+      affiliation: "Harvard University"

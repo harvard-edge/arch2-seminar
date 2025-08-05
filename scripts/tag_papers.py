@@ -162,78 +162,99 @@ def main() -> None:
     parser.add_argument("--jobs", "-j", type=int, default=20, help="Number of concurrent API requests (default: 20)")
     parser.add_argument("--api-key-file", default=DEFAULT_API_KEY_FILE,
                         help=f"Path to file containing OpenAI API Key (default: {DEFAULT_API_KEY_FILE})")
-    parser.add_argument("--overwrite", action="store_true", help="Force re-tagging even if 'tags' field already exists")
+    parser.add_argument("--overwrite", action="store_true", help="Force re-tagging all papers, ignoring existing ones")
 
     args = parser.parse_args()
 
+    # --- Load Input Data ---
     if not os.path.isfile(args.input):
         print(f"❌ Input file not found: {args.input}", file=sys.stderr)
         sys.exit(1)
-
     with open(args.input, "r", encoding="utf-8") as f:
-        data = json.load(f)
+        all_papers = json.load(f)
 
-    output_path = args.output
+    # --- Load Existing Tagged Data (if any) ---
+    existing_papers = []
+    if not args.overwrite and os.path.isfile(args.output):
+        try:
+            with open(args.output, "r", encoding="utf-8") as f:
+                existing_papers = json.load(f)
+        except (json.JSONDecodeError, IOError) as e:
+            print(f"⚠️  Could not read existing output file, will overwrite it. Reason: {e}", file=sys.stderr)
 
-    # -------------------- Prepare OpenAI API Key --------------------
-    if not os.getenv("OPENAI_API_KEY"):
-        key_file = args.api_key_file
-        if os.path.isfile(key_file):
-            try:
-                with open(key_file, "r", encoding="utf-8") as kf:
-                    try:
-                        key_data = json.load(kf)
-                        api_key_val = (
-                            key_data.get("OPENAI_API_KEY")
-                            or key_data.get("api_key")
-                            or key_data.get("key")
-                        )
-                    except json.JSONDecodeError:
-                        kf.seek(0)
-                        api_key_val = kf.read().strip()
-                    if api_key_val:
-                        os.environ["OPENAI_API_KEY"] = api_key_val
-            except Exception as e:
-                print(f"⚠️  Failed to read API Key file: {e}", file=sys.stderr)
+    # --- Identify Papers to Process ---
+    if args.overwrite:
+        items_to_process = all_papers
+        print(f"⚠️  --overwrite flag is set. Re-tagging all {len(all_papers)} papers from input.")
+    else:
+        existing_urls = {item.get("url") for item in existing_papers if item.get("url")}
+        items_to_process = [item for item in all_papers if item.get("url") not in existing_urls]
 
-    if not os.getenv("OPENAI_API_KEY"):
-        print(f"❌ OPENAI_API_KEY not found in environment variables or file (tried to read {args.api_key_file})", file=sys.stderr)
-        sys.exit(1)
+    # --- Prepare OpenAI API Key ---
+    if items_to_process:
+        if not os.getenv("OPENAI_API_KEY"):
+            key_file = args.api_key_file
+            if os.path.isfile(key_file):
+                try:
+                    with open(key_file, "r", encoding="utf-8") as kf:
+                        try:
+                            key_data = json.load(kf)
+                            api_key_val = (
+                                key_data.get("OPENAI_API_KEY")
+                                or key_data.get("api_key")
+                                or key_data.get("key")
+                            )
+                        except json.JSONDecodeError:
+                            kf.seek(0)
+                            api_key_val = kf.read().strip()
+                        if api_key_val:
+                            os.environ["OPENAI_API_KEY"] = api_key_val
+                except Exception as e:
+                    print(f"⚠️  Failed to read API Key file: {e}", file=sys.stderr)
+
+        if not os.getenv("OPENAI_API_KEY"):
+            print(f"❌ OPENAI_API_KEY not found in environment variables or file (tried to read {args.api_key_file})", file=sys.stderr)
+            sys.exit(1)
 
     client = OpenAI()
 
-    total = len(data)
-    items_to_process = [
-        item for item in data if args.overwrite or "tags" not in item
-    ]
-
+    # --- Tag New Papers ---
     if not items_to_process:
-        print("✓ No papers to tag.")
+        print("✓ No new papers to tag.")
+        final_data = existing_papers
     else:
-        print(f"Tagging {len(items_to_process)} papers using {args.jobs} concurrent workers...")
-        processed_count = total - len(items_to_process)
+        print(f"Found {len(items_to_process)} new papers to tag. Using {args.jobs} concurrent workers...")
+        processed_count = 0
+        total_to_process = len(items_to_process)
         lock = threading.Lock()
 
         def process_wrapper(item: Dict[str, Any]) -> None:
             nonlocal processed_count
             try:
-                tag_item(client, item, args.model, overwrite=args.overwrite)
+                tag_item(client, item, args.model, overwrite=True)  # Always overwrite as we only process new items
             except Exception as e:
                 print(f"⚠️  Tagging failed for '{item.get('title', 'N/A')}', skipping: {e}", file=sys.stderr)
                 item["tags"] = ["Error"]
             finally:
                 with lock:
                     processed_count += 1
-                    if processed_count % 10 == 0 or processed_count == total:
-                        print(f"Processed {processed_count}/{total} papers...")
+                    if processed_count % 10 == 0 or processed_count == total_to_process:
+                        print(f"  Processed {processed_count}/{total_to_process} papers...")
 
         with concurrent.futures.ThreadPoolExecutor(max_workers=args.jobs) as executor:
             executor.map(process_wrapper, items_to_process)
+        
+        # Combine and set final data
+        final_data = existing_papers + items_to_process
 
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+    # --- Sort and Save ---
+    print("Sorting all papers by publication date...")
+    final_data.sort(key=lambda x: x.get("published", ""), reverse=True)
 
-    print(f"✓ Tagging complete. Tagged papers saved to → {output_path}")
+    with open(args.output, "w", encoding="utf-8") as f:
+        json.dump(final_data, f, indent=2, ensure_ascii=False)
+
+    print(f"✓ Tagging complete. Total {len(final_data)} papers saved to → {args.output}")
 
 
 if __name__ == "__main__":

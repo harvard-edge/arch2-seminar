@@ -1,5 +1,376 @@
 [
   {
+    "title": "Geak: Introducing Triton Kernel AI Agent & Evaluation Benchmarks",
+    "url": "http://arxiv.org/abs/2507.23194v1",
+    "abstract": "The demand for AI-generated GPU kernels is rapidly growing, influenced by the need for scalable, hardware-optimized solutions in both industry and academia. As deep learning workloads grow in complexity and diversity, it is imperative to automate low-level kernel development to meet performance and productivity demands. Major cloud providers, semiconductor companies, and research institutions are now investing heavily in AI-driven code generation for GPUs, aiming to reduce manual optimization efforts while achieving near-expert performance on hardware like AMD MI300X. The Triton language, a Python-based DSL for GPU programming, has emerged as a popular target for such AI-generated kernels due to its balance of performance and ease-of-coding. In this work, we present an evaluation suite for Triton-based GPU kernels and GEAK (Generating Efficient AI-centric GPU Kernels)-a framework that leverages cutting-edge LLMs to generate performant Triton code specifically for AMD GPUs, including the AMD MI300X and MI250. GEAK leverages inference-time compute scaling to produce Triton-based GPU kernels using a reasoning loop adapted from Reflexion-style feedback mechanisms. On two evaluation benchmarks, GEAK significantly outperformed the baselines of directly prompting frontier LLMs as well as Reflexion-based generation pipelines by achieving correctness up to $63$% and execution speed up of up to $2.59$X. These results highlight the promise of GEAK-like agentic code generation for accelerating the adoption of diverse hardware platforms and democratizing access to expert-level kernel performance.",
+    "published": "2025-07-31T02:26:58Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Code Generation"
+    ]
+  },
+  {
+    "title": "AutoBridge: Automating Smart Device Integration with Centralized Platform",
+    "url": "http://arxiv.org/abs/2507.23178v1",
+    "abstract": "Multimodal IoT systems coordinate diverse IoT devices to deliver human-centered services. The ability to incorporate new IoT devices under the management of a centralized platform is an essential requirement. However, it requires significant human expertise and effort to program the complex IoT integration code that enables the platform to understand and control the device functions. Therefore, we propose AutoBridge to automate IoT integration code generation. Specifically, AutoBridge adopts a divide-and-conquer strategy: it first generates device control logic by progressively retrieving device-specific knowledge, then synthesizes platformcompliant integration code using platform-specific knowledge. To ensure correctness, AutoBridge features a multi-stage debugging pipeline, including an automated debugger for virtual IoT device testing and an interactive hardware-in-the-loop debugger that requires only binary user feedback (yes and no) for real-device verification. We evaluate AutoBridge on a benchmark of 34 IoT devices across two open-source IoT platforms. The results demonstrate that AutoBridge can achieves an average success rate of 93.87% and an average function coverage of 94.87%, without any human involvement. With minimal binary yes and no feedback from users, the code is then revised to reach 100% function coverage. A user study with 15 participants further shows that AutoBridge outperforms expert programmers by 50% to 80% in code accuracy, even when the programmers are allowed to use commercial code LLMs.",
+    "published": "2025-07-31T01:14:14Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Code Generation",
+      "Testing"
+    ]
+  },
+  {
+    "title": "Automatically discovering heuristics in a complex SAT solver with large language models",
+    "url": "http://arxiv.org/abs/2507.22876v1",
+    "abstract": "Satisfiability problem (SAT) is a cornerstone of computational complexity with broad industrial applications, and it remains challenging to optimize modern SAT solvers in real-world settings due to their intricate architectures. While automatic configuration frameworks have been developed, they rely on manually constrained search spaces and yield limited performance gains. This work introduces a novel paradigm which effectively optimizes complex SAT solvers via Large Language Models (LLMs), and a tool called AutoModSAT is developed. Three fundamental challenges are addressed in order to achieve superior performance: (1) LLM-friendly solver: Systematic guidelines are proposed for developing a modularized solver to meet LLMs' compatibility, emphasizing code simplification, information share and bug reduction; (2) Automatic prompt optimization: An unsupervised automatic prompt optimization method is introduced to advance the diversity of LLMs' output; (3) Efficient search strategy: We design a presearch strategy and an EA evolutionary algorithm for the final efficient and effective discovery of heuristics. Extensive experiments across a wide range of datasets demonstrate that AutoModSAT achieves 50% performance improvement over the baseline solver and achieves 30% superiority against the state-of-the-art (SOTA) solvers. Moreover, AutoModSAT attains a 20% speedup on average compared to parameter-tuned alternatives of the SOTA solvers, showcasing the enhanced capability in handling complex problem instances. This work bridges the gap between AI-driven heuristics discovery and mission-critical system optimization, and provides both methodological advancements and empirically validated results for next-generation complex solver development.",
+    "published": "2025-07-30T17:52:25Z",
+    "ai_for_hw": true,
+    "tags": [
+      "System-level Optimization"
+    ]
+  },
+  {
+    "title": "The Multi-Agent Fault Localization System Based on Monte Carlo Tree Search Approach",
+    "url": "http://arxiv.org/abs/2507.22800v1",
+    "abstract": "In real-world scenarios, due to the highly decoupled and flexible nature of microservices, it poses greater challenges to system reliability. The more frequent occurrence of incidents has created a demand for Root Cause Analysis(RCA) methods that enable rapid identification and recovery of incidents. Large language model (LLM) provides a new path for quickly locating and recovering from incidents by leveraging their powerful generalization ability combined with expert experience. Current LLM for RCA frameworks are based on ideas like ReAct and Chain-of-Thought, but the hallucination of LLM and the propagation nature of anomalies often lead to incorrect localization results. Moreover, the massive amount of anomalous information generated in large, complex systems presents a huge challenge for the context window length of LLMs. To address these challenges, we propose KnowledgeMind, an innovative LLM multi-agent system based on Monte Carlo Tree Search and a knowledge base reward mechanism for standardized service-by-service reasoning. Compared to State-Of-The-Art(SOTA) LLM for RCA methods, our service-by-service exploration approach significantly reduces the burden on the maximum context window length, requiring only one-tenth of its size. Additionally, by incorporating a rule-based real-time reward mechanism, our method effectively mitigates hallucinations during the inference process. Compared to the SOTA LLM for RCA framework, our method achieves a 49.29% to 128.35% improvement in root cause localization accuracy.",
+    "published": "2025-07-30T16:03:21Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Testing"
+    ]
+  },
+  {
+    "title": "OFCnetLLM: Large Language Model for Network Monitoring and Alertness",
+    "url": "http://arxiv.org/abs/2507.22711v1",
+    "abstract": "The rapid evolution of network infrastructure is bringing new challenges and opportunities for efficient network management, optimization, and security. With very large monitoring databases becoming expensive to explore, the use of AI and Generative AI can help reduce costs of managing these datasets. This paper explores the use of Large Language Models (LLMs) to revolutionize network monitoring management by addressing the limitations of query finding and pattern analysis. We leverage LLMs to enhance anomaly detection, automate root-cause analysis, and automate incident analysis to build a well-monitored network management team using AI. Through a real-world example of developing our own OFCNetLLM, based on the open-source LLM model, we demonstrate practical applications of OFCnetLLM in the OFC conference network. Our model is developed as a multi-agent approach and is still evolving, and we present early results here.",
+    "published": "2025-07-30T14:22:42Z",
+    "ai_for_hw": true,
+    "tags": [
+      "System-level Optimization",
+      "Security"
+    ]
+  },
+  {
+    "title": "Toward Intelligent Electronic-Photonic Design Automation for Large-Scale Photonic Integrated Circuits: from Device Inverse Design to Physical Layout Generation",
+    "url": "http://arxiv.org/abs/2507.22301v1",
+    "abstract": "Photonic Integrated Circuits (PICs) offer tremendous advantages in bandwidth, parallelism, and energy efficiency, making them essential for emerging applications in artificial intelligence (AI), high-performance computing (HPC), sensing, and communications. However, the design of modern PICs, which now integrate hundreds to thousands of components, remains largely manual, resulting in inefficiency, poor scalability, and susceptibility to errors. To address these challenges, we propose PoLaRIS, a comprehensive Intelligent Electronic-Photonic Design Automation (EPDA) framework that spans both device-level synthesis and system-level physical layout. PoLaRIS combines a robust, fabrication-aware inverse design engine with a routing-informed placement and curvy-aware detailed router, enabling the automated generation of design rule violation (DRV)-free and performance-optimized layouts. By unifying physics-driven optimization with machine learning and domain-specific algorithms, PoLaRIS significantly accelerates PIC development, lowers design barriers, and lays the groundwork for scalable photonic system design automation.",
+    "published": "2025-07-30T00:24:17Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Synthesis",
+      "P&R",
+      "System-level Optimization"
+    ]
+  },
+  {
+    "title": "Edge Agentic AI Framework for Autonomous Network Optimisation in O-RAN",
+    "url": "http://arxiv.org/abs/2507.21696v2",
+    "abstract": "The deployment of AI agents within legacy Radio Access Network (RAN) infrastructure poses significant safety and reliability challenges for future 6G networks. This paper presents a novel Edge AI framework for autonomous network optimisation in Open RAN environments, addressing these challenges through three core innovations: (1) a persona-based multi-tools architecture enabling distributed, context-aware decision-making; (2) proactive anomaly detection agent powered by traffic predictive tool; and (3) a safety, aligned reward mechanism that balances performance with operational stability. Integrated into the RAN Intelligent Controller (RIC), our framework leverages multimodal data fusion, including network KPIs, a traffic prediction model, and external information sources, to anticipate and respond to dynamic network conditions. Extensive evaluation using realistic 5G scenarios demonstrates that the edge framework achieves zero network outages under high-stress conditions, compared to 8.4% for traditional fixed-power networks and 3.3% for large language model (LLM) agent-based approaches, while maintaining near real-time responsiveness and consistent QoS. These results establish that, when equipped with the right tools and contextual awareness, AI agents can be safely and effectively deployed in critical network infrastructure, laying the framework for intelligent and autonomous 5G and beyond network operations.",
+    "published": "2025-07-29T11:20:03Z",
+    "ai_for_hw": true,
+    "tags": [
+      "System-level Optimization"
+    ]
+  },
+  {
+    "title": "A Multi-Agent Generative AI Framework for IC Module-Level Verification Automation",
+    "url": "http://arxiv.org/abs/2507.21694v1",
+    "abstract": "As large language models demonstrate enormous potential in the field of Electronic Design Automation (EDA), generative AI-assisted chip design is attracting widespread attention from academia and industry. Although these technologies have made preliminary progress in tasks such as code generation, their application in chip verification -- a critical bottleneck in the chip development cycle -- remains at an exploratory stage. This paper proposes an innovative Multi-Agent Verification Framework (MAVF) aimed at addressing the limitations of current single-LLM approaches in complex verification tasks. Our framework builds an automated transformation system from design specifications to testbench through the collaborative work of multiple specialized agents, including specification parsing, verification strategy generation, and code implementation. Through verification experiments on multiple chip modules of varying complexity, results show that MAVF significantly outperforms traditional manual methods and single-dialogue generative AI approaches in verification document parsing and generation, as well as automated testbench generation. This research opens new directions for exploring generative AI applications in verification automation, potentially providing effective approaches to solving the most challenging bottleneck issues in chip design.",
+    "published": "2025-07-29T11:17:47Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Verification"
+    ]
+  },
+  {
+    "title": "Large Language Models for Wireless Communications: From Adaptation to Autonomy",
+    "url": "http://arxiv.org/abs/2507.21524v1",
+    "abstract": "The emergence of large language models (LLMs) has revolutionized artificial intelligence, offering unprecedented capabilities in reasoning, generalization, and zero-shot learning. These strengths open new frontiers in wireless communications, where increasing complexity and dynamics demand intelligent and adaptive solutions. This article explores the role of LLMs in transforming wireless systems across three key directions: adapting pretrained LLMs for core communication tasks, developing wireless-specific foundation models to balance versatility and efficiency, and enabling agentic LLMs with autonomous reasoning and coordination capabilities. We highlight recent advances, practical case studies, and the unique benefits of LLM-based approaches over traditional methods. Finally, we outline open challenges and research opportunities, including multimodal fusion, collaboration with lightweight models, and self-improving capabilities, charting a path toward intelligent, adaptive, and autonomous wireless networks of the future.",
+    "published": "2025-07-29T06:21:10Z",
+    "ai_for_hw": true,
+    "tags": [
+      "System-level Optimization"
+    ]
+  },
+  {
+    "title": "HLSDebugger: Identification and Correction of Logic Bugs in HLS Code with LLM Solutions",
+    "url": "http://arxiv.org/abs/2507.21485v1",
+    "abstract": "High-level synthesis (HLS) accelerates hardware design by enabling the automatic translation of high-level descriptions into efficient hardware implementations. However, debugging HLS code is a challenging and labor-intensive task, especially for novice circuit designers or software engineers without sufficient hardware domain knowledge. The recent emergence of Large Language Models (LLMs) is promising in automating the HLS debugging process. Despite the great potential, three key challenges persist when applying LLMs to HLS logic debugging: 1) High-quality circuit data for training LLMs is scarce, posing a significant challenge. 2) Debugging logic bugs in hardware is inherently more complex than identifying software bugs with existing golden test cases. 3) The absence of reliable test cases requires multi-tasking solutions, performing both bug identification and correction. complicates the multi-tasking required for effective HLS debugging. In this work, we propose a customized solution named HLSDebugger to address the challenges. HLSDebugger first generates and releases a large labeled dataset with 300K data samples, targeting HLS logic bugs. The HLSDebugger model adopts an encoder-decoder structure, performing bug location identification, bug type prediction, and bug correction with the same model. HLSDebugger significantly outperforms advanced LLMs like GPT-4 in bug identification and by more than 3x in bug correction. It makes a substantial advancement in the exploration of automated debugging of HLS code.",
+    "published": "2025-07-29T03:59:19Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Synthesis",
+      "Verification"
+    ]
+  },
+  {
+    "title": "LLM4VV: Evaluating Cutting-Edge LLMs for Generation and Evaluation of Directive-Based Parallel Programming Model Compiler Tests",
+    "url": "http://arxiv.org/abs/2507.21447v1",
+    "abstract": "The usage of Large Language Models (LLMs) for software and test development has continued to increase since LLMs were first introduced, but only recently have the expectations of LLMs become more realistic. Verifying the correctness of code generated by LLMs is key to improving their usefulness, but there have been no comprehensive and fully autonomous solutions developed yet. Hallucinations are a major concern when LLMs are applied blindly to problems without taking the time and effort to verify their outputs, and an inability to explain the logical reasoning of LLMs leads to issues with trusting their results. To address these challenges while also aiming to effectively apply LLMs, this paper proposes a dual-LLM system (i.e. a generative LLM and a discriminative LLM) and experiments with the usage of LLMs for the generation of a large volume of compiler tests. We experimented with a number of LLMs possessing varying parameter counts and presented results using ten carefully-chosen metrics that we describe in detail in our narrative. Through our findings, it is evident that LLMs possess the promising potential to generate quality compiler tests and verify them automatically.",
+    "published": "2025-07-29T02:34:28Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Code Generation",
+      "Verification"
+    ]
+  },
+  {
+    "title": "Automated HEMT Model Construction from Datasheets via Multi-Modal Intelligence and Prior-Knowledge-Free Optimization",
+    "url": "http://arxiv.org/abs/2507.21430v1",
+    "abstract": "Parameter extraction for industry-standard device models like ASM-HEMT is crucial in circuit design workflows. However, many manufacturers do not provide such models, leaving users to build them using only datasheets. Unfortunately, datasheets lack sufficient information for standard step-by-step extraction. Moreover, manual data extraction from datasheets is highly time-consuming, and the absence of a fully automated method forces engineers to perform tedious manual work. To address this challenge, this paper introduces a novel, end-to-end framework that fully automates the generation of simulation-ready ASM-HEMT SPICE models directly from PDF datasheets. Our framework is founded on two core innovations: 1) a multi-modal AI pipeline that integrates computer vision with a large language model (LLM) to robustly parse heterogeneous datasheet layouts and digitize characteristic curves, and 2) a novel Iterative-Focusing Tree-structured Parzen Estimator (IF-TPE) optimization algorithm is specifically designed for device parameter extraction under the high-dimensional, sparse-data condition by adaptively refining the parameter search space. Experimental validation on a diverse set of 17 commercial HEMT devices from 10 manufacturers confirms the framework's accuracy and robustness. The generated models demonstrate excellent agreement with published DC and RF characteristics. As the first fully automated workflow of its kind, our proposed solution offers a transformative approach to device modeling, poised to significantly accelerate the circuit design cycle by eliminating the need for manual parameter extraction.",
+    "published": "2025-07-29T01:50:29Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Analog Design"
+    ]
+  },
+  {
+    "title": "LLMs-guided adaptive compensator: Bringing Adaptivity to Automatic Control Systems with Large Language Models",
+    "url": "http://arxiv.org/abs/2507.20509v1",
+    "abstract": "With rapid advances in code generation, reasoning, and problem-solving, Large Language Models (LLMs) are increasingly applied in robotics. Most existing work focuses on high-level tasks such as task decomposition. A few studies have explored the use of LLMs in feedback controller design; however, these efforts are restricted to overly simplified systems, fixed-structure gain tuning, and lack real-world validation. To further investigate LLMs in automatic control, this work targets a key subfield: adaptive control. Inspired by the framework of model reference adaptive control (MRAC), we propose an LLM-guided adaptive compensator framework that avoids designing controllers from scratch. Instead, the LLMs are prompted using the discrepancies between an unknown system and a reference system to design a compensator that aligns the response of the unknown system with that of the reference, thereby achieving adaptivity. Experiments evaluate five methods: LLM-guided adaptive compensator, LLM-guided adaptive controller, indirect adaptive control, learning-based adaptive control, and MRAC, on soft and humanoid robots in both simulated and real-world environments. Results show that the LLM-guided adaptive compensator outperforms traditional adaptive controllers and significantly reduces reasoning complexity compared to the LLM-guided adaptive controller. The Lyapunov-based analysis and reasoning-path inspection demonstrate that the LLM-guided adaptive compensator enables a more structured design process by transforming mathematical derivation into a reasoning task, while exhibiting strong generalizability, adaptability, and robustness. This study opens a new direction for applying LLMs in the field of automatic control, offering greater deployability and practicality compared to vision-language models.",
+    "published": "2025-07-28T04:12:43Z",
+    "ai_for_hw": true,
+    "tags": [
+      "System-level Optimization"
+    ]
+  },
+  {
+    "title": "Large Language Model Agent for Structural Drawing Generation Using ReAct Prompt Engineering and Retrieval Augmented Generation",
+    "url": "http://arxiv.org/abs/2507.19771v1",
+    "abstract": "Structural drawings are widely used in many fields, e.g., mechanical engineering, civil engineering, etc. In civil engineering, structural drawings serve as the main communication tool between architects, engineers, and builders to avoid conflicts, act as legal documentation, and provide a reference for future maintenance or evaluation needs. They are often organized using key elements such as title/subtitle blocks, scales, plan views, elevation view, sections, and detailed sections, which are annotated with standardized symbols and line types for interpretation by engineers and contractors. Despite advances in software capabilities, the task of generating a structural drawing remains labor-intensive and time-consuming for structural engineers. Here we introduce a novel generative AI-based method for generating structural drawings employing a large language model (LLM) agent. The method incorporates a retrieval-augmented generation (RAG) technique using externally-sourced facts to enhance the accuracy and reliability of the language model. This method is capable of understanding varied natural language descriptions, processing these to extract necessary information, and generating code to produce the desired structural drawing in AutoCAD. The approach developed, demonstrated and evaluated herein enables the efficient and direct conversion of a structural drawing's natural language description into an AutoCAD drawing, significantly reducing the workload compared to current working process associated with manual drawing production, facilitating the typical iterative process of engineers for expressing design ideas in a simplified way.",
+    "published": "2025-07-26T03:47:12Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Code Generation"
+    ]
+  },
+  {
+    "title": "\"X of Information'' Continuum: A Survey on AI-Driven Multi-dimensional Metrics for Next-Generation Networked Systems",
+    "url": "http://arxiv.org/abs/2507.19657v1",
+    "abstract": "The development of next-generation networking systems has inherently shifted from throughput-based paradigms towards intelligent, information-aware designs that emphasize the quality, relevance, and utility of transmitted information, rather than sheer data volume. While classical network metrics, such as latency and packet loss, remain significant, they are insufficient to quantify the nuanced information quality requirements of modern intelligent applications, including autonomous vehicles, digital twins, and metaverse environments. In this survey, we present the first comprehensive study of the ``X of Information'' continuum by introducing a systematic four-dimensional taxonomic framework that structures information metrics along temporal, quality/utility, reliability/robustness, and network/communication dimensions. We uncover the increasing interdependencies among these dimensions, whereby temporal freshness triggers quality evaluation, which in turn helps with reliability appraisal, ultimately enabling effective network delivery. Our analysis reveals that artificial intelligence technologies, such as deep reinforcement learning, multi-agent systems, and neural optimization models, enable adaptive, context-aware optimization of competing information quality objectives. In our extensive study of six critical application domains, covering autonomous transportation, industrial IoT, healthcare digital twins, UAV communications, LLM ecosystems, and metaverse settings, we illustrate the revolutionary promise of multi-dimensional information metrics for meeting diverse operational needs. Our survey identifies prominent implementation challenges, including ...",
+    "published": "2025-07-25T20:03:38Z",
+    "ai_for_hw": true,
+    "tags": [
+      "System-level Optimization"
+    ]
+  },
+  {
+    "title": "Efficient and Scalable Agentic AI with Heterogeneous Systems",
+    "url": "http://arxiv.org/abs/2507.19635v1",
+    "abstract": "AI agents are emerging as a dominant workload in a wide range of applications, promising to be the vehicle that delivers the promised benefits of AI to enterprises and consumers. Unlike conventional software or static inference, agentic workloads are dynamic and structurally complex. Often these agents are directed graphs of compute and IO operations that span multi-modal data input and conversion), data processing and context gathering (e.g vector DB lookups), multiple LLM inferences, tool calls, etc. To scale AI agent usage, we need efficient and scalable deployment and agent-serving infrastructure.   To tackle this challenge, in this paper, we present a system design for dynamic orchestration of AI agent workloads on heterogeneous compute infrastructure spanning CPUs and accelerators, both from different vendors and across different performance tiers within a single vendor. The system delivers several building blocks: a framework for planning and optimizing agentic AI execution graphs using cost models that account for compute, memory, and bandwidth constraints of different HW; a MLIR based representation and compilation system that can decompose AI agent execution graphs into granular operators and generate code for different HW options; and a dynamic orchestration system that can place the granular components across a heterogeneous compute infrastructure and stitch them together while meeting an end-to-end SLA. Our design performs a systems level TCO optimization and preliminary results show that leveraging a heterogeneous infrastructure can deliver significant TCO benefits. A preliminary surprising finding is that for some workloads a heterogeneous combination of older generation GPUs with newer accelerators can deliver similar TCO as the latest generation homogenous GPU infrastructure design, potentially extending the life of deployed infrastructure.",
+    "published": "2025-07-25T19:02:42Z",
+    "ai_for_hw": true,
+    "tags": [
+      "System-level Optimization",
+      "Code Generation"
+    ]
+  },
+  {
+    "title": "MCP4EDA: LLM-Powered Model Context Protocol RTL-to-GDSII Automation with Backend Aware Synthesis Optimization",
+    "url": "http://arxiv.org/abs/2507.19570v1",
+    "abstract": "This paper presents MCP4EDA, the first Model Context Protocol server that enables Large Language Models (LLMs) to control and optimize the complete open-source RTL-to-GDSII design flow through natural language interaction. The system integrates Yosys synthesis, Icarus Verilog simulation, OpenLane place-and-route, GTKWave analysis, and KLayout visualization into a unified LLM-accessible interface, enabling designers to execute complex multi-tool EDA workflows conversationally via AI assistants such as Claude Desktop and Cursor IDE. The principal contribution is a backend-aware synthesis optimization methodology wherein LLMs analyze actual post-layout timing, power, and area metrics from OpenLane results to iteratively refine synthesis TCL scripts, establishing a closed-loop optimization system that bridges the traditional gap between synthesis estimates and physical implementation reality. In contrast to conventional flows that rely on wire-load models, this methodology leverages real backend performance data to guide synthesis parameter tuning, optimization sequence selection, and constraint refinement, with the LLM functioning as an intelligent design space exploration agent. Experimental evaluation on representative digital designs demonstrates 15-30% improvements in timing closure and 10-20% area reduction compared to default synthesis flows, establishing MCP4EDA as the first practical LLM-controlled end-to-end open-source EDA automation system. The code and demo are avaiable at: http://www.agent4eda.com/",
+    "published": "2025-07-25T17:16:26Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Synthesis",
+      "P&R",
+      "System-level Optimization"
+    ]
+  },
+  {
+    "title": "Mut4All: Fuzzing Compilers via LLM-Synthesized Mutators Learned from Bug Reports",
+    "url": "http://arxiv.org/abs/2507.19275v1",
+    "abstract": "Mutation-based fuzzing is effective for uncovering compiler bugs, but designing high-quality mutators for modern languages with complex constructs (e.g., templates, macros) remains challenging. Existing methods rely heavily on manual design or human-in-the-loop correction, limiting scalability and cross-language generalizability.   We present Mut4All, a fully automated, language-agnostic framework that synthesizes mutators using Large Language Models (LLMs) and compiler-specific knowledge from bug reports. It consists of three agents: (1) a mutator invention agent that identifies mutation targets and generates mutator metadata using compiler-related insights; (2) a mutator implementation synthesis agent, fine-tuned to produce initial implementations; and (3) a mutator refinement agent that verifies and corrects the mutators via unit-test feedback.   Mut4All processes 1000 bug reports (500 Rust, 500 C++), yielding 319 Rust and 403 C++ mutators at ~$0.08 each via GPT-4o. Our customized fuzzer, using these mutators, finds 62 bugs in Rust compilers (38 new, 7 fixed) and 34 bugs in C++ compilers (16 new, 1 fixed). Mut4All outperforms existing methods in both unique crash detection and coverage, ranking first on Rust and second on C++.",
+    "published": "2025-07-25T13:54:42Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Testing"
+    ]
+  },
+  {
+    "title": "iPLAN: Redefining Indoor Wireless Network Planning Through Large Language Models",
+    "url": "http://arxiv.org/abs/2507.19096v1",
+    "abstract": "Efficient indoor wireless network (IWN) planning is crucial for providing high-quality 5G in-building services. However, traditional meta-heuristic and artificial intelligence-based planning methods face significant challenges due to the intricate interplay between indoor environments (IEs) and IWN demands. In this article, we present an indoor wireless network Planning with large LANguage models (iPLAN) framework, which integrates multi-modal IE representations into large language model (LLM)-powered optimizers to improve IWN planning. First, we instate the role of LLMs as optimizers, outlining embedding techniques for IEs, and introducing two core applications of iPLAN: (i) IWN planning based on pre-existing IEs and (ii) joint design of IWN and IE for new wireless-friendly buildings. For the former, we embed essential information into LLM optimizers by leveraging indoor descriptions, domain-specific knowledge, and performance-driven perception. For the latter, we conceptualize a multi-agent strategy, where intelligent agents collaboratively address key planning sub-tasks in a step-by-step manner while ensuring optimal trade-offs between the agents. The simulation results demonstrate that iPLAN achieves superior performance in IWN planning tasks and optimizes building wireless performance through the joint design of IEs and IWNs, exemplifying a paradigm shift in IWN planning.",
+    "published": "2025-07-25T09:27:08Z",
+    "ai_for_hw": true,
+    "tags": [
+      "System-level Optimization"
+    ]
+  },
+  {
+    "title": "Large Language Model-Based Task Offloading and Resource Allocation for Digital Twin Edge Computing Networks",
+    "url": "http://arxiv.org/abs/2507.19050v1",
+    "abstract": "In this paper, we propose a general digital twin edge computing network comprising multiple vehicles and a server. Each vehicle generates multiple computing tasks within a time slot, leading to queuing challenges when offloading tasks to the server. The study investigates task offloading strategies, queue stability, and resource allocation. Lyapunov optimization is employed to transform long-term constraints into tractable short-term decisions. To solve the resulting problem, an in-context learning approach based on large language model (LLM) is adopted, replacing the conventional multi-agent reinforcement learning (MARL) framework. Experimental results demonstrate that the LLM-based method achieves comparable or even superior performance to MARL.",
+    "published": "2025-07-25T08:11:09Z",
+    "ai_for_hw": true,
+    "tags": [
+      "System-level Optimization"
+    ]
+  },
+  {
+    "title": "Large Language Model Powered Automated Modeling and Optimization of Active Distribution Network Dispatch Problems",
+    "url": "http://arxiv.org/abs/2507.21162v1",
+    "abstract": "The increasing penetration of distributed energy resources into active distribution networks (ADNs) has made effective ADN dispatch imperative. However, the numerous newly-integrated ADN operators, such as distribution system aggregators, virtual power plant managers, and end prosumers, often lack specialized expertise in power system operation, modeling, optimization, and programming. This knowledge gap renders reliance on human experts both costly and time-intensive. To address this challenge and enable intelligent, flexible ADN dispatch, this paper proposes a large language model (LLM) powered automated modeling and optimization approach. First, the ADN dispatch problems are decomposed into sequential stages, and a multi-LLM coordination architecture is designed. This framework comprises an Information Extractor, a Problem Formulator, and a Code Programmer, tasked with information retrieval, optimization problem formulation, and code implementation, respectively. Afterwards, tailored refinement techniques are developed for each LLM agent, greatly improving the accuracy and reliability of generated content. The proposed approach features a user-centric interface that enables ADN operators to derive dispatch strategies via simple natural language queries, eliminating technical barriers and increasing efficiency. Comprehensive comparisons and end-to-end demonstrations on various test cases validate the effectiveness of the proposed architecture and methods.",
+    "published": "2025-07-25T07:46:25Z",
+    "ai_for_hw": true,
+    "tags": [
+      "System-level Optimization",
+      "Code Generation"
+    ]
+  },
+  {
+    "title": "GENIAL: Generative Design Space Exploration via Network Inversion for Low Power Algorithmic Logic Units",
+    "url": "http://arxiv.org/abs/2507.18989v1",
+    "abstract": "As AI workloads proliferate, optimizing arithmetic units is becoming increasingly important to reduce the footprint of digital systems. Conventional design flows, which often rely on manual or heuristics-based optimization, are limited in their ability to thoroughly explore the vast design space. In this paper, we introduce GENIAL, a machine learning-based framework for the automatic generation and optimization of arithmetic units, more specifically multipliers.   At the core of GENIAL is a Transformer-based surrogate model trained in two stages, involving self-supervised pretraining followed by supervised finetuning, to robustly forecast key hardware metrics such as power and area from abstracted design representations. By inverting the surrogate model, GENIAL efficiently searches for new operand encodings that directly minimize power consumption in arithmetic units for specific input data distributions. Extensive experiments on large datasets demonstrate that GENIAL is consistently more sample efficient than other methods, and converges faster towards optimized designs. This enables to deploy a high-effort logic synthesis optimization flow in the loop, improving the accuracy of the surrogate model. Notably, GENIAL automatically discovers encodings that achieve up to 18% switching activity savings within multipliers on representative AI workloads compared with the conventional two's complement. We also demonstrate the versatility of our approach by achieving significant improvements on Finite State Machines, highlighting GENIAL's applicability for a wide spectrum of logic functions. Together, these advances mark a significant step toward automated Quality-of-Results-optimized combinational circuit generation for digital systems.",
+    "published": "2025-07-25T06:34:59Z",
+    "ai_for_hw": true,
+    "tags": [
+      "System-level Optimization",
+      "Synthesis"
+    ]
+  },
+  {
+    "title": "GenAI for Automotive Software Development: From Requirements to Wheels",
+    "url": "http://arxiv.org/abs/2507.18223v1",
+    "abstract": "This paper introduces a GenAI-empowered approach to automated development of automotive software, with emphasis on autonomous and Advanced Driver Assistance Systems (ADAS) capabilities. The process starts with requirements as input, while the main generated outputs are test scenario code for simulation environment, together with implementation of desired ADAS capabilities targeting hardware platform of the vehicle connected to testbench. Moreover, we introduce additional steps for requirements consistency checking leveraging Model-Driven Engineering (MDE). In the proposed workflow, Large Language Models (LLMs) are used for model-based summarization of requirements (Ecore metamodel, XMI model instance and OCL constraint creation), test scenario generation, simulation code (Python) and target platform code generation (C++). Additionally, Retrieval Augmented Generation (RAG) is adopted to enhance test scenario generation from autonomous driving regulations-related documents. Our approach aims shorter compliance and re-engineering cycles, as well as reduced development and testing time when it comes to ADAS-related capabilities.",
+    "published": "2025-07-24T09:17:13Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Code Generation",
+      "Testing",
+      "Other"
+    ]
+  },
+  {
+    "title": "TimelyHLS: LLM-Based Timing-Aware and Architecture-Specific FPGA HLS Optimization",
+    "url": "http://arxiv.org/abs/2507.17962v1",
+    "abstract": "Achieving timing closure and design-specific optimizations in FPGA-targeted High-Level Synthesis (HLS) remains a significant challenge due to the complex interaction between architectural constraints, resource utilization, and the absence of automated support for platform-specific pragmas. In this work, we propose TimelyHLS, a novel framework integrating Large Language Models (LLMs) with Retrieval-Augmented Generation (RAG) to automatically generate and iteratively refine HLS code optimized for FPGA-specific timing and performance requirements. TimelyHLS is driven by a structured architectural knowledge base containing FPGA-specific features, synthesis directives, and pragma templates. Given a kernel, TimelyHLS generates HLS code annotated with both timing-critical and design-specific pragmas. The synthesized RTL is then evaluated using commercial toolchains, and simulation correctness is verified against reference outputs via custom testbenches. TimelyHLS iteratively incorporates synthesis logs and performance reports into the LLM engine for refinement in the presence of functional discrepancies. Experimental results across 10 FPGA architectures and diverse benchmarks show that TimelyHLS reduces the need for manual tuning by up to 70%, while achieving up to 4x latency speedup (e.g., 3.85x for Matrix Multiplication, 3.7x for Bitonic Sort) and over 50% area savings in certain cases (e.g., 57% FF reduction in Viterbi). TimelyHLS consistently achieves timing closure and functional correctness across platforms, highlighting the effectiveness of LLM-driven, architecture-aware synthesis in automating FPGA design.",
+    "published": "2025-07-23T22:08:15Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Synthesis",
+      "System-level Optimization"
+    ]
+  },
+  {
+    "title": "Rethinking LLM-Based RTL Code Optimization Via Timing Logic Metamorphosis",
+    "url": "http://arxiv.org/abs/2507.16808v1",
+    "abstract": "Register Transfer Level(RTL) code optimization is crucial for achieving high performance and low power consumption in digital circuit design. However, traditional optimization methods often rely on manual tuning and heuristics, which can be time-consuming and error-prone. Recent studies proposed to leverage Large Language Models(LLMs) to assist in RTL code optimization. LLMs can generate optimized code snippets based on natural language descriptions, potentially speeding up the optimization process. However, existing approaches have not thoroughly evaluated the effectiveness of LLM-Based code optimization methods for RTL code with complex timing logic. To address this gap, we conducted a comprehensive empirical investigation to assess the capability of LLM-Based RTL code optimization methods in handling RTL code with complex timing logic. In this study, we first propose a new benchmark for RTL optimization evaluation. It comprises four subsets, each corresponding to a specific area of RTL code optimization. Then we introduce a method based on metamorphosis to systematically evaluate the effectiveness of LLM-Based RTL code optimization methods.Our key insight is that the optimization effectiveness should remain consistent for semantically equivalent but more complex code. After intensive experiments, we revealed several key findings. (1) LLM-Based RTL optimization methods can effectively optimize logic operations and outperform existing compiler-based methods. (2) LLM-Based RTL optimization methods do not perform better than existing compiler-based methods on RTL code with complex timing logic, particularly in timing control flow optimization and clock domain optimization. This is primarily attributed to the challenges LLMs face in understanding timing logic in RTL code. Based on these findings, we provide insights for further research in leveraging LLMs for RTL code optimization.",
+    "published": "2025-07-22T17:57:02Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Code Generation",
+      "System-level Optimization"
+    ]
+  },
+  {
+    "title": "An advanced AI driven database system",
+    "url": "http://arxiv.org/abs/2507.17778v1",
+    "abstract": "Contemporary database systems, while effective, suffer severe issues related to complexity and usability, especially among individuals who lack technical expertise but are unfamiliar with query languages like Structured Query Language (SQL). This paper presents a new database system supported by Artificial Intelligence (AI), which is intended to improve the management of data using natural language processing (NLP) - based intuitive interfaces, and automatic creation of structured queries and semi-structured data formats like yet another markup language (YAML), java script object notation (JSON), and application program interface (API) documentation. The system is intended to strengthen the potential of databases through the integration of Large Language Models (LLMs) and advanced machine learning algorithms. The integration is purposed to allow the automation of fundamental tasks such as data modeling, schema creation, query comprehension, and performance optimization. We present in this paper a system that aims to alleviate the main problems with current database technologies. It is meant to reduce the need for technical skills, manual tuning for better performance, and the potential for human error. The AI database employs generative schema inference and format selection to build its schema models and execution formats.",
+    "published": "2025-07-22T16:10:45Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Other"
+    ]
+  },
+  {
+    "title": "ApproxGNN: A Pretrained GNN for Parameter Prediction in Design Space Exploration for Approximate Computing",
+    "url": "http://arxiv.org/abs/2507.16379v1",
+    "abstract": "Approximate computing offers promising energy efficiency benefits for error-tolerant applications, but discovering optimal approximations requires extensive design space exploration (DSE). Predicting the accuracy of circuits composed of approximate components without performing complete synthesis remains a challenging problem. Current machine learning approaches used to automate this task require retraining for each new circuit configuration, making them computationally expensive and time-consuming. This paper presents ApproxGNN, a construction methodology for a pre-trained graph neural network model predicting QoR and HW cost of approximate accelerators employing approximate adders from a library. This approach is applicable in DSE for assignment of approximate components to operations in accelerator. Our approach introduces novel component feature extraction based on learned embeddings rather than traditional error metrics, enabling improved transferability to unseen circuits. ApproxGNN models can be trained with a small number of approximate components, supports transfer to multiple prediction tasks, utilizes precomputed embeddings for efficiency, and significantly improves accuracy of the prediction of approximation error. On a set of image convolutional filters, our experimental results demonstrate that the proposed embeddings improve prediction accuracy (mean square error) by 50% compared to conventional methods. Furthermore, the overall prediction accuracy is 30% better than statistical machine learning approaches without fine-tuning and 54% better with fast finetuning.",
+    "published": "2025-07-22T09:24:13Z",
+    "ai_for_hw": true,
+    "tags": [
+      "System-level Optimization"
+    ]
+  },
+  {
+    "title": "SVAgent: AI Agent for Hardware Security Verification Assertion",
+    "url": "http://arxiv.org/abs/2507.16203v1",
+    "abstract": "Verification using SystemVerilog assertions (SVA) is one of the most popular methods for detecting circuit design vulnerabilities. However, with the globalization of integrated circuit design and the continuous upgrading of security requirements, the SVA development model has exposed major limitations. It is not only inefficient in development, but also unable to effectively deal with the increasing number of security vulnerabilities in modern complex integrated circuits. In response to these challenges, this paper proposes an innovative SVA automatic generation framework SVAgent. SVAgent introduces a requirement decomposition mechanism to transform the original complex requirements into a structured, gradually solvable fine-grained problem-solving chain. Experiments have shown that SVAgent can effectively suppress the influence of hallucinations and random answers, and the key evaluation indicators such as the accuracy and consistency of the SVA are significantly better than existing frameworks. More importantly, we successfully integrated SVAgent into the most mainstream integrated circuit vulnerability assessment framework and verified its practicality and reliability in a real engineering design environment.",
+    "published": "2025-07-22T03:36:06Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Security",
+      "Verification"
+    ]
+  },
+  {
+    "title": "RealBench: Benchmarking Verilog Generation Models with Real-World IP Designs",
+    "url": "http://arxiv.org/abs/2507.16200v1",
+    "abstract": "The automatic generation of Verilog code using Large Language Models (LLMs) has garnered significant interest in hardware design automation. However, existing benchmarks for evaluating LLMs in Verilog generation fall short in replicating real-world design workflows due to their designs' simplicity, inadequate design specifications, and less rigorous verification environments. To address these limitations, we present RealBench, the first benchmark aiming at real-world IP-level Verilog generation tasks. RealBench features complex, structured, real-world open-source IP designs, multi-modal and formatted design specifications, and rigorous verification environments, including 100% line coverage testbenches and a formal checker. It supports both module-level and system-level tasks, enabling comprehensive assessments of LLM capabilities. Evaluations on various LLMs and agents reveal that even one of the best-performing LLMs, o1-preview, achieves only a 13.3% pass@1 on module-level tasks and 0% on system-level tasks, highlighting the need for stronger Verilog generation models in the future. The benchmark is open-sourced at https://github.com/IPRC-DIP/RealBench.",
+    "published": "2025-07-22T03:29:23Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Code Generation",
+      "Verification"
+    ]
+  },
+  {
+    "title": "VeriRAG: A Retrieval-Augmented Framework for Automated RTL Testability Repair",
+    "url": "http://arxiv.org/abs/2507.15664v1",
+    "abstract": "Large language models (LLMs) have demonstrated immense potential in computer-aided design (CAD), particularly for automated debugging and verification within electronic design automation (EDA) tools. However, Design for Testability (DFT) remains a relatively underexplored area. This paper presents VeriRAG, the first LLM-assisted DFT-EDA framework. VeriRAG leverages a Retrieval-Augmented Generation (RAG) approach to enable LLM to revise code to ensure DFT compliance. VeriRAG integrates (1) an autoencoder-based similarity measurement model for precise retrieval of reference RTL designs for the LLM, and (2) an iterative code revision pipeline that allows the LLM to ensure DFT compliance while maintaining synthesizability. To support VeriRAG, we introduce VeriDFT, a Verilog-based DFT dataset curated for DFT-aware RTL repairs. VeriRAG retrieves structurally similar RTL designs from VeriDFT, each paired with a rigorously validated correction, as references for code repair. With VeriRAG and VeriDFT, we achieve fully automated DFT correction -- resulting in a 7.72-fold improvement in successful repair rate compared to the zero-shot baseline (Fig. 5 in Section V). Ablation studies further confirm the contribution of each component of the VeriRAG framework. We open-source our data, models, and scripts at https://github.com/yuyangdu01/LLM4DFT.",
+    "published": "2025-07-21T14:25:52Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Testing",
+      "Verification"
+    ]
+  },
+  {
+    "title": "SimdBench: Benchmarking Large Language Models for SIMD-Intrinsic Code Generation",
+    "url": "http://arxiv.org/abs/2507.15224v1",
+    "abstract": "SIMD (Single Instruction Multiple Data) instructions and their compiler intrinsics are widely supported by modern processors to accelerate performance-critical tasks. SIMD intrinsic programming, a trade-off between coding productivity and high performance, is widely used in the development of mainstream performance-critical libraries and daily computing tasks. Large Language Models (LLMs), which have demonstrated strong and comprehensive capabilities in code generation, show promise in assisting programmers with the challenges of SIMD intrinsic programming. However, existing code-generation benchmarks focus on only scalar code, and it is unclear how LLMs perform in generating vectorized code using SIMD intrinsics. To fill this gap, we propose SimdBench, the first code benchmark specifically designed for SIMD-intrinsic code generation, comprising 136 carefully crafted tasks and targeting five representative SIMD intrinsics: SSE (x86 Streaming SIMD Extension), AVX (x86 Advanced Vector Extension), Neon (ARM Advanced SIMD Extension), SVE (ARM Scalable Vector Extension), and RVV (RISC-V Vector Extension). We conduct a systematic evaluation (measuring both correctness and performance) of 18 representative LLMs on SimdBench, resulting in a series of novel and insightful findings. Our evaluation results demonstrate that LLMs exhibit a universal decrease in pass@k during SIMD-intrinsic code generation compared to scalar-code generation. Our in-depth analysis highlights promising directions for the further advancement of LLMs in the challenging domain of SIMD-intrinsic code generation. SimdBench is fully open source at https://anonymous.4open.science/r/SimdBench-1B3F/ to benefit the broader research community.",
+    "published": "2025-07-21T03:55:41Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Code Generation"
+    ]
+  },
+  {
+    "title": "AnalogFed: Federated Discovery of Analog Circuit Topologies with Generative AI",
+    "url": "http://arxiv.org/abs/2507.15104v1",
+    "abstract": "Recent breakthroughs in AI/ML offer exciting opportunities to revolutionize analog design automation through data-driven approaches. In particular, researchers are increasingly fascinated by harnessing the power of generative AI to automate the discovery of novel analog circuit topologies. Unlocking the full potential of generative AI in these data-driven discoveries requires access to large and diverse datasets.Yet, there is a significant barrier in the analog domain--Analog circuit design is inherently proprietary, involving not only confidential circuit structures but also the underlying commercial semiconductor processes. As a result, current generative AI research is largely confined to individual researchers who construct small, narrowly focused private datasets. This fragmentation severely limits collaborative innovation and impedes progress across the research community. To address these challenges, we propose AnalogFed. AnalogFed enables collaborative topology discovery across decentralized clients (e.g., individual researchers or institutions) without requiring the sharing of raw private data. To make this vision practical, we introduce a suite of techniques tailored to the unique challenges of applying FedL in analog design--from generative model development and data heterogeneity handling to privacy-preserving strategies that ensure both flexibility and security for circuit designers and semiconductor manufacturers. Extensive experiments across varying client counts and dataset sizes demonstrate that AnalogFed achieves performance comparable to centralized baselines--while maintaining strict data privacy. Specifically, the generative AI model within AnalogFed achieves state-of-the-art efficiency and scalability in the design of analog circuit topologies.",
+    "published": "2025-07-20T19:57:07Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Analog Design"
+    ]
+  },
+  {
+    "title": "VeriOpt: PPA-Aware High-Quality Verilog Generation via Multi-Role LLMs",
+    "url": "http://arxiv.org/abs/2507.14776v1",
+    "abstract": "The rapid adoption of large language models(LLMs) in hardware design has primarily focused on generating functionally correct Verilog code, overlooking critical Power Performance-Area(PPA) metrics essential for industrial-grade designs. To bridge this gap, we propose VeriOpt, a novel framework that leverages role-based prompting and PPA-aware optimization to enable LLMs to produce high-quality, synthesizable Verilog. VeriOpt structures LLM interactions into specialized roles (e.g., Planner, Programmer, Reviewer, Evaluator) to emulate human design workflows, while integrating PPA constraints directly into the prompting pipeline. By combining multi-modal feedback (e.g., synthesis reports, timing diagrams) with PPA aware prompting, VeriOpt achieves PPA-efficient code generation without sacrificing functional correctness. Experimental results demonstrate up to 88% reduction in power, 76% reduction in area and 73% improvement in timing closure compared to baseline LLM-generated RTL, validated using industry standard EDA tools. At the same time achieves 86% success rate in functionality evaluation. Our work advances the state-of-the-art AI-driven hardware design by addressing the critical gap between correctness and quality, paving the way for reliable LLM adoption in production workflows.",
+    "published": "2025-07-20T00:28:55Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Code Generation",
+      "System-level Optimization"
+    ]
+  },
+  {
+    "title": "NPUEval: Optimizing NPU Kernels with LLMs and Open Source Compilers",
+    "url": "http://arxiv.org/abs/2507.14403v1",
+    "abstract": "Neural processing units (NPUs) are gaining prominence in power-sensitive devices like client devices, with AI PCs being defined by their inclusion of these specialized processors. Running AI workloads efficiently on these devices requires libraries of optimized kernels. Creating efficient kernels demands expertise in domain-specific C++ with vector intrinsics and in-depth knowledge of the target architecture. Unlike GPU programming, which has had years to mature, NPU programming is new, with smaller and more fragmented developer communities across hardware platforms. This fragmentation poses a challenge when utilizing LLMs to assist in writing NPU kernels, as domain-specific optimized code examples are underrepresented in LLM pre-training data.   In this paper we introduce NPUEval -- a benchmark for writing and evaluating NPU kernels, consisting of 102 common operators for machine learning workloads. We evaluate LLM generated code on actual hardware based on both functional correctness and vectorization efficiency using open source compiler tools targeting the AMD NPU. We evaluate a range of state-of-the-art LLMs with a mix of proprietary and open-weight models. Latest reasoning models like DeepSeek R1, show promising results achieving out-of-the-box 50%+ vectorization on select kernels. However, the average score across the entire dataset remains roughly 10% even with compiler feedback and vectorized kernel examples -- showing that this is a challenging dataset even for frontier models. The dataset and evaluation code will be released with a permissive open source license, providing an essential benchmark for advancing research in code generation and NPU kernel optimization.",
+    "published": "2025-07-18T23:21:52Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Code Generation",
+      "System-level Optimization"
+    ]
+  },
+  {
+    "title": "NetIntent: Leveraging Large Language Models for End-to-End Intent-Based SDN Automation",
+    "url": "http://arxiv.org/abs/2507.14398v1",
+    "abstract": "Intent-Based Networking (IBN) often leverages the programmability of Software-Defined Networking (SDN) to simplify network management. However, significant challenges remain in automating the entire pipeline, from user-specified high-level intents to device-specific low-level configurations. Existing solutions often rely on rigid, rule-based translators and fixed APIs, limiting extensibility and adaptability. By contrast, recent advances in large language models (LLMs) offer a promising pathway that leverages natural language understanding and flexible reasoning. However, it is unclear to what extent LLMs can perform IBN tasks. To address this, we introduce IBNBench, a first-of-its-kind benchmarking suite comprising four novel datasets: Intent2Flow-ODL, Intent2Flow-ONOS, FlowConflict-ODL, and FlowConflict-ONOS. These datasets are specifically designed for evaluating LLMs performance in intent translation and conflict detection tasks within the industry-grade SDN controllers ODL and ONOS. Our results provide the first comprehensive comparison of 33 open-source LLMs on IBNBench and related datasets, revealing a wide range of performance outcomes. However, while these results demonstrate the potential of LLMs for isolated IBN tasks, integrating LLMs into a fully autonomous IBN pipeline remains unexplored. Thus, our second contribution is NetIntent, a unified and adaptable framework that leverages LLMs to automate the full IBN lifecycle, including translation, activation, and assurance within SDN systems. NetIntent orchestrates both LLM and non-LLM agents, supporting dynamic re-prompting and contextual feedback to robustly execute user-defined intents with minimal human intervention. Our implementation of NetIntent across both ODL and ONOS SDN controllers achieves a consistent and adaptive end-to-end IBN realization.",
+    "published": "2025-07-18T23:01:40Z",
+    "ai_for_hw": true,
+    "tags": [
+      "System-level Optimization",
+      "Other"
+    ]
+  },
+  {
     "title": "CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning",
     "url": "http://arxiv.org/abs/2507.14111v2",
     "abstract": "The exponential growth in demand for GPU computing resources, driven by the rapid advancement of Large Language Models, has created an urgent need for automated CUDA optimization strategies. While recent advances in LLMs show promise for code generation, current SOTA models (e.g. R1, o1) achieve low success rates in improving CUDA speed. In this paper, we introduce CUDA-L1, an automated reinforcement learning framework for CUDA optimization.   CUDA-L1 achieves performance improvements on the CUDA optimization task: trained on NVIDIA A100, it delivers an average speedup of x17.7 across all 250 CUDA kernels of KernelBench, with peak speedups reaching x449. Furthermore, the model also demonstrates excellent portability across GPU architectures, achieving average speedups of x17.8 on H100, x19.0 on RTX 3090, x16.5 on L40, x14.7 on H800, and x13.9 on H20 despite being optimized specifically for A100. Beyond these benchmark results, CUDA-L1 demonstrates several remarkable properties: 1) Discovers a variety of CUDA optimization techniques and learns to combine them strategically to achieve optimal performance; 2) Uncovers fundamental principles of CUDA optimization; 3) Identifies non-obvious performance bottlenecks and rejects seemingly beneficial optimizations that harm performance.   The capabilities of CUDA-L1 demonstrate that reinforcement learning can transform an initially poor-performing LLM into an effective CUDA optimizer through speedup-based reward signals alone, without human expertise or domain knowledge. More importantly, the trained RL model extend the acquired reasoning abilities to new kernels. This paradigm opens possibilities for automated optimization of CUDA operations, and holds promise to substantially promote GPU efficiency and alleviate the rising pressure on GPU computing resources.",
@@ -11,10 +382,50 @@
     "highlight": true
   },
   {
+    "title": "CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2507.14111v4",
+    "abstract": "The exponential growth in demand for GPU computing resources has created an urgent need for automated CUDA optimization strategies. While recent advances in LLMs show promise for code generation, current SOTA models achieve low success rates in improving CUDA speed. In this paper, we introduce CUDA-L1, an automated reinforcement learning framework for CUDA optimization that employs a novel contrastive RL algorithm.   CUDA-L1 achieves significant performance improvements on the CUDA optimization task: trained on NVIDIA A100, it delivers an average speedup of x3.12 with a median speedup of x1.42 across all 250 CUDA kernels of KernelBench, with peak speedups reaching x120. Furthermore, the model also demonstrates portability across GPU architectures, achieving average speedups of x3.12 on L40, x2.50 on RTX 3090, x2.39 on H100, and x2.37 on H20 despite being optimized specifically for A100.   The capabilities of CUDA-L1 demonstrate that, RL can transform an initially poor-performing LLM into an effective CUDA optimizer through speedup-based reward signals alone, without human expertise or domain knowledge. This paradigm opens possibilities for automated optimization of CUDA operations, and holds promise to substantially promote GPU efficiency and alleviate the rising pressure on GPU computing resources. We also identify important challenges posed by training RL models for tasks like CUDA development, where RL often learns to exploit loopholes in reward functions rather than solve the intended optimization problems. By identifying these failure modes and analyzing their root causes, we develop practical methods for creating more robust training procedures that prevent reward hacking.",
+    "published": "2025-07-18T17:43:56Z",
+    "ai_for_hw": true,
+    "tags": [
+      "System-level Optimization"
+    ]
+  },
+  {
+    "title": "CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2507.14111v3",
+    "abstract": "The exponential growth in demand for GPU computing resources, driven by the rapid advancement of Large Language Models, has created an urgent need for automated CUDA optimization strategies. While recent advances in LLMs show promise for code generation, current SOTA models (e.g. R1, o1) achieve low success rates in improving CUDA speed. In this paper, we introduce CUDA-L1, an automated reinforcement learning framework for CUDA optimization.   CUDA-L1 achieves performance improvements on the CUDA optimization task: trained on NVIDIA A100, it delivers an average speedup of x17.7 across all 250 CUDA kernels of KernelBench, with peak speedups reaching x449. Furthermore, the model also demonstrates excellent portability across GPU architectures, achieving average speedups of x17.8 on H100, x19.0 on RTX 3090, x16.5 on L40, x14.7 on H800, and x13.9 on H20 despite being optimized specifically for A100. Beyond these benchmark results, CUDA-L1 demonstrates several remarkable properties: 1) Discovers a variety of CUDA optimization techniques and learns to combine them strategically to achieve optimal performance; 2) Uncovers fundamental principles of CUDA optimization; 3) Identifies non-obvious performance bottlenecks and rejects seemingly beneficial optimizations that harm performance.   The capabilities of CUDA-L1 demonstrate that reinforcement learning can transform an initially poor-performing LLM into an effective CUDA optimizer through speedup-based reward signals alone, without human expertise or domain knowledge. More importantly, the trained RL model extend the acquired reasoning abilities to new kernels. This paradigm opens possibilities for automated optimization of CUDA operations, and holds promise to substantially promote GPU efficiency and alleviate the rising pressure on GPU computing resources.",
+    "published": "2025-07-18T17:43:56Z",
+    "ai_for_hw": true,
+    "tags": [
+      "System-level Optimization"
+    ]
+  },
+  {
+    "title": "Target Circuit Matching in Large-Scale Netlists using GNN-Based Region Prediction",
+    "url": "http://arxiv.org/abs/2507.19518v1",
+    "abstract": "Subgraph matching plays an important role in electronic design automation (EDA) and circuit verification. Traditional rule-based methods have limitations in generalizing to arbitrary target circuits. Furthermore, node-to-node matching approaches tend to be computationally inefficient, particularly for large-scale circuits. Deep learning methods have emerged as a potential solution to address these challenges, but existing models fail to efficiently capture global subgraph embeddings or rely on inefficient matching matrices, which limits their effectiveness for large circuits. In this paper, we propose an efficient graph matching approach that utilizes Graph Neural Networks (GNNs) to predict regions of high probability for containing the target circuit. Specifically, we construct various negative samples to enable GNNs to accurately learn the presence of target circuits and develop an approach to directly extracting subgraph embeddings from the entire circuit, which captures global subgraph information and addresses the inefficiency of applying GNNs to all candidate subgraphs. Extensive experiments demonstrate that our approach significantly outperforms existing methods in terms of time efficiency and target region prediction, offering a scalable and effective solution for subgraph matching in large-scale circuits.",
+    "published": "2025-07-18T11:43:19Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Verification"
+    ]
+  },
+  {
     "title": "RIDAS: A Multi-Agent Framework for AI-RAN with Representation- and Intention-Driven Agents",
     "url": "http://arxiv.org/abs/2507.13140v1",
     "abstract": "Sixth generation (6G) networks demand tight integration of artificial intelligence (AI) into radio access networks (RANs) to meet stringent quality of service (QoS) and resource efficiency requirements. Existing solutions struggle to bridge the gap between high level user intents and the low level, parameterized configurations required for optimal performance. To address this challenge, we propose RIDAS, a multi agent framework composed of representation driven agents (RDAs) and an intention driven agent (IDA). RDAs expose open interface with tunable control parameters (rank and quantization bits, enabling explicit trade) offs between distortion and transmission rate. The IDA employs a two stage planning scheme (bandwidth pre allocation and reallocation) driven by a large language model (LLM) to map user intents and system state into optimal RDA configurations. Experiments demonstrate that RIDAS supports 44.71\\% more users than WirelessAgent under equivalent QoS constraints. These results validate ability of RIDAS to capture user intent and allocate resources more efficiently in AI RAN environments.",
     "published": "2025-07-17T14:02:40Z",
+    "ai_for_hw": true,
+    "tags": [
+      "System-level Optimization"
+    ]
+  },
+  {
+    "title": "Intent-Based Network for RAN Management with Large Language Models",
+    "url": "http://arxiv.org/abs/2507.14230v1",
+    "abstract": "Advanced intelligent automation becomes an important feature to deal with the increased complexity in managing wireless networks. This paper proposes a novel automation approach of intent-based network for Radio Access Networks (RANs) management by leveraging Large Language Models (LLMs). The proposed method enhances intent translation, autonomously interpreting high-level objectives, reasoning over complex network states, and generating precise configurations of the RAN by integrating LLMs within an agentic architecture. We propose a structured prompt engineering technique and demonstrate that the network can automatically improve its energy efficiency by dynamically optimizing critical RAN parameters through a closed-loop mechanism. It showcases the potential to enable robust resource management in RAN by adapting strategies based on real-time feedback via LLM-orchestrated agentic systems.",
+    "published": "2025-07-17T04:57:55Z",
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
@@ -130,6 +541,16 @@
     "url": "http://arxiv.org/abs/2507.10259v1",
     "abstract": "The rapid growth of large language model (LLM) services imposes increasing demands on distributed GPU inference infrastructure. Most existing scheduling systems rely on the current system state to make decisions, without considering how task demand and resource availability evolve over time. This lack of temporal awareness leads to inefficient GPU utilization, high task migration overhead, and poor system responsiveness under dynamic workloads. In this work, we identify the fundamental limitations of these instantaneous-state-only scheduling approaches and propose Temporal Optimal Resource scheduling via Two-layer Architecture (TORTA). TORTA introduces a spatiotemporal scheduling framework that captures both long-term workload patterns and short-term execution constraints. It adopts a two-layer design: a macro-level scheduler leverages reinforcement learning and optimal transport to coordinate inter-region task distribution, while a micro-level allocator refines task-to-server assignments within each region to reduce latency and switching costs. Experimental results across multiple network topologies show that TORTA reduces average inference response time by up to 15\\%, improves load balance by approximately 4-5\\%, and cuts total operational cost by 10-20\\% compared to state-of-the-art baseline methods.",
     "published": "2025-07-14T13:33:30Z",
+    "ai_for_hw": true,
+    "tags": [
+      "System-level Optimization"
+    ]
+  },
+  {
+    "title": "FRSICL: LLM-Enabled In-Context Learning Flight Resource Allocation for Fresh Data Collection in UAV-Assisted Wildfire Monitoring",
+    "url": "http://arxiv.org/abs/2507.10134v1",
+    "abstract": "Unmanned Aerial Vehicles (UAVs) are vital for public safety, particularly in wildfire monitoring, where early detection minimizes environmental impact. In UAV-Assisted Wildfire Monitoring (UAWM) systems, joint optimization of sensor transmission scheduling and velocity is critical for minimizing Age of Information (AoI) from stale sensor data. Deep Reinforcement Learning (DRL) has been used for such optimization; however, its limitations such as low sampling efficiency, simulation-to-reality gaps, and complex training render it unsuitable for time-critical applications like wildfire monitoring. This paper introduces a new online Flight Resource Allocation scheme based on LLM-Enabled In-Context Learning (FRSICL) to jointly optimize the UAV's flight control and data collection schedule along the trajectory in real time, thereby asymptotically minimizing the average AoI across ground sensors. In contrast to DRL, FRSICL generates data collection schedules and controls velocity using natural language task descriptions and feedback from the environment, enabling dynamic decision-making without extensive retraining. Simulation results confirm the effectiveness of the proposed FRSICL compared to Proximal Policy Optimization (PPO) and Nearest-Neighbor baselines.",
+    "published": "2025-07-14T10:24:43Z",
     "ai_for_hw": true,
     "tags": [
       "System-level Optimization"
@@ -338,6 +759,37 @@
     ]
   },
   {
+    "title": "RCA Copilot: Transforming Network Data into Actionable Insights via Large Language Models",
+    "url": "http://arxiv.org/abs/2507.03224v1",
+    "abstract": "Ensuring the reliability and availability of complex networked services demands effective root cause analysis (RCA) across cloud environments, data centers, and on-premises networks. Traditional RCA methods, which involve manual inspection of data sources such as logs and telemetry data, are often time-consuming and challenging for on-call engineers. While statistical inference methods have been employed to estimate the causality of network events, these approaches alone are similarly challenging and suffer from a lack of interpretability, making it difficult for engineers to understand the predictions made by black-box models. In this paper, we present RCACopilot, an advanced on-call system that combines statistical tests and large language model (LLM) reasoning to automate RCA across various network environments. RCACopilot gathers and synthesizes critical runtime diagnostic information, predicts the root cause of incidents, provides a clear explanatory narrative, and offers targeted action steps for engineers to resolve the issues. By utilizing LLM reasoning techniques and retrieval, RCACopilot delivers accurate and practical support for operators.",
+    "published": "2025-07-03T23:56:38Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Other"
+    ]
+  },
+  {
+    "title": "LLM-Driven Auto Configuration for Transient IoT Device Collaboration",
+    "url": "http://arxiv.org/abs/2507.03064v1",
+    "abstract": "Today's Internet of Things (IoT) has evolved from simple sensing and actuation devices to those with embedded processing and intelligent services, enabling rich collaborations between users and their devices. However, enabling such collaboration becomes challenging when transient devices need to interact with host devices in temporarily visited environments. In such cases, fine-grained access control policies are necessary to ensure secure interactions; however, manually implementing them is often impractical for non-expert users. Moreover, at run-time, the system must automatically configure the devices and enforce such fine-grained access control rules. Additionally, the system must address the heterogeneity of devices.   In this paper, we present CollabIoT, a system that enables secure and seamless device collaboration in transient IoT environments. CollabIoT employs a Large language Model (LLM)-driven approach to convert users' high-level intents to fine-grained access control policies. To support secure and seamless device collaboration, CollabIoT adopts capability-based access control for authorization and uses lightweight proxies for policy enforcement, providing hardware-independent abstractions.   We implement a prototype of CollabIoT's policy generation and auto configuration pipelines and evaluate its efficacy on an IoT testbed and in large-scale emulated environments. We show that our LLM-based policy generation pipeline is able to generate functional and correct policies with 100% accuracy. At runtime, our evaluation shows that our system configures new devices in ~150 ms, and our proxy-based data plane incurs network overheads of up to 2 ms and access control overheads up to 0.3 ms.",
+    "published": "2025-07-03T17:12:52Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Security",
+      "System-level Optimization"
+    ]
+  },
+  {
+    "title": "On the Convergence of Large Language Model Optimizer for Black-Box Network Management",
+    "url": "http://arxiv.org/abs/2507.02689v1",
+    "abstract": "Future wireless networks are expected to incorporate diverse services that often lack general mathematical models. To address such black-box network management tasks, the large language model (LLM) optimizer framework, which leverages pretrained LLMs as optimization agents, has recently been promoted as a promising solution. This framework utilizes natural language prompts describing the given optimization problems along with past solutions generated by LLMs themselves. As a result, LLMs can obtain efficient solutions autonomously without knowing the mathematical models of the objective functions. Although the viability of the LLM optimizer (LLMO) framework has been studied in various black-box scenarios, it has so far been limited to numerical simulations. For the first time, this paper establishes a theoretical foundation for the LLMO framework. With careful investigations of LLM inference steps, we can interpret the LLMO procedure as a finite-state Markov chain, and prove the convergence of the framework. Our results are extended to a more advanced multiple LLM architecture, where the impact of multiple LLMs is rigorously verified in terms of the convergence rate. Comprehensive numerical simulations validate our theoretical results and provide a deeper understanding of the underlying mechanisms of the LLMO framework.",
+    "published": "2025-07-03T14:59:42Z",
+    "ai_for_hw": true,
+    "tags": [
+      "System-level Optimization"
+    ]
+  },
+  {
     "title": "Hey AI, Generate Me a Hardware Code! Agentic AI-based Hardware Design & Verification",
     "url": "http://arxiv.org/abs/2507.02660v1",
     "abstract": "Modern Integrated Circuits (ICs) are becoming increasingly complex, and so is their development process. Hardware design verification entails a methodical and disciplined approach to the planning, development, execution, and sign-off of functionally correct hardware designs. This tedious process requires significant effort and time to ensure a bug-free tape-out. The field of Natural Language Processing has undergone a significant transformation with the advent of Large Language Models (LLMs). These powerful models, often referred to as Generative AI (GenAI), have revolutionized how machines understand and generate human language, enabling unprecedented advancements in a wide array of applications, including hardware design verification. This paper presents an agentic AI-based approach to hardware design verification, which empowers AI agents, in collaboration with Humain-in-the-Loop (HITL) intervention, to engage in a more dynamic, iterative, and self-reflective process, ultimately performing end-to-end hardware design and verification. This methodology is evaluated on five open-source designs, achieving over 95% coverage with reduced verification time while demonstrating superior performance, adaptability, and configurability.",
@@ -380,6 +832,26 @@
     ]
   },
   {
+    "title": "Towards a Playground to Democratize Experimentation and Benchmarking of AI Agents for Network Troubleshooting",
+    "url": "http://arxiv.org/abs/2507.01997v2",
+    "abstract": "Recent research has demonstrated the effectiveness of Artificial Intelligence (AI), and more specifically, Large Language Models (LLMs), in supporting network configuration synthesis and automating network diagnosis tasks, among others. In this preliminary work, we restrict our focus to the application of AI agents to network troubleshooting and elaborate on the need for a standardized, reproducible, and open benchmarking platform, where to build and evaluate AI agents with low operational effort.",
+    "published": "2025-07-01T08:46:37Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Other"
+    ]
+  },
+  {
+    "title": "iPanda: An LLM-based Agent for Automated Conformance Testing of Communication Protocols",
+    "url": "http://arxiv.org/abs/2507.00378v2",
+    "abstract": "Conformance testing is essential for ensuring that protocol implementations comply with their specifications. However, traditional testing approaches involve manually creating numerous test cases and scripts, making the process labor-intensive and inefficient. Recently, Large Language Models (LLMs) have demonstrated impressive text comprehension and code generation abilities, providing promising opportunities for automation. In this paper, we propose iPanda, the first framework that leverages LLMs to automate protocol conformance testing. Given a protocol specification document and its implementation, iPanda first employs a keyword-based method to automatically generate comprehensive test cases. Then, it utilizes retrieval-augmented generation and customized CoT strategy to effectively interpret the implementation and produce executable test programs. To further enhance programs' quality, iPanda incorporates an iterative optimization mechanism to refine generated test scripts interactively. Finally, by executing and analyzing the generated tests, iPanda systematically verifies compliance between implementations and protocol specifications. Comprehensive experiments on various protocols show that iPanda significantly outperforms pure LLM-based approaches, improving the success rate (Pass@1) of test-program generation by factors ranging from 4.675 times to 10.751 times.",
+    "published": "2025-07-01T02:27:44Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Testing"
+    ]
+  },
+  {
     "title": "An AST-guided LLM Approach for SVRF Code Synthesis",
     "url": "http://arxiv.org/abs/2507.00352v1",
     "abstract": "Standard Verification Rule Format (SVRF) is essential for semiconductor applications like Design Rule Check (DRC), Layout Versus Schematic (LVS), and Optical Proximity Correction (OPC) and it faces challenges as advancing nodes create complex design rules that renders traditional SVRF development ineffective and highlight an expertise gap. This paper introduces a novel methodology integrating Abstract Syntax Tree (AST) embedding and Retrieval-Augmented Generation (RAG) for enhanced SVRF code synthesis, ensuring semantic accuracy and error minimization through structural validation with domain-specific insights for precise code generation.   We evaluate different T5-based models and propose an innovative SVRF-specific scoring framework that complements standard metrics like BLEU and ROUGE-L. In our approach, AST provides rigorous structural validation, while RAG infuses relevant domain knowledge, effectively enhancing the code generation workflow.   Testing on a comprehensive benchmark of 740 DRC rule implementations, our methodology demonstrates up to a 40\\% improvement in code generation accuracy compared to basic text-based fine-tuning process. This fusion of industry expertise with advanced coding strategies not only optimizes SVRF development under limited dataset constraints but also creates a more intuitive and efficient coding environment. Consequently, users can rapidly iterate through design cycles, reduce manual error correction, and significantly improve overall productivity.",
@@ -390,6 +862,37 @@
       "Synthesis"
     ],
     "highlight": true
+  },
+  {
+    "title": "Fuzzing: Randomness? Reasoning! Efficient Directed Fuzzing via Large Language Models",
+    "url": "http://arxiv.org/abs/2507.22065v1",
+    "abstract": "Fuzzing is highly effective in detecting bugs due to the key contribution of randomness. However, randomness significantly reduces the efficiency of fuzzing, causing it to cost days or weeks to expose bugs. Even though directed fuzzing reduces randomness by guiding fuzzing towards target buggy locations, the dilemma of randomness still challenges directed fuzzers. Two critical components, which are seeds and mutators, contain randomness and are closely tied to the conditions required for triggering bugs. Therefore, to address the challenge of randomness, we propose to use large language models (LLMs) to remove the randomness in seeds and reduce the randomness in mutators. With their strong reasoning and code generation capabilities, LLMs can be used to generate reachable seeds that target pre-determined locations and to construct bug-specific mutators tailored for specific bugs. We propose RandLuzz, which integrates LLMs and directed fuzzing, to improve the quality of seeds and mutators, resulting in efficient bug exposure. RandLuzz analyzes function call chain or functionality to guide LLMs in generating reachable seeds. To construct bug-specific mutators, RandLuzz uses LLMs to perform bug analysis, obtaining information such as bug causes and mutation suggestions, which further help generate code that performs bug-specific mutations. We evaluate RandLuzz by comparing it with four state-of-the-art directed fuzzers, AFLGo, Beacon, WindRanger, and SelectFuzz. With RandLuzz-generated seeds, the fuzzers achieve an average speedup ranging from 2.1$\\times$ to 4.8$\\times$ compared to using widely-used initial seeds. Additionally, when evaluated on individual bugs, RandLuzz achieves up to a 2.7$\\times$ speedup compared to the second-fastest exposure. On 8 bugs, RandLuzz can even expose them within 60 seconds.",
+    "published": "2025-06-30T04:33:52Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Testing"
+    ]
+  },
+  {
+    "title": "P4OMP: Retrieval-Augmented Prompting for OpenMP Parallelism in Serial Code",
+    "url": "http://arxiv.org/abs/2506.22703v1",
+    "abstract": "We present P4OMP, a retrieval-augmented framework for transforming serial C/C++ code into OpenMP-annotated parallel code using large language models (LLMs). To our knowledge, this is the first system to apply retrieval-based prompting for OpenMP pragma correctness without model fine-tuning or compiler instrumentation. P4OMP leverages Retrieval-Augmented Generation (RAG) with structured instructional knowledge from OpenMP tutorials to improve the reliability of prompt-driven code generation. By grounding generation in the retrieved context, P4OMP improves syntactic correctness compared to baseline prompting with GPT-3.5-Turbo. We evaluate P4OMP against a baseline, GPT-3.5-Turbo without retrieval, on a comprehensive benchmark of 108 real-world C++ programs drawn from Stack Overflow, PolyBench, and NAS benchmark suites. P4OMP achieves 100% compilation success on all parallelizable cases, while the baseline fails to compile in 20 out of 108 cases. Six cases that rely on non-random-access iterators or thread-unsafe constructs are excluded due to fundamental OpenMP limitations. A detailed analysis demonstrates how P4OMP consistently avoids scoping errors, syntactic misuse, and invalid directive combinations that commonly affect baseline-generated code. We further demonstrate strong runtime scaling across seven compute-intensive benchmarks on an HPC cluster. P4OMP offers a robust, modular pipeline that significantly improves the reliability and applicability of LLM-generated OpenMP code.",
+    "published": "2025-06-28T01:06:34Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Code Generation"
+    ]
+  },
+  {
+    "title": "ParEval-Repo: A Benchmark Suite for Evaluating LLMs with Repository-level HPC Translation Tasks",
+    "url": "http://arxiv.org/abs/2506.20938v1",
+    "abstract": "GPGPU architectures have become significantly diverse in recent years, which has led to an emergence of a variety of specialized programming models and software stacks to support them. While portable execution models exist, they still require significant developer effort to port to and optimize for different hardware architectures. Recent advances in large language models (LLMs) can help us reduce some of this programmer burden. In this paper, we present a novel benchmark and testing framework, ParEval-Repo, which can be used to evaluate the efficacy of LLM-based approaches in automatically translating entire codebases across GPGPU execution models. ParEval-Repo includes several scientific computing and AI mini-applications in a range of programming models, and levels of repository complexity. We use ParEval-Repo to evaluate a range of state-of-the-art open-source and commercial LLMs, with both a non-agentic and a top-down agentic approach. We assess code generated by the LLMs and approaches in terms of compilability, functional correctness, categories of build errors, and the cost of translation in terms of the number of inference tokens. Our results demonstrate that LLM translation of scientific applications is feasible for small programs but difficulty with generating functional build systems and cross-file dependencies pose challenges in scaling to larger codebases.",
+    "published": "2025-06-26T02:01:11Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Code Generation",
+      "Testing"
+    ]
   },
   {
     "title": "Omniwise: Predicting GPU Kernels Performance with LLMs",
@@ -444,6 +947,17 @@
     ]
   },
   {
+    "title": "Leveraging Large Language Model for Intelligent Log Processing and Autonomous Debugging in Cloud AI Platforms",
+    "url": "http://arxiv.org/abs/2506.17900v1",
+    "abstract": "With the increasing complexity and rapid expansion of the scale of AI systems in cloud platforms, the log data generated during system operation is massive, unstructured, and semantically ambiguous, which brings great challenges to fault location and system self-repair. In order to solve this problem, this paper proposes an intelligent log processing and automatic debugging framework based on Large Language Model (LLM), named Intelligent Debugger (LLM-ID). This method is extended on the basis of the existing pre-trained Transformer model, and integrates a multi-stage semantic inference mechanism to realize the context understanding of system logs and the automatic reconstruction of fault chains. Firstly, the system log is dynamically structured, and the unsupervised clustering and embedding mechanism is used to extract the event template and semantic schema. Subsequently, the fine-tuned LLM combined with the multi-round attention mechanism to perform contextual reasoning on the log sequence to generate potential fault assumptions and root cause paths. Furthermore, this paper introduces a reinforcement learning-based policy-guided recovery planner, which is driven by the remediation strategy generated by LLM to support dynamic decision-making and adaptive debugging in the cloud environment. Compared with the existing rule engine or traditional log analysis system, the proposed model has stronger semantic understanding ability, continuous learning ability and heterogeneous environment adaptability. Experiments on the cloud platform log dataset show that LLM-ID improves the fault location accuracy by 16.2%, which is significantly better than the current mainstream methods",
+    "published": "2025-06-22T04:58:37Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Testing",
+      "Other"
+    ]
+  },
+  {
     "title": "TROJAN-GUARD: Hardware Trojans Detection Using GNN in RTL Designs",
     "url": "http://arxiv.org/abs/2506.17894v1",
     "abstract": "Chip manufacturing is a complex process, and to achieve a faster time to market, an increasing number of untrusted third-party tools and designs from around the world are being utilized. The use of these untrusted third party intellectual properties (IPs) and tools increases the risk of adversaries inserting hardware trojans (HTs). The covert nature of HTs poses significant threats to cyberspace, potentially leading to severe consequences for national security, the economy, and personal privacy. Many graph neural network (GNN)-based HT detection methods have been proposed. However, they perform poorly on larger designs because they rely on training with smaller designs. Additionally, these methods do not explore different GNN models that are well-suited for HT detection or provide efficient training and inference processes. We propose a novel framework that generates graph embeddings for large designs (e.g., RISC-V) and incorporates various GNN models tailored for HT detection. Furthermore, our framework introduces domain-specific techniques for efficient training and inference by implementing model quantization. Model quantization reduces the precision of the weights, lowering the computational requirements, enhancing processing speed without significantly affecting detection accuracy. We evaluate our framework using a custom dataset, and our results demonstrate a precision of 98.66% and a recall (true positive rate) of 92.30%, highlighting the effectiveness and efficiency of our approach in detecting hardware trojans in large-scale chip designs",
@@ -465,6 +979,16 @@
     ]
   },
   {
+    "title": "Improving Compiler Bug Isolation by Leveraging Large Language Models",
+    "url": "http://arxiv.org/abs/2506.17647v1",
+    "abstract": "Compilers play a foundational role in building reliable software systems, and bugs within them can lead to catastrophic consequences. The compilation process typically involves hundreds of files, making traditional automated bug isolation techniques inapplicable due to scalability or effectiveness issues. Current mainstream compiler bug localization techniques have limitations in test program mutation and resource consumption. Inspired by the recent advances of pre-trained Large Language Models (LLMs), we propose an innovative approach named AutoCBI, which (1) uses LLMs to summarize compiler file functions and (2) employs specialized prompts to guide LLM in reordering suspicious file rankings. This approach leverages four types of information: the failing test program, source file function summaries, lists of suspicious files identified through analyzing test coverage, as well as compilation configurations with related output messages, resulting in a refined ranking of suspicious files. Our evaluation of AutoCBI against state-of-the-art approaches (DiWi, RecBi and FuseFL) on 120 real-world bugs from the widely-used GCC and LLVM compilers demonstrates its effectiveness. Specifically, AutoCBI isolates 66.67%/69.23%, 300%/340%, and 100%/57.14% more bugs than RecBi, DiWi, and FuseFL, respectively, in the Top-1 ranked results for GCC/LLVM. Additionally, the ablation study underscores the significance of each component in our approach.",
+    "published": "2025-06-21T09:09:30Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Other"
+    ]
+  },
+  {
     "title": "VeriLocc: End-to-End Cross-Architecture Register Allocation via LLM",
     "url": "http://arxiv.org/abs/2506.17506v1",
     "abstract": "Modern GPUs evolve rapidly, yet production compilers still rely on hand-crafted register allocation heuristics that require substantial re-tuning for each hardware generation. We introduce VeriLocc, a framework that combines large language models (LLMs) with formal compiler techniques to enable generalizable and verifiable register allocation across GPU architectures. VeriLocc fine-tunes an LLM to translate intermediate representations (MIRs) into target-specific register assignments, aided by static analysis for cross-architecture normalization and generalization and a verifier-guided regeneration loop to ensure correctness. Evaluated on matrix multiplication (GEMM) and multi-head attention (MHA), VeriLocc achieves 85-99% single-shot accuracy and near-100% pass@100. Case study shows that VeriLocc discovers more performant assignments than expert-tuned libraries, outperforming rocBLAS by over 10% in runtime.",
@@ -476,7 +1000,7 @@
     ]
   },
   {
-    "title": "RCNet: $\u0394\u03a3$ IADCs as Recurrent AutoEncoders",
+    "title": "RCNet: $ΔΣ$ IADCs as Recurrent AutoEncoders",
     "url": "http://arxiv.org/abs/2506.16903v1",
     "abstract": "This paper proposes a deep learning model (RCNet) for Delta-Sigma ($\\Delta\\Sigma$) ADCs. Recurrent Neural Networks (RNNs) allow to describe both modulators and filters. This analogy is applied to Incremental ADCs (IADC). High-end optimizers combined with full-custom losses are used to define additional hardware design constraints: quantized weights, signal saturation, temporal noise injection, devices area. Focusing on DC conversion, our early results demonstrate that $SNR$ defined as an Effective Number Of Bits (ENOB) can be optimized under a certain hardware mapping complexity. The proposed RCNet succeeded to provide design tradeoffs in terms of $SNR$ ($>$13bit) versus area constraints ($<$14pF total capacitor) at a given $OSR$ (80 samples). Interestingly, it appears that the best RCNet architectures do not necessarily rely on high-order modulators, leveraging additional topology exploration degrees of freedom.",
     "published": "2025-06-20T10:55:01Z",
@@ -510,6 +1034,39 @@
     ]
   },
   {
+    "title": "ChatModel: Automating Reference Model Design and Verification with LLMs",
+    "url": "http://arxiv.org/abs/2506.15066v3",
+    "abstract": "As the complexity of integrated circuit designs continues to escalate, the functional verification becomes increasingly challenging. Reference models, critical for accelerating the verification process, are themselves becoming more intricate and time-consuming to develop. Despite the promise shown by large language models (LLMs) in code programming, effectively generating complex reference models remains a significant hurdle. To address these challenges, we introduce ChatModel, the first LLM-aided agile reference model generation and verification platform. ChatModel streamlines the transition from design specifications to fully functional reference models by integrating design standardization and hierarchical agile modeling. Employing a building-block generation strategy, it not only enhances the design capabilities of LLMs for reference models but also significantly boosts verification efficiency. We evaluated ChatModel on 300 designs of varying complexity, demonstrating substantial improvements in both efficiency and quality of reference model generation. ChatModel achieved a peak performance improvement of 55.02% compared to alternative methods, with notable enhancements in generation stability, and delivered a 9.18x increase in its capacity to produce reference model designs. Furthermore, it accelerated the iterative process of reference model design and validation by an average of 5.90x compared to traditional approaches. These results highlight the potential of ChatModel to significantly advance the automation of reference model generation and validation.",
+    "published": "2025-06-18T02:15:02Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Verification",
+      "Code Generation"
+    ]
+  },
+  {
+    "title": "ChatModel: Automating Reference Model Design and Verification with LLMs",
+    "url": "http://arxiv.org/abs/2506.15066v2",
+    "abstract": "As the complexity of integrated circuit designs continues to escalate, the functional verification becomes increasingly challenging. Reference models, critical for accelerating the verification process, are themselves becoming more intricate and time-consuming to develop. Despite the promise shown by large language models (LLMs) in code programming, effectively generating complex reference models remains a significant hurdle. To address these challenges, we introduce ChatModel, the first LLM-aided agile reference model generation and verification platform. ChatModel streamlines the transition from design specifications to fully functional reference models by integrating design standardization and hierarchical agile modeling. Employing a building-block generation strategy, it not only enhances the design capabilities of LLMs for reference models but also significantly boosts verification efficiency. We evaluated ChatModel on 300 designs of varying complexity, demonstrating substantial improvements in both efficiency and quality of reference model generation. ChatModel achieved a peak performance improvement of 55.02% compared to alternative methods, with notable enhancements in generation stability, and delivered a 9.18x increase in its capacity to produce reference model designs. Furthermore, it accelerated the iterative process of reference model design and validation by an average of 5.90x compared to traditional approaches. These results highlight the potential of ChatModel to significantly advance the automation of reference model generation and validation.",
+    "published": "2025-06-18T02:15:02Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Verification",
+      "Code Generation"
+    ]
+  },
+  {
+    "title": "Guaranteed Guess: A Language Modeling Approach for CISC-to-RISC Transpilation with Testing Guarantees",
+    "url": "http://arxiv.org/abs/2506.14606v1",
+    "abstract": "The hardware ecosystem is rapidly evolving, with increasing interest in translating low-level programs across different instruction set architectures (ISAs) in a quick, flexible, and correct way to enhance the portability and longevity of existing code. A particularly challenging class of this transpilation problem is translating between complex- (CISC) and reduced- (RISC) hardware architectures, due to fundamental differences in instruction complexity, memory models, and execution paradigms. In this work, we introduce GG (Guaranteed Guess), an ISA-centric transpilation pipeline that combines the translation power of pre-trained large language models (LLMs) with the rigor of established software testing constructs. Our method generates candidate translations using an LLM from one ISA to another, and embeds such translations within a software-testing framework to build quantifiable confidence in the translation. We evaluate our GG approach over two diverse datasets, enforce high code coverage (>98%) across unit tests, and achieve functional/semantic correctness of 99% on HumanEval programs and 49% on BringupBench programs, respectively. Further, we compare our approach to the state-of-the-art Rosetta 2 framework on Apple Silicon, showcasing 1.73x faster runtime performance, 1.47x better energy efficiency, and 2.41x better memory usage for our transpiled code, demonstrating the effectiveness of GG for real-world CISC-to-RISC translation tasks. We will open-source our codes, data, models, and benchmarks to establish a common foundation for ISA-level code translation research.",
+    "published": "2025-06-17T15:06:54Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Code Generation",
+      "Testing"
+    ]
+  },
+  {
     "title": "Spec2RTL-Agent: Automated Hardware Code Generation from Complex Specifications Using LLM Agent Systems",
     "url": "http://arxiv.org/abs/2506.13905v1",
     "abstract": "Despite recent progress in generating hardware RTL code with LLMs, existing solutions still suffer from a substantial gap between practical application scenarios and the requirements of real-world RTL code development. Prior approaches either focus on overly simplified hardware descriptions or depend on extensive human guidance to process complex specifications, limiting their scalability and automation potential. In this paper, we address this gap by proposing an LLM agent system, termed Spec2RTL-Agent, designed to directly process complex specification documentation and generate corresponding RTL code implementations, advancing LLM-based RTL code generation toward more realistic application settings. To achieve this goal, Spec2RTL-Agent introduces a novel multi-agent collaboration framework that integrates three key enablers: (1) a reasoning and understanding module that translates specifications into structured, step-by-step implementation plans; (2) a progressive coding and prompt optimization module that iteratively refines the code across multiple representations to enhance correctness and synthesisability for RTL conversion; and (3) an adaptive reflection module that identifies and traces the source of errors during generation, ensuring a more robust code generation flow. Instead of directly generating RTL from natural language, our system strategically generates synthesizable C++ code, which is then optimized for HLS. This agent-driven refinement ensures greater correctness and compatibility compared to naive direct RTL generation approaches. We evaluate Spec2RTL-Agent on three specification documents, showing it generates accurate RTL code with up to 75% fewer human interventions than existing methods. This highlights its role as the first fully automated multi-agent system for RTL generation from unstructured specs, reducing reliance on human effort in hardware design.",
@@ -518,6 +1075,16 @@
     "tags": [
       "Code Generation",
       "Synthesis"
+    ]
+  },
+  {
+    "title": "Cloud Infrastructure Management in the Age of AI Agents",
+    "url": "http://arxiv.org/abs/2506.12270v1",
+    "abstract": "Cloud infrastructure is the cornerstone of the modern IT industry. However, managing this infrastructure effectively requires considerable manual effort from the DevOps engineering team. We make a case for developing AI agents powered by large language models (LLMs) to automate cloud infrastructure management tasks. In a preliminary study, we investigate the potential for AI agents to use different cloud/user interfaces such as software development kits (SDK), command line interfaces (CLI), Infrastructure-as-Code (IaC) platforms, and web portals. We report takeaways on their effectiveness on different management tasks, and identify research challenges and potential solutions.",
+    "published": "2025-06-13T22:50:12Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Other"
     ]
   },
   {
@@ -573,6 +1140,17 @@
     ]
   },
   {
+    "title": "D-LiFT: Improving LLM-based Decompiler Backend via Code Quality-driven Fine-tuning",
+    "url": "http://arxiv.org/abs/2506.10125v1",
+    "abstract": "Decompilers, which reconstruct human-readable source code from binary executables, are vital to many security tasks. Yet, despite recent advances, their output often suffers from syntactic and semantic errors and remains difficult to read. Recently, with the advent of large language models (LLMs), researchers began to explore the potential of LLMs to refine decompiler output. Nevertheless, our study of these approaches reveals significant limitations, such as introducing new errors and relying on unreliable accuracy validation. In this paper, we present D-LiFT, an automated decompiler backend that harnesses and further trains LLMs to improve the quality of decompiled code via reinforcement learning (RL). Unlike prior work that overlooks preserving accuracy, D-LiFT adheres to a key principle for enhancing the quality of decompiled code: \\textit{preserving accuracy while improving readability}. Central to D-LiFT, we propose D-SCORE, an integrated quality assessment system to score the decompiled code from multiple aspects. In line with our principle, D-SCORE assigns low scores to any inaccurate output and only awards higher scores for readability to code that passes the accuracy check. Specifically, D-SCORE first verifies the syntactic and semantic correctness via the compiler and symbolic execution; only if a candidate is deemed accurate, it then evaluates readability using established metrics to compare the LLM output with the original decompiled code. The score will then be fed back to the LLM for fine-tuning. Our implementation, based on Ghidra and a range of LLMs, demonstrates significant improvements for the accurate decompiled code from the coreutils and util-linux projects. Compared to baseline LLMs without D-SCORE-driven fine-tuning, D-LiFT produces 55.3% more improved decompiled functions, as measured by D-SCORE.",
+    "published": "2025-06-11T19:09:08Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Code Generation",
+      "Security"
+    ]
+  },
+  {
     "title": "SANGAM: SystemVerilog Assertion Generation via Monte Carlo Tree Self-Refine",
     "url": "http://arxiv.org/abs/2506.13983v1",
     "abstract": "Recent advancements in the field of reasoning using Large Language Models (LLMs) have created new possibilities for more complex and automatic Hardware Assertion Generation techniques. This paper introduces SANGAM, a SystemVerilog Assertion Generation framework using LLM-guided Monte Carlo Tree Search for the automatic generation of SVAs from industry-level specifications. The proposed framework utilizes a three-stage approach: Stage 1 consists of multi-modal Specification Processing using Signal Mapper, SPEC Analyzer, and Waveform Analyzer LLM Agents. Stage 2 consists of using the Monte Carlo Tree Self-Refine (MCTSr) algorithm for automatic reasoning about SVAs for each signal, and finally, Stage 3 combines the MCTSr-generated reasoning traces to generate SVA assertions for each signal. The results demonstrated that our framework, SANGAM, can generate a robust set of SVAs, performing better in the evaluation process in comparison to the recent methods.",
@@ -580,6 +1158,16 @@
     "ai_for_hw": true,
     "tags": [
       "Verification"
+    ]
+  },
+  {
+    "title": "TrioXpert: An automated incident management framework for microservice system",
+    "url": "http://arxiv.org/abs/2506.10043v1",
+    "abstract": "Automated incident management plays a pivotal role in large-scale microservice systems. However, many existing methods rely solely on single-modal data (e.g., metrics, logs, and traces) and struggle to simultaneously address multiple downstream tasks, including anomaly detection (AD), failure triage (FT), and root cause localization (RCL). Moreover, the lack of clear reasoning evidence in current techniques often leads to insufficient interpretability. To address these limitations, we propose TrioXpert, an end-to-end incident management framework capable of fully leveraging multimodal data. TrioXpert designs three independent data processing pipelines based on the inherent characteristics of different modalities, comprehensively characterizing the operational status of microservice systems from both numerical and textual dimensions. It employs a collaborative reasoning mechanism using large language models (LLMs) to simultaneously handle multiple tasks while providing clear reasoning evidence to ensure strong interpretability. We conducted extensive evaluations on two popular microservice system datasets, and the experimental results demonstrate that TrioXpert achieves outstanding performance in AD (improving by 4.7% to 57.7%), FT (improving by 2.1% to 40.6%), and RCL (improving by 1.6% to 163.1%) tasks.",
+    "published": "2025-06-11T05:10:52Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Other"
     ]
   },
   {
@@ -614,6 +1202,16 @@
     ]
   },
   {
+    "title": "ORFS-agent: Tool-Using Agents for Chip Design Optimization",
+    "url": "http://arxiv.org/abs/2506.08332v2",
+    "abstract": "Machine learning has been widely used to optimize complex engineering workflows across numerous domains. In the context of integrated circuit design, modern flows (e.g., going from a register-transfer level netlist to physical layouts) involve extensive configuration via thousands of parameters, and small changes to these parameters can have large downstream impacts on desired outcomes - namely design performance, power, and area. Recent advances in Large Language Models (LLMs) offer new opportunities for learning and reasoning within such high-dimensional optimization tasks. In this work, we introduce ORFS-agent, an LLM-based iterative optimization agent that automates parameter tuning in an open-source hardware design flow. ORFS-agent adaptively explores parameter configurations, demonstrating clear improvements over standard Bayesian optimization approaches in terms of resource efficiency and final design metrics. Our empirical evaluations on two different technology nodes and a range of circuit benchmarks indicate that ORFS-agent can improve both routed wirelength and effective clock period by over 13%, all while using 40% fewer optimization iterations. Moreover, by following natural language objectives to trade off certain metrics for others, ORFS-agent demonstrates a flexible and interpretable framework for multi-objective optimization. Crucially, RFS-agent is modular and model-agnostic, and can be plugged in to any frontier LLM without any further fine-tuning.",
+    "published": "2025-06-10T01:38:57Z",
+    "ai_for_hw": true,
+    "tags": [
+      "System-level Optimization"
+    ]
+  },
+  {
     "title": "ProtocolLLM: RTL Benchmark for SystemVerilog Generation of Communication Protocols",
     "url": "http://arxiv.org/abs/2506.07945v2",
     "abstract": "Recent advances in large language models (LLMs) have demonstrated strong performance in generating code for general-purpose programming languages. However, their potential for hardware description languages (HDLs), such as SystemVerilog, remains largely unexplored. HDL code generation poses unique challenges due to strict timing semantics, concurrency, and synthesizability constraints essential for correct hardware functionality. Further, HDL-based design flows encompass a broad set of tasks beyond structural code generation, including testbench development, assertion-based verification, timing closure, and protocol-level integration for on-chip communication. In this work, we evaluate the capabilities of both open-source and state-of-the-art LLMs in generating synthesizable and functionally accurate SystemVerilog implementations of widely used communication protocols that are critical components of embedded and System-on-Chip (SoC) systems. We introduce ProtocolLLM, the first benchmark suite specifically targeting these protocols with tasks spanning multiple design abstraction levels and varying prompt specificity. Our evaluation method also focuses on timing correctness in addition to synthesizability and syntactic correctness. We observe that most of the models fail to generate SystemVerilog code for communication protocols that follow timing constrains.",
@@ -621,6 +1219,17 @@
     "ai_for_hw": true,
     "tags": [
       "Code Generation"
+    ]
+  },
+  {
+    "title": "An Intelligent Fault Self-Healing Mechanism for Cloud AI Systems via Integration of Large Language Models and Deep Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2506.07411v1",
+    "abstract": "As the scale and complexity of cloud-based AI systems continue to increase, the detection and adaptive recovery of system faults have become the core challenges to ensure service reliability and continuity. In this paper, we propose an Intelligent Fault Self-Healing Mechanism (IFSHM) that integrates Large Language Model (LLM) and Deep Reinforcement Learning (DRL), aiming to realize a fault recovery framework with semantic understanding and policy optimization capabilities in cloud AI systems. On the basis of the traditional DRL-based control model, the proposed method constructs a two-stage hybrid architecture: (1) an LLM-driven fault semantic interpretation module, which can dynamically extract deep contextual semantics from multi-source logs and system indicators to accurately identify potential fault modes; (2) DRL recovery strategy optimizer, based on reinforcement learning, learns the dynamic matching of fault types and response behaviors in the cloud environment. The innovation of this method lies in the introduction of LLM for environment modeling and action space abstraction, which greatly improves the exploration efficiency and generalization ability of reinforcement learning. At the same time, a memory-guided meta-controller is introduced, combined with reinforcement learning playback and LLM prompt fine-tuning strategy, to achieve continuous adaptation to new failure modes and avoid catastrophic forgetting. Experimental results on the cloud fault injection platform show that compared with the existing DRL and rule methods, the IFSHM framework shortens the system recovery time by 37% with unknown fault scenarios.",
+    "published": "2025-06-09T04:14:05Z",
+    "ai_for_hw": true,
+    "tags": [
+      "System-level Optimization",
+      "Testing"
     ]
   },
   {
@@ -666,6 +1275,16 @@
     ]
   },
   {
+    "title": "Recursive Learning-Based Virtual Buffering for Analytical Global Placement",
+    "url": "http://arxiv.org/abs/2506.17247v2",
+    "abstract": "Due to the skewed scaling of interconnect versus cell delay in modern technology nodes, placement with buffer porosity (i.e., cell density) awareness is essential for timing closure in physical synthesis flows. However, existing approaches face two key challenges: (i) traditional van Ginneken-Lillis-style buffering approaches are computationally expensive during global placement; and (ii) machine learning-based approaches, such as BufFormer, lack a thorough consideration of Electrical Rule Check (ERC) violations and fail to \"close the loop\" back into the physical design flow. In this work, we propose MLBuf-RePlAce, the first open-source learning-driven virtual buffering-aware analytical global placement framework, built on top of the OpenROAD infrastructure. MLBuf-RePlAce adopts an efficient recursive learning-based generative buffering approach to predict buffer types and locations, addressing ERC violations during global placement. We compare MLBuf-RePlAce against the default virtual buffering-based timing-driven global placer in OpenROAD, using open-source testcases from the TILOS MacroPlacement and OpenROAD-flow-scripts repositories. Without degradation of post-route power, MLBuf-RePlAce achieves (maximum, average) improvements of (56%, 31%) in total negative slack (TNS) within the open-source OpenROAD flow. When evaluated by completion in a commercial flow, MLBuf-RePlAce achieves (maximum, average) improvements of (53%, 28%) in TNS with an average of 0.2% improvement in post-route power.",
+    "published": "2025-06-07T18:22:31Z",
+    "ai_for_hw": true,
+    "tags": [
+      "P&R"
+    ]
+  },
+  {
     "title": "FuncGNN: Learning Functional Semantics of Logic Circuits with Graph Neural Networks",
     "url": "http://arxiv.org/abs/2506.06787v1",
     "abstract": "As integrated circuit scale grows and design complexity rises, effective circuit representation helps support logic synthesis, formal verification, and other automated processes in electronic design automation. And-Inverter Graphs (AIGs), as a compact and canonical structure, are widely adopted for representing Boolean logic in these workflows. However, the increasing complexity and integration density of modern circuits introduce structural heterogeneity and global logic information loss in AIGs, posing significant challenges to accurate circuit modeling. To address these issues, we propose FuncGNN, which integrates hybrid feature aggregation to extract multi-granularity topological patterns, thereby mitigating structural heterogeneity and enhancing logic circuit representations. FuncGNN further introduces gate-aware normalization that adapts to circuit-specific gate distributions, improving robustness to structural heterogeneity. Finally, FuncGNN employs multi-layer integration to merge intermediate features across layers, effectively synthesizing local and global semantic information for comprehensive logic representations. Experimental results on two logic-level analysis tasks (i.e., signal probability prediction and truth-table distance prediction) demonstrate that FuncGNN outperforms existing state-of-the-art methods, achieving improvements of 2.06% and 18.71%, respectively, while reducing training time by approximately 50.6% and GPU memory usage by about 32.8%.",
@@ -690,6 +1309,16 @@
     "highlight": true
   },
   {
+    "title": "CompilerGPT: Leveraging Large Language Models for Analyzing and Acting on Compiler Optimization Reports",
+    "url": "http://arxiv.org/abs/2506.06227v2",
+    "abstract": "Current compiler optimization reports often present complex, technical information that is difficult for programmers to interpret and act upon effectively. This paper assesses the capability of large language models (LLM) to understand compiler optimization reports and automatically rewrite the code accordingly.   To this end, the paper introduces CompilerGPT, a novel framework that automates the interaction between compilers, LLMs, and user defined test and evaluation harness. CompilerGPT's workflow runs several iterations and reports on the obtained results.   Experiments with two leading LLM models (GPT-4o and Claude Sonnet), optimization reports from two compilers (Clang and GCC), and five benchmark codes demonstrate the potential of this approach. Speedups of up to 6.5x were obtained, though not consistently in every test. This method holds promise for improving compiler usability and streamlining the software optimization process.",
+    "published": "2025-06-06T16:42:14Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Code Generation"
+    ]
+  },
+  {
     "title": "QiMeng: Fully Automated Hardware and Software Design for Processor Chip",
     "url": "http://arxiv.org/abs/2506.05007v1",
     "abstract": "Processor chip design technology serves as a key frontier driving breakthroughs in computer science and related fields. With the rapid advancement of information technology, conventional design paradigms face three major challenges: the physical constraints of fabrication technologies, the escalating demands for design resources, and the increasing diversity of ecosystems. Automated processor chip design has emerged as a transformative solution to address these challenges. While recent breakthroughs in Artificial Intelligence (AI), particularly Large Language Models (LLMs) techniques, have opened new possibilities for fully automated processor chip design, substantial challenges remain in establishing domain-specific LLMs for processor chip design.   In this paper, we propose QiMeng, a novel system for fully automated hardware and software design of processor chips. QiMeng comprises three hierarchical layers. In the bottom-layer, we construct a domain-specific Large Processor Chip Model (LPCM) that introduces novel designs in architecture, training, and inference, to address key challenges such as knowledge representation gap, data scarcity, correctness assurance, and enormous solution space. In the middle-layer, leveraging the LPCM's knowledge representation and inference capabilities, we develop the Hardware Design Agent and the Software Design Agent to automate the design of hardware and software for processor chips. Currently, several components of QiMeng have been completed and successfully applied in various top-layer applications, demonstrating significant advantages and providing a feasible solution for efficient, fully automated hardware/software design of processor chips. Future research will focus on integrating all components and performing iterative top-down and bottom-up design processes to establish a comprehensive QiMeng system.",
@@ -711,6 +1340,28 @@
     ]
   },
   {
+    "title": "A Framework Leveraging Large Language Models for Autonomous UAV Control in Flying Networks",
+    "url": "http://arxiv.org/abs/2506.04404v1",
+    "abstract": "This paper proposes FLUC, a modular framework that integrates open-source Large Language Models (LLMs) with Unmanned Aerial Vehicle (UAV) autopilot systems to enable autonomous control in Flying Networks (FNs). FLUC translates high-level natural language commands into executable UAV mission code, bridging the gap between operator intent and UAV behaviour.   FLUC is evaluated using three open-source LLMs - Qwen 2.5, Gemma 2, and LLaMA 3.2 - across scenarios involving code generation and mission planning. Results show that Qwen 2.5 excels in multi-step reasoning, Gemma 2 balances accuracy and latency, and LLaMA 3.2 offers faster responses with lower logical coherence. A case study on energy-aware UAV positioning confirms FLUC's ability to interpret structured prompts and autonomously execute domain-specific logic, showing its effectiveness in real-time, mission-driven control.",
+    "published": "2025-06-04T19:38:09Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Code Generation",
+      "System-level Optimization"
+    ]
+  },
+  {
+    "title": "Generating Automotive Code: Large Language Models for Software Development and Verification in Safety-Critical Systems",
+    "url": "http://arxiv.org/abs/2506.04038v1",
+    "abstract": "Developing safety-critical automotive software presents significant challenges due to increasing system complexity and strict regulatory demands. This paper proposes a novel framework integrating Generative Artificial Intelligence (GenAI) into the Software Development Lifecycle (SDLC). The framework uses Large Language Models (LLMs) to automate code generation in languages such as C++, incorporating safety-focused practices such as static verification, test-driven development and iterative refinement. A feedback-driven pipeline ensures the integration of test, simulation and verification for compliance with safety standards. The framework is validated through the development of an Adaptive Cruise Control (ACC) system. Comparative benchmarking of LLMs ensures optimal model selection for accuracy and reliability. Results demonstrate that the framework enables automatic code generation while ensuring compliance with safety-critical requirements, systematically integrating GenAI into automotive software engineering. This work advances the use of AI in safety-critical domains, bridging the gap between state-of-the-art generative models and real-world safety requirements.",
+    "published": "2025-06-04T15:01:59Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Code Generation",
+      "Verification"
+    ]
+  },
+  {
     "title": "VCDiag: Classifying Erroneous Waveforms for Failure Triage Acceleration",
     "url": "http://arxiv.org/abs/2506.03590v2",
     "abstract": "Failure triage in design functional verification is critical but time-intensive, relying on manual specification reviews, log inspections, and waveform analyses. While machine learning (ML) has improved areas like stimulus generation and coverage closure, its application to RTL-level simulation failure triage, particularly for large designs, remains limited. VCDiag offers an efficient, adaptable approach using VCD data to classify failing waveforms and pinpoint likely failure locations. In the largest experiment, VCDiag achieves over 94% accuracy in identifying the top three most likely modules. The framework introduces a novel signal selection and statistical compression approach, achieving over 120x reduction in raw data size while preserving features essential for classification. It can also be integrated into diverse Verilog/SystemVerilog designs and testbenches.",
@@ -719,6 +1370,28 @@
     "tags": [
       "Verification",
       "Testing"
+    ]
+  },
+  {
+    "title": "VCDiag: Classifying Erroneous Waveforms for Failure Triage Acceleration",
+    "url": "http://arxiv.org/abs/2506.03590v3",
+    "abstract": "Failure triage in design functional verification is critical but time-intensive, relying on manual specification reviews, log inspections, and waveform analyses. While machine learning (ML) has improved areas like stimulus generation and coverage closure, its application to RTL-level simulation failure triage, particularly for large designs, remains limited. VCDiag offers an efficient, adaptable approach using VCD data to classify failing waveforms and pinpoint likely failure locations. In the largest experiment, VCDiag achieves over 94% accuracy in identifying the top three most likely modules. The framework introduces a novel signal selection and statistical compression approach, achieving over 120x reduction in raw data size while preserving features essential for classification. It can also be integrated into diverse Verilog/SystemVerilog designs and testbenches.",
+    "published": "2025-06-04T05:44:03Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Verification",
+      "Testing"
+    ]
+  },
+  {
+    "title": "DCE-LLM: Dead Code Elimination with Large Language Models",
+    "url": "http://arxiv.org/abs/2506.11076v1",
+    "abstract": "Dead code introduces several challenges in software development, such as increased binary size and maintenance difficulties. It can also obscure logical errors and be exploited for obfuscation in malware. For LLM-based code-related tasks, dead code introduces vulnerabilities that can mislead these models, raising security concerns. Although modern compilers and IDEs offer dead code elimination, sophisticated patterns can bypass these tools. A universal approach that includes classification, location, explanation, and correction is needed, yet current tools often require significant manual effort. We present DCE-LLM, a framework for automated dead code elimination using a small CodeBERT model with an attribution-based line selector to efficiently locate suspect code. LLMs then generate judgments and explanations, fine-tuned on a large-scale, annotated dead code dataset to provide detailed explanations and patches. DCE-LLM outperforms existing tools, with advanced unreachability detection, automated correction, and support for multiple programming languages. Experimental results show DCE-LLM achieves over 94% F1 scores for unused and unreachable code, significantly surpassing GPT-4o by 30%.",
+    "published": "2025-06-04T03:41:30Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Code Generation",
+      "Security"
     ]
   },
   {
@@ -755,6 +1428,16 @@
     ]
   },
   {
+    "title": "Simplifying Root Cause Analysis in Kubernetes with StateGraph and LLM",
+    "url": "http://arxiv.org/abs/2506.02490v1",
+    "abstract": "Kubernetes, a notably complex and distributed system, utilizes an array of controllers to uphold cluster management logic through state reconciliation. Nevertheless, maintaining state consistency presents significant challenges due to unexpected failures, network disruptions, and asynchronous issues, especially within dynamic cloud environments. These challenges result in operational disruptions and economic losses, underscoring the necessity for robust root cause analysis (RCA) to enhance Kubernetes reliability. The development of large language models (LLMs) presents a promising direction for RCA. However, existing methodologies encounter several obstacles, including the diverse and evolving nature of Kubernetes incidents, the intricate context of incidents, and the polymorphic nature of these incidents. In this paper, we introduce SynergyRCA, an innovative tool that leverages LLMs with retrieval augmentation from graph databases and enhancement with expert prompts. SynergyRCA constructs a StateGraph to capture spatial and temporal relationships and utilizes a MetaGraph to outline entity connections. Upon the occurrence of an incident, an LLM predicts the most pertinent resource, and SynergyRCA queries the MetaGraph and StateGraph to deliver context-specific insights for RCA. We evaluate SynergyRCA using datasets from two production Kubernetes clusters, highlighting its capacity to identify numerous root causes, including novel ones, with high efficiency and precision. SynergyRCA demonstrates the ability to identify root causes in an average time of about two minutes and achieves an impressive precision of approximately 0.90.",
+    "published": "2025-06-03T06:09:13Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Other"
+    ]
+  },
+  {
     "title": "SALAD: Systematic Assessment of Machine Unlearing on LLM-Aided Hardware Design",
     "url": "http://arxiv.org/abs/2506.02089v2",
     "abstract": "Large Language Models (LLMs) offer transformative capabilities for hardware design automation, particularly in Verilog code generation. However, they also pose significant data security challenges, including Verilog evaluation data contamination, intellectual property (IP) design leakage, and the risk of malicious Verilog generation. We introduce SALAD, a comprehensive assessment that leverages machine unlearning to mitigate these threats. Our approach enables the selective removal of contaminated benchmarks, sensitive IP and design artifacts, or malicious code patterns from pre-trained LLMs, all without requiring full retraining. Through detailed case studies, we demonstrate how machine unlearning techniques effectively reduce data security risks in LLM-aided hardware design.",
@@ -763,6 +1446,16 @@
     "tags": [
       "Security",
       "Code Generation"
+    ]
+  },
+  {
+    "title": "Compiler Optimization via LLM Reasoning for Efficient Model Serving",
+    "url": "http://arxiv.org/abs/2506.01374v1",
+    "abstract": "While model serving has unlocked unprecedented capabilities, the high cost of serving large-scale models continues to be a significant barrier to widespread accessibility and rapid innovation. Compiler optimizations have long driven substantial performance improvements, but existing compilers struggle with neural workloads due to the exponentially large and highly interdependent space of possible transformations. Although existing stochastic search techniques can be effective, they are often sample-inefficient and fail to leverage the structural context underlying compilation decisions. We set out to investigate the research question of whether reasoning with large language models (LLMs), without any retraining, can leverage the context-aware decision space of compiler optimization to significantly improve sample efficiency. To that end, we introduce a novel compilation framework (dubbed REASONING COMPILER) that formulates optimization as a sequential, context-aware decision process, guided by a large language model and structured Monte Carlo tree search (MCTS). The LLM acts as a proposal mechanism, suggesting hardware-aware transformations that reflect the current program state and accumulated performance feedback. Monte Carlo tree search (MCTS) incorporates the LLM-generated proposals to balance exploration and exploitation, facilitating structured, context-sensitive traversal of the expansive compiler optimization space. By achieving substantial speedups with markedly fewer samples than leading neural compilers, our approach demonstrates the potential of LLM-guided reasoning to transform the landscape of compiler optimization.",
+    "published": "2025-06-02T07:02:46Z",
+    "ai_for_hw": true,
+    "tags": [
+      "System-level Optimization"
     ]
   },
   {
@@ -777,6 +1470,16 @@
     "highlight": true
   },
   {
+    "title": "SysLLMatic: Large Language Models are Software System Optimizers",
+    "url": "http://arxiv.org/abs/2506.01249v1",
+    "abstract": "Automatic software system optimization can improve software speed, reduce operating costs, and save energy. Traditional approaches to optimization rely on manual tuning and compiler heuristics, limiting their ability to generalize across diverse codebases and system contexts. Recent methods using Large Language Models (LLMs) offer automation to address these limitations, but often fail to scale to the complexity of real-world software systems and applications. We present SysLLMatic, a system that integrates LLMs with profiling-guided feedback and system performance insights to automatically optimize software code. We evaluate it on three benchmark suites: HumanEval_CPP (competitive programming in C++), SciMark2 (scientific kernels in Java), and DaCapoBench (large-scale software systems in Java). Results show that SysLLMatic can improve system performance, including latency, throughput, energy efficiency, memory usage, and CPU utilization. It consistently outperforms state-of-the-art LLM baselines on microbenchmarks. On large-scale application codes, it surpasses traditional compiler optimizations, achieving average relative improvements of 1.85x in latency and 2.24x in throughput. Our findings demonstrate that LLMs, guided by principled systems thinking and appropriate performance diagnostics, can serve as viable software system optimizers. We further identify limitations of our approach and the challenges involved in handling complex applications. This work provides a foundation for generating optimized code across various languages, benchmarks, and program sizes in a principled manner.",
+    "published": "2025-06-02T01:57:21Z",
+    "ai_for_hw": true,
+    "tags": [
+      "System-level Optimization"
+    ]
+  },
+  {
     "title": "iVAMS 3.0: Hierarchical-Machine-Learning-Metamodel-Integrated Intelligent Verilog-AMS for Ultra-Fast, Accurate Mixed-Signal Design Optimization",
     "url": "http://arxiv.org/abs/2506.01045v1",
     "abstract": "Analog/Mixed-Signal (AMS) circuits and systems continually present significant challenges to designers with the increase of design complexity and aggressive technology scaling. This is due to the large number of design factors and parameters that must be taken into account as well as the process variations which are prominent in nano-CMOS circuits. Design optimization techniques while presenting an accurate and fast design flow which can perform design optimization in reasonable time are still lacking. Even with techniques such as metamodeling that aid the design phase, there is still the need to improve them for accuracy and time cost. As a trade-off of the accuracy and speed, this paper presents a design flow for ultra-fast variability-aware optimization of nano-CMOS based physical design of analog circuits. It combines a Kriging bootstrapped Artificial Neural Network (ANN) metamodel with a Particle Swarm Optimization (PSO) based algorithm in the design optimization flow. The Kriging bootstrapped ANN metamodel provides a trade-off between analog-quality accuracy and scalability and can be effectively used for large and complex AMS circuits. The proposed technique uses Kriging to bootstrap target samples used for the ANN training. This introduces Kriging characteristics, which account for correlation effects between design parameters, to the ANN. The effectiveness of the design flow is demonstrated using a PLL as a case study with as many as 21 design parameters. It is observed that the bootstrapped Kriging metamodeling is 24X faster than simple ANN metamodeling. The layout optimization for such a complex circuit can be performed effectively in a short time using this approach. The optimization flow could achieve significant reductions in the mean and standard deviation of the PLL characteristics. Thus, the proposed research is a major contribution to design for cost.",
@@ -788,6 +1491,16 @@
     ]
   },
   {
+    "title": "Supporting architecture evaluation for ATAM scenarios with LLMs",
+    "url": "http://arxiv.org/abs/2506.00150v1",
+    "abstract": "Architecture evaluation methods have long been used to evaluate software designs. Several evaluation methods have been proposed and used to analyze tradeoffs between different quality attributes. Having competing qualities leads to conflicts for selecting which quality-attribute scenarios are the most suitable ones that an architecture should tackle and for prioritizing the scenarios required by the stakeholders. In this context, architecture evaluation is carried out manually, often involving long brainstorming sessions to decide which are the most adequate quality scenarios. To reduce this effort and make the assessment and selection of scenarios more efficient, we suggest the usage of LLMs to partially automate evaluation activities. As a first step to validate this hypothesis, this work studies MS Copilot as an LLM tool to analyze quality scenarios suggested by students in a software architecture course and compares the students' results with the assessment provided by the LLM. Our initial study reveals that the LLM produces in most cases better and more accurate results regarding the risks, sensitivity points and tradeoff analysis of the quality scenarios. Overall, the use of generative AI has the potential to partially automate and support the architecture evaluation tasks, improving the human decision-making process.",
+    "published": "2025-05-30T18:42:12Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Other"
+    ]
+  },
+  {
     "title": "CodeV-R1: Reasoning-Enhanced Verilog Generation",
     "url": "http://arxiv.org/abs/2505.24183v2",
     "abstract": "Large language models (LLMs) trained via reinforcement learning with verifiable reward (RLVR) have achieved breakthroughs on tasks with explicit, automatable verification, such as software programming and mathematical problems. Extending RLVR to electronic design automation (EDA), especially automatically generating hardware description languages (HDLs) like Verilog from natural-language (NL) specifications, however, poses three key challenges: the lack of automated and accurate verification environments, the scarcity of high-quality NL-code pairs, and the prohibitive computation cost of RLVR. To this end, we introduce CodeV-R1, an RLVR framework for training Verilog generation LLMs. First, we develop a rule-based testbench generator that performs robust equivalence checking against golden references. Second, we propose a round-trip data synthesis method that pairs open-source Verilog snippets with LLM-generated NL descriptions, verifies code-NL-code consistency via the generated testbench, and filters out inequivalent examples to yield a high-quality dataset. Third, we employ a two-stage \"distill-then-RL\" training pipeline: distillation for the cold start of reasoning abilities, followed by adaptive DAPO, our novel RLVR algorithm that can reduce training cost by adaptively adjusting sampling rate. The resulting model, CodeV-R1-7B, achieves 68.6% and 72.9% pass@1 on VerilogEval v2 and RTLLM v1.1, respectively, surpassing prior state-of-the-art by 12~20%, while matching or even exceeding the performance of 671B DeepSeek-R1. We will release our model, training pipeline, and dataset to facilitate research in EDA and LLM communities.",
@@ -796,6 +1509,38 @@
     "tags": [
       "Code Generation",
       "Verification"
+    ]
+  },
+  {
+    "title": "Compiler-R1: Towards Agentic Compiler Auto-tuning with Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2506.15701v1",
+    "abstract": "Compiler auto-tuning optimizes pass sequences to improve performance metrics such as Intermediate Representation (IR) instruction count. Although recent advances leveraging Large Language Models (LLMs) have shown promise in automating compiler tuning, two significant challenges still remain: the absence of high-quality reasoning datasets for agents training, and limited effective interactions with the compilation environment. In this work, we introduce Compiler-R1, the first reinforcement learning (RL)-driven framework specifically augmenting LLM capabilities for compiler auto-tuning. Compiler-R1 features a curated, high-quality reasoning dataset and a novel two-stage end-to-end RL training pipeline, enabling efficient environment exploration and learning through an outcome-based reward. Extensive experiments across seven datasets demonstrate Compiler-R1 achieving an average 8.46% IR instruction count reduction compared to opt -Oz, showcasing the strong potential of RL-trained LLMs for compiler optimization. Our code and datasets are publicly available at https://github.com/Panhaolin2001/Compiler-R1.",
+    "published": "2025-05-30T00:26:10Z",
+    "ai_for_hw": true,
+    "tags": [
+      "System-level Optimization"
+    ]
+  },
+  {
+    "title": "LLM-based Property-based Test Generation for Guardrailing Cyber-Physical Systems",
+    "url": "http://arxiv.org/abs/2505.23549v2",
+    "abstract": "Cyber-physical systems (CPSs) are complex systems that integrate physical, computational, and communication subsystems. The heterogeneous nature of these systems makes their safety assurance challenging. In this paper, we propose a novel automated approach for guardrailing cyber-physical systems using property-based tests (PBTs) generated by Large Language Models (LLMs). Our approach employs an LLM to extract properties from the code and documentation of CPSs. Next, we use the LLM to generate PBTs that verify the extracted properties on the CPS. The generated PBTs have two uses. First, they are used to test the CPS before it is deployed, i.e., at design time. Secondly, these PBTs can be used after deployment, i.e., at run time, to monitor the behavior of the system and guardrail it against unsafe states. We implement our approach in ChekProp and conduct preliminary experiments to evaluate the generated PBTs in terms of their relevance (how well they match manually crafted properties), executability (how many run with minimal manual modification), and effectiveness (coverage of the input space partitions). The results of our experiments and evaluation demonstrate a promising path forward for creating guardrails for CPSs using LLM-generated property-based tests.",
+    "published": "2025-05-29T15:27:52Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Testing",
+      "Verification"
+    ]
+  },
+  {
+    "title": "Synthesizing Performance Constraints for Evaluating and Improving Code Efficiency",
+    "url": "http://arxiv.org/abs/2505.23471v2",
+    "abstract": "Large Language Models (LLMs) have been increasingly used to optimize code efficiency. Evaluating their effectiveness and further suggesting optimization opportunities often rely on high-quality tests to demonstrate the performance bottlenecks presented in the program. However, existing approaches rely on a limited set of hand-curated inputs or LLM-generated uninteresting length-stressing tests, failing to reveal more nuanced optimization opportunities. We present WEDGE, a framework for generating performance-stressing input given the program under test. WEDGE synthesizes explicit performance-characterizing constraints in the form of branch conditions to partition the programs' execution space into performance-specific regions. When integrated with the coverage-guided fuzzer, reaching different regions introduces explicit rewards for test generation to explore inefficient implementations. Our evaluation shows that WEDGE introduces a significant slowdown compared to the tests in CodeContests and those claimed to be optimized by existing approaches. From the utility perspective, integrating our tests substantially improves the existing code optimization approaches that rely on test-driven execution feedback. We release PERFFORGE, the performance tests generated by WEDGE, to benchmark future approaches for efficient code generation at https://github.com/UChiSeclab/perfforge.",
+    "published": "2025-05-29T14:26:22Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Testing",
+      "Code Generation"
     ]
   },
   {
@@ -865,12 +1610,99 @@
     ]
   },
   {
+    "title": "SimuGen: Multi-modal Agentic Framework for Constructing Block Diagram-Based Simulation Models",
+    "url": "http://arxiv.org/abs/2506.15695v1",
+    "abstract": "Recent advances in large language models (LLMs) have shown impressive performance in mathematical reasoning and code generation. However, LLMs still struggle in the simulation domain, particularly in generating Simulink models, which are essential tools in engineering and scientific research. Our preliminary experiments indicate that LLM agents often fail to produce reliable and complete Simulink simulation code from text-only inputs, likely due to the lack of Simulink-specific data in their pretraining. To address this challenge, we propose SimuGen, a multimodal agent-based framework that automatically generates accurate Simulink simulation code by leveraging both the visual Simulink diagram and domain knowledge. SimuGen coordinates several specialized agents, including an investigator, unit test reviewer, code generator, executor, debug locator, and report writer, supported by a domain-specific knowledge base. This collaborative and modular design enables interpretable, robust, and reproducible Simulink simulation generation. Our source code is publicly available at https://github.com/renxinxing123/SimuGen_beta.",
+    "published": "2025-05-28T00:35:43Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Code Generation"
+    ]
+  },
+  {
+    "title": "STRATUS: A Multi-agent System for Autonomous Reliability Engineering of Modern Clouds",
+    "url": "http://arxiv.org/abs/2506.02009v1",
+    "abstract": "In cloud-scale systems, failures are the norm. A distributed computing cluster exhibits hundreds of machine failures and thousands of disk failures; software bugs and misconfigurations are reported to be more frequent. The demand for autonomous, AI-driven reliability engineering continues to grow, as existing humanin-the-loop practices can hardly keep up with the scale of modern clouds. This paper presents STRATUS, an LLM-based multi-agent system for realizing autonomous Site Reliability Engineering (SRE) of cloud services. STRATUS consists of multiple specialized agents (e.g., for failure detection, diagnosis, mitigation), organized in a state machine to assist system-level safety reasoning and enforcement. We formalize a key safety specification of agentic SRE systems like STRATUS, termed Transactional No-Regression (TNR), which enables safe exploration and iteration. We show that TNR can effectively improve autonomous failure mitigation. STRATUS significantly outperforms state-of-the-art SRE agents in terms of success rate of failure mitigation problems in AIOpsLab and ITBench (two SRE benchmark suites), by at least 1.5 times across various models. STRATUS shows a promising path toward practical deployment of agentic systems for cloud reliability.",
+    "published": "2025-05-27T19:15:19Z",
+    "ai_for_hw": true,
+    "tags": [
+      "System-level Optimization",
+      "Other"
+    ]
+  },
+  {
+    "title": "CXXCrafter: An LLM-Based Agent for Automated C/C++ Open Source Software Building",
+    "url": "http://arxiv.org/abs/2505.21069v1",
+    "abstract": "Project building is pivotal to support various program analysis tasks, such as generating intermediate rep- resentation code for static analysis and preparing binary code for vulnerability reproduction. However, automating the building process for C/C++ projects is a highly complex endeavor, involving tremendous technical challenges, such as intricate dependency management, diverse build systems, varied toolchains, and multifaceted error handling mechanisms. Consequently, building C/C++ projects often proves to be difficult in practice, hindering the progress of downstream applications. Unfortunately, research on facilitating the building of C/C++ projects remains to be inadequate. The emergence of Large Language Models (LLMs) offers promising solutions to automated software building. Trained on extensive corpora, LLMs can help unify diverse build systems through their comprehension capabilities and address complex errors by leveraging tacit knowledge storage. Moreover, LLM-based agents can be systematically designed to dynamically interact with the environment, effectively managing dynamic building issues. Motivated by these opportunities, we first conduct an empirical study to systematically analyze the current challenges in the C/C++ project building process. Particularly, we observe that most popular C/C++ projects encounter an average of five errors when relying solely on the default build systems. Based on our study, we develop an automated build system called CXXCrafter to specifically address the above-mentioned challenges, such as dependency resolution. Our evaluation on open-source software demonstrates that CXXCrafter achieves a success rate of 78% in project building. Specifically, among the Top100 dataset, 72 projects are built successfully by both CXXCrafter and manual efforts, 3 by CXXCrafter only, and 14 manually only. ...",
+    "published": "2025-05-27T11:54:56Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Other"
+    ]
+  },
+  {
+    "title": "Code Researcher: Deep Research Agent for Large Systems Code and Commit History",
+    "url": "http://arxiv.org/abs/2506.11060v1",
+    "abstract": "Large Language Model (LLM)-based coding agents have shown promising results on coding benchmarks, but their effectiveness on systems code remains underexplored. Due to the size and complexities of systems code, making changes to a systems codebase is a daunting task, even for humans. It requires researching about many pieces of context, derived from the large codebase and its massive commit history, before making changes. Inspired by the recent progress on deep research agents, we design the first deep research agent for code, called Code Researcher, and apply it to the problem of generating patches for mitigating crashes reported in systems code. Code Researcher performs multi-step reasoning about semantics, patterns, and commit history of code to gather sufficient context. The context is stored in a structured memory which is used for synthesizing a patch. We evaluate Code Researcher on kBenchSyz, a benchmark of Linux kernel crashes, and show that it significantly outperforms strong baselines, achieving a crash-resolution rate of 58%, compared to 37.5% by SWE-agent. On an average, Code Researcher explores 10 files in each trajectory whereas SWE-agent explores only 1.33 files, highlighting Code Researcher's ability to deeply explore the codebase. Through another experiment on an open-source multimedia software, we show the generalizability of Code Researcher. Our experiments highlight the importance of global context gathering and multi-faceted reasoning for large codebases.",
+    "published": "2025-05-27T04:57:00Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Code Generation",
+      "System-level Optimization"
+    ]
+  },
+  {
     "title": "ReChisel: Effective Automatic Chisel Code Generation by LLM with Reflection",
     "url": "http://arxiv.org/abs/2505.19734v1",
     "abstract": "Coding with hardware description languages (HDLs) such as Verilog is a time-intensive and laborious task. With the rapid advancement of large language models (LLMs), there is increasing interest in applying LLMs to assist with HDL coding. Recent efforts have demonstrated the potential of LLMs in translating natural language to traditional HDL Verilog. Chisel, a next-generation HDL based on Scala, introduces higher-level abstractions, facilitating more concise, maintainable, and scalable hardware designs. However, the potential of using LLMs for Chisel code generation remains largely unexplored. This work proposes ReChisel, an LLM-based agentic system designed to enhance the effectiveness of Chisel code generation. ReChisel incorporates a reflection mechanism to iteratively refine the quality of generated code using feedback from compilation and simulation processes, and introduces an escape mechanism to break free from non-progress loops. Experiments demonstrate that ReChisel significantly improves the success rate of Chisel code generation, achieving performance comparable to state-of-the-art LLM-based agentic systems for Verilog code generation.",
     "published": "2025-05-26T09:20:07Z",
     "ai_for_hw": true,
     "tags": [
+      "Code Generation"
+    ]
+  },
+  {
+    "title": "LEGO-Compiler: Enhancing Neural Compilation Through Translation Composability",
+    "url": "http://arxiv.org/abs/2505.20356v1",
+    "abstract": "Large language models (LLMs) have the potential to revolutionize how we design and implement compilers and code translation tools. However, existing LLMs struggle to handle long and complex programs. We introduce LEGO-Compiler, a novel neural compilation system that leverages LLMs to translate high-level languages into assembly code. Our approach centers on three key innovations: LEGO translation, which decomposes the input program into manageable blocks; breaking down the complex compilation process into smaller, simpler verifiable steps by organizing it as a verifiable LLM workflow by external tests; and a feedback mechanism for self-correction. Supported by formal proofs of translation composability, LEGO-Compiler demonstrates high accuracy on multiple datasets, including over 99% on ExeBench and 97.9% on industrial-grade AnsiBench. Additionally, LEGO-Compiler has also acheived near one order-of-magnitude improvement on compilable code size scalability. This work opens new avenues for applying LLMs to system-level tasks, complementing traditional compiler technologies.",
+    "published": "2025-05-26T07:07:54Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Code Generation",
+      "Verification"
+    ]
+  },
+  {
+    "title": "Autocomp: LLM-Driven Code Optimization for Tensor Accelerators",
+    "url": "http://arxiv.org/abs/2505.18574v3",
+    "abstract": "Hardware accelerators, especially those designed for tensor processing, have become ubiquitous in today's computing landscape. However, even with significant efforts in building compilers, programming these tensor accelerators remains challenging, leaving much of their potential underutilized. Recently, large language models (LLMs), trained on large amounts of code, have shown significant promise in code generation and optimization tasks, but generating low-resource languages like specialized tensor accelerator code still poses a significant challenge. We tackle this challenge with Autocomp, an approach that empowers accelerator programmers to leverage domain knowledge and hardware feedback to optimize code via an automated LLM-driven search. We accomplish this by: 1) formulating each optimization pass as a structured two-phase prompt, divided into planning and code generation phases, 2) inserting domain knowledge during planning via a concise and adaptable optimization menu, and 3) integrating correctness and performance metrics from hardware as feedback at each search iteration. Across three categories of representative workloads and two different accelerators, we demonstrate that Autocomp-optimized code runs 5.6x (GEMM) and 2.7x (convolution) faster than the vendor-provided library, and outperforms expert-level hand-tuned code by 1.4x (GEMM), 1.1x (convolution), and 1.3x (fine-grained linear algebra). Additionally, we demonstrate that optimization schedules generated from Autocomp can be reused across similar tensor operations, improving speedups by up to 24% under a fixed sample budget.",
+    "published": "2025-05-24T07:35:34Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Code Generation",
+      "System-level Optimization"
+    ]
+  },
+  {
+    "title": "ALLSTaR: Automated LLM-Driven Scheduler Generation and Testing for Intent-Based RAN",
+    "url": "http://arxiv.org/abs/2505.18389v3",
+    "abstract": "The evolution toward open, programmable O-RAN and AI-RAN 6G networks creates unprecedented opportunities for Intent-Based Networking (IBN) to dynamically optimize RAN[...]. However, applying IBN effectively to the RAN scheduler [...] remains a significant challenge. Current approaches predominantly rely on coarse-grained network slicing, lacking the granularity for dynamic adaptation to individual user conditions and traffic patterns. Despite the existence of a vast body of scheduling algorithms [...], their practical utilization is hindered by implementation heterogeneity, insufficient systematic evaluation in production environments, and the complexity of developing high-performance scheduler implementations.[...] To address these limitations, we propose ALLSTaR (Automated LLm-driven Scheduler generation and Testing for intent-based RAN), a novel framework leveraging LLMs for automated, intent-driven scheduler design, implementation, and evaluation. ALLSTaR interprets NL intents, automatically generates functional scheduler code from the research literature using OCR and LLMs, and intelligently matches operator intents to the most suitable scheduler(s). Our implementation deploys these schedulers as O-RAN dApps, enabling on-the-fly deployment and testing on a production-grade, 5G-compliant testbed. This approach has enabled the largest-scale OTA experimental comparison of 18 scheduling algorithms automatically synthesized from the academic literature. The resulting performance profiles serve as the input for our Intent-Based Scheduling (IBS) framework, which dynamically selects and deploys appropriate schedulers that optimally satisfy operator intents. We validate our approach through multiple use cases unattainable with current slicing-based optimization techniques, demonstrating fine-grained control based on buffer status, physical layer conditions, and heterogeneous traffic types",
+    "published": "2025-05-23T21:33:16Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Code Generation",
+      "Testing",
+      "System-level Optimization"
+    ]
+  },
+  {
+    "title": "Controlled Agentic Planning & Reasoning for Mechanism Synthesis",
+    "url": "http://arxiv.org/abs/2505.17607v1",
+    "abstract": "This work presents a dual-agent Large Language Model (LLM)-based reasoning method for mechanism synthesis, capable of reasoning at both linguistic and symbolic levels to generate geometrical and dynamic outcomes. The model consists of a composition of well-defined functions that, starting from a natural language specification, references abstract properties through supporting equations, generates and parametrizes simulation code, and elicits feedback anchor points using symbolic regression and distance functions. This process closes an actionable refinement loop at the linguistic and symbolic layers. The approach is shown to be both effective and convergent in the context of planar mechanisms. Additionally, we introduce MSynth, a novel benchmark for planar mechanism synthesis, and perform a comprehensive analysis of the impact of the model components. We further demonstrate that symbolic regression prompts unlock mechanistic insights only when applied to sufficiently large architectures.",
+    "published": "2025-05-23T08:16:32Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Synthesis",
       "Code Generation"
     ]
   },
@@ -1261,6 +2093,17 @@
     ]
   },
   {
+    "title": "HLSTester: Efficient Testing of Behavioral Discrepancies with LLMs for High-Level Synthesis",
+    "url": "http://arxiv.org/abs/2504.14641v3",
+    "abstract": "In high-level synthesis (HLS), C/C++ programs with synthesis directives are used to generate circuits for FPGA implementations. However, hardware-specific and platform-dependent characteristics in these implementations can introduce behavioral discrepancies between the original C/C++ programs and the circuits after high-level synthesis. Existing methods for testing behavioral discrepancies in HLS are still immature, and the testing workflow requires significant human efforts. To address this challenge, we propose HLSTester, a large language model (LLM) aided testing framework that efficiently detects behavioral discrepancies in HLS. To mitigate hallucinations in LLMs and enhance prompt quality, the testbenches for original C/C++ programs are leveraged to guide LLMs in generating HLS-compatible testbenches, effectively eliminating certain traditional C/C++ constructs that are incompatible with HLS tools. Key variables are pinpointed through a backward slicing technique in both C/C++ and HLS programs to monitor their runtime spectra, enabling an in-depth analysis of the discrepancy symptoms. To reduce test time, a testing input generation mechanism is introduced to integrate dynamic mutation with insights from an LLM-based progressive reasoning chain. In addition, repetitive hardware testing is skipped by a redundancy-aware filtering technique for the generated test inputs. Experimental results demonstrate that the proposed LLM-aided testing framework significantly accelerates the testing workflow while achieving higher testbench simulation pass rates compared with the traditional method and the direct use of LLMs on the same HLS programs.",
+    "published": "2025-04-20T14:45:01Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Testing",
+      "Synthesis"
+    ]
+  },
+  {
     "title": "Towards Optimal Circuit Generation: Multi-Agent Collaboration Meets Collective Intelligence",
     "url": "http://arxiv.org/abs/2504.14625v3",
     "abstract": "Large language models (LLMs) have transformed code generation, yet their application in hardware design produces gate counts 38\\%--1075\\% higher than human designs. We present CircuitMind, a multi-agent framework that achieves human-competitive efficiency through three key innovations: syntax locking (constraining generation to basic logic gates), retrieval-augmented generation (enabling knowledge-driven design), and dual-reward optimization (balancing correctness with efficiency). To evaluate our approach, we introduce TC-Bench, the first gate-level benchmark harnessing collective intelligence from the TuringComplete ecosystem -- a competitive circuit design platform with hundreds of thousands of players. Experiments show CircuitMind enables 55.6\\% of model implementations to match or exceed top-tier human experts in composite efficiency metrics. Most remarkably, our framework elevates the 14B Phi-4 model to outperform both GPT-4o mini and Gemini 2.0 Flash, achieving efficiency comparable to the top 25\\% of human experts without requiring specialized training. These innovations establish a new paradigm for hardware optimization where collaborative AI systems leverage collective human expertise to achieve optimal circuit designs. Our model, data, and code are open-source at https://github.com/BUAA-CLab/CircuitMind.",
@@ -1358,6 +2201,16 @@
     "title": "GNN-ACLP: Graph Neural Networks Based Analog Circuit Link Prediction",
     "url": "http://arxiv.org/abs/2504.10240v3",
     "abstract": "Circuit link prediction identifying missing component connections from incomplete netlists is crucial in automating analog circuit design. However, existing methods face three main challenges: 1) Insufficient use of topological patterns in circuit graphs reduces prediction accuracy; 2) Data scarcity due to the complexity of annotations hinders model generalization; 3) Limited adaptability to various netlist formats. We propose GNN-ACLP, a Graph Neural Networks (GNNs) based framework featuring three innovations to tackle these challenges. First, we introduce the SEAL (Subgraphs, Embeddings, and Attributes for Link Prediction) framework and achieve port-level accuracy in circuit link prediction. Second, we propose Netlist Babel Fish, a netlist format conversion tool leveraging retrieval-augmented generation (RAG) with a large language model (LLM) to enhance the compatibility of netlist formats. Finally, we construct SpiceNetlist, a comprehensive dataset that contains 775 annotated circuits across 10 different component classes. Experiments demonstrate accuracy improvements of 16.08% on SpiceNetlist, 11.38% on Image2Net, and 16.01% on Masala-CHAI compared to the baseline in intra-dataset evaluation, while maintaining accuracy from 92.05% to 99.07% in cross-dataset evaluation, exhibiting robust feature transfer capabilities.",
+    "published": "2025-04-14T14:02:09Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Analog Design"
+    ]
+  },
+  {
+    "title": "GNN-ACLP: Graph Neural Networks Based Analog Circuit Link Prediction",
+    "url": "http://arxiv.org/abs/2504.10240v4",
+    "abstract": "Circuit link prediction identifying missing component connections from incomplete netlists is crucial in analog circuit design automation. However, existing methods face three main challenges: 1) Insufficient use of topological patterns in circuit graphs reduces prediction accuracy; 2) Data scarcity due to the complexity of annotations hinders model generalization; 3) Limited adaptability to various netlist formats. We propose GNN-ACLP, a graph neural networks (GNNs) based method featuring three innovations to tackle these challenges. First, we introduce the SEAL (learning from Subgraphs, Embeddings, and Attributes for Link prediction) framework and achieve port-level accuracy in circuit link prediction. Second, we propose Netlist Babel Fish, a netlist format conversion tool leveraging retrieval-augmented generation (RAG) with a large language model (LLM) to improve the compatibility of netlist formats. Finally, we construct SpiceNetlist, a comprehensive dataset that contains 775 annotated circuits across 10 different component classes. Experiments demonstrate accuracy improvements of 16.08% on SpiceNetlist, 11.38% on Image2Net, and 16.01% on Masala-CHAI compared to the baseline in intra-dataset evaluation, while maintaining accuracy from 92.05% to 99.07% in cross-dataset evaluation, exhibiting robust feature transfer capabilities.",
     "published": "2025-04-14T14:02:09Z",
     "ai_for_hw": true,
     "tags": [
@@ -2297,6 +3150,17 @@
     ]
   },
   {
+    "title": "Scalable Parameter Design for Superconducting Quantum Circuits with Graph Neural Networks",
+    "url": "http://arxiv.org/abs/2411.16354v3",
+    "abstract": "To demonstrate supremacy of quantum computing, increasingly large-scale superconducting quantum computing chips are being designed and fabricated. However, the complexity of simulating quantum systems poses a significant challenge to computer-aided design of quantum chips, especially for large-scale chips. Harnessing the scalability of graph neural networks (GNNs), we here propose a parameter designing algorithm for large-scale superconducting quantum circuits. The algorithm depends on the so-called 'three-stair scaling' mechanism, which comprises two neural-network models: an evaluator supervisedly trained on small-scale circuits for applying to medium-scale circuits, and a designer unsupervisedly trained on medium-scale circuits for applying to large-scale ones. We demonstrate our algorithm in mitigating quantum crosstalk errors. Frequencies for both single- and two-qubit gates (corresponding to the parameters of nodes and edges) are considered simultaneously. Numerical results indicate that the well-trained designer achieves notable advantages in efficiency, effectiveness, and scalability. For example, for large-scale superconducting quantum circuits consisting of around 870 qubits, our GNNs-based algorithm achieves 51% of the errors produced by the state-of-the-art algorithm, with a time reduction from 90 min to 27 sec. Overall, a better-performing and more scalable algorithm for designing parameters of superconducting quantum chips is proposed, which initially demonstrates the advantages of applying GNNs in superconducting quantum chips.",
+    "published": "2024-11-25T13:04:53Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Analog Design",
+      "System-level Optimization"
+    ]
+  },
+  {
     "title": "UVLLM: An Automated Universal RTL Verification Framework using LLMs",
     "url": "http://arxiv.org/abs/2411.16238v1",
     "abstract": "Verifying hardware designs in embedded systems is crucial but often labor-intensive and time-consuming. While existing solutions have improved automation, they frequently rely on unrealistic assumptions. To address these challenges, we introduce a novel framework, UVLLM, which combines Large Language Models (LLMs) with the Universal Verification Methodology (UVM) to relax these assumptions. UVLLM significantly enhances the automation of testing and repairing error-prone Register Transfer Level (RTL) codes, a critical aspect of verification development. Unlike existing methods, UVLLM ensures that all errors are triggered during verification, achieving a syntax error fix rate of 86.99% and a functional error fix rate of 71.92% on our proposed benchmark. These results demonstrate a substantial improvement in verification efficiency. Additionally, our study highlights the current limitations of LLM applications, particularly their reliance on extensive training data. We emphasize the transformative potential of LLMs in hardware design verification and suggest promising directions for future research in AI-driven hardware design methodologies. The Repo. of dataset and code: https://anonymous.4open.science/r/UVLLM/.",
@@ -2668,6 +3532,16 @@
     "ai_for_hw": true,
     "tags": [
       "Synthesis"
+    ]
+  },
+  {
+    "title": "Optimal Workload Placement on Multi-Instance GPUs",
+    "url": "http://arxiv.org/abs/2409.06646v1",
+    "abstract": "There is an urgent and pressing need to optimize usage of Graphical Processing Units (GPUs), which have arguably become one of the most expensive and sought after IT resources. To help with this goal, several of the current generation of GPUs support a partitioning feature, called Multi-Instance GPU (MIG) to allow multiple workloads to share a GPU, albeit with some constraints. In this paper we investigate how to optimize the placement of Large Language Model (LLM)-based AI Inferencing workloads on GPUs. We first identify and present several use cases that are encountered in practice that require workloads to be efficiently placed or migrated to other GPUs to make room for incoming workloads. The overarching goal is to use as few GPUs as possible and to further minimize memory and compute wastage on GPUs that are utilized. We have developed two approaches to address this problem: an optimization method and a heuristic method. We benchmark these with two workload scheduling heuristics for multiple use cases. Our results show up to 2.85x improvement in the number of GPUs used and up to 70% reduction in GPU wastage over baseline heuristics. We plan to enable the SRE community to leverage our proposed method in production environments.",
+    "published": "2024-09-10T17:05:11Z",
+    "ai_for_hw": true,
+    "tags": [
+      "System-level Optimization"
     ]
   },
   {
@@ -3156,6 +4030,16 @@
     ]
   },
   {
+    "title": "LASSI: An LLM-based Automated Self-Correcting Pipeline for Translating Parallel Scientific Codes",
+    "url": "http://arxiv.org/abs/2407.01638v2",
+    "abstract": "This paper addresses the problem of providing a novel approach to sourcing significant training data for LLMs focused on science and engineering. In particular, a crucial challenge is sourcing parallel scientific codes in the ranges of millions to billions of codes. To tackle this problem, we propose an automated pipeline framework called LASSI, designed to translate between parallel programming languages by bootstrapping existing closed- or open-source LLMs. LASSI incorporates autonomous enhancement through self-correcting loops where errors encountered during the compilation and execution of generated code are fed back to the LLM through guided prompting for debugging and refactoring. We highlight the bi-directional translation of existing GPU benchmarks between OpenMP target offload and CUDA to validate LASSI. The results of evaluating LASSI with different application codes across four LLMs demonstrate the effectiveness of LASSI for generating executable parallel codes, with 80% of OpenMP to CUDA translations and 85% of CUDA to OpenMP translations producing the expected output. We also observe approximately 78% of OpenMP to CUDA translations and 62% of CUDA to OpenMP translations execute within 10% of or at a faster runtime than the original benchmark code in the same language.",
+    "published": "2024-06-30T19:36:04Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Code Generation"
+    ]
+  },
+  {
     "title": "Reconfigurable Intelligent Surfaces for 6G Mobile Networks: An Industry R&D Perspective",
     "url": "http://arxiv.org/abs/2406.19868v4",
     "abstract": "The reconfigurable intelligent surface (RIS) technology is a potential solution to enhance network capacity and coverage without significant investment in additional infrastructure in 6G networks. This work highlights the interest of the mobile communication industry in RIS, and discusses the development of liquid crystal-based RIS for improved energy efficiency and coverage in the millimeter-wave band. Furthermore, the paper discusses perspectives and insights from an industry R&D point of view, addressing relevant use cases, technical requirements, implementation challenges, and practical considerations for RIS deployment optimization in the context of 6G networks. A hardware design of an RIS with liquid crystal at 28 GHz is presented. A propagation model for RIS as a new part of the system architecture is discussed, with approaches of semi-empirical models, geometric models, and their combination through the application of artificial intelligence/machine learning. Finally, a channel model for deployment optimization and dimensioning is presented, with the findings that a rather large RIS is favorable for coverage improvement, as well as greater attenuation at higher frequencies combined with a smaller RIS size.",
@@ -3174,6 +4058,16 @@
     "tags": [
       "Security",
       "Synthesis"
+    ]
+  },
+  {
+    "title": "Meta Large Language Model Compiler: Foundation Models of Compiler Optimization",
+    "url": "http://arxiv.org/abs/2407.02524v1",
+    "abstract": "Large Language Models (LLMs) have demonstrated remarkable capabilities across a variety of software engineering and coding tasks. However, their application in the domain of code and compiler optimization remains underexplored. Training LLMs is resource-intensive, requiring substantial GPU hours and extensive data collection, which can be prohibitive. To address this gap, we introduce Meta Large Language Model Compiler (LLM Compiler), a suite of robust, openly available, pre-trained models specifically designed for code optimization tasks. Built on the foundation of Code Llama, LLM Compiler enhances the understanding of compiler intermediate representations (IRs), assembly language, and optimization techniques. The model has been trained on a vast corpus of 546 billion tokens of LLVM-IR and assembly code and has undergone instruction fine-tuning to interpret compiler behavior. LLM Compiler is released under a bespoke commercial license to allow wide reuse and is available in two sizes: 7 billion and 13 billion parameters. We also present fine-tuned versions of the model, demonstrating its enhanced capabilities in optimizing code size and disassembling from x86_64 and ARM assembly back into LLVM-IR. These achieve 77% of the optimising potential of an autotuning search, and 45% disassembly round trip (14% exact match). This release aims to provide a scalable, cost-effective foundation for further research and development in compiler optimization by both academic researchers and industry practitioners.",
+    "published": "2024-06-27T21:47:48Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Code Generation"
     ]
   },
   {
@@ -4044,6 +4938,16 @@
     ]
   },
   {
+    "title": "Herding LLaMaS: Using LLMs as an OS Module",
+    "url": "http://arxiv.org/abs/2401.08908v1",
+    "abstract": "Computer systems are becoming increasingly heterogeneous with the emergence of new memory technologies and compute devices. GPUs alongside CPUs have become commonplace and CXL is poised to be a mainstay of cloud systems. The operating system is responsible for managing these hardware resources, requiring modification every time a new device is released. Years of research and development are sunk into tuning the OS for high performance with each new heterogeneous device. With the recent explosion in memory technologies and domain-specific accelerators, it would be beneficial to have an OS that could provide high performance for new devices without significant effort.   We propose LLaMaS which can adapt to new devices easily. LLaMaS uses Large Language Models (LLMs) to extract the useful features of new devices from their textual description and uses these features to make operating system decisions at runtime. Adding support to LLaMaS for a new device is as simple as describing the system and new device properties in plaintext.   LLaMaS reduces the burden on system administrators to enable easy integration of new devices into production systems.   Preliminary evaluation using ChatGPT shows that LLMs are capable of extracting device features from text and make correct OS decisions based on those features.",
+    "published": "2024-01-17T01:32:45Z",
+    "ai_for_hw": true,
+    "tags": [
+      "System-level Optimization"
+    ]
+  },
+  {
     "title": "Uncertainty-Aware Hardware Trojan Detection Using Multimodal Deep Learning",
     "url": "http://arxiv.org/abs/2401.09479v2",
     "abstract": "The risk of hardware Trojans being inserted at various stages of chip production has increased in a zero-trust fabless era. To counter this, various machine learning solutions have been developed for the detection of hardware Trojans. While most of the focus has been on either a statistical or deep learning approach, the limited number of Trojan-infected benchmarks affects the detection accuracy and restricts the possibility of detecting zero-day Trojans. To close the gap, we first employ generative adversarial networks to amplify our data in two alternative representation modalities, a graph and a tabular, ensuring that the dataset is distributed in a representative manner. Further, we propose a multimodal deep learning approach to detect hardware Trojans and evaluate the results from both early fusion and late fusion strategies. We also estimate the uncertainty quantification metrics of each prediction for risk-aware decision-making. The outcomes not only confirms the efficacy of our proposed hardware Trojan detection method but also opens a new door for future studies employing multimodality and uncertainty quantification to address other hardware security challenges.",
@@ -4229,6 +5133,16 @@
     "highlight": true
   },
   {
+    "title": "Relax: Composable Abstractions for End-to-End Dynamic Machine Learning",
+    "url": "http://arxiv.org/abs/2311.02103v2",
+    "abstract": "Dynamic shape computations have become critical in modern machine learning workloads, especially in emerging large language models. The success of these models has driven the demand for their universal deployment across a diverse set of backend environments. In this paper, we present Relax, a compiler abstraction for optimizing end-to-end dynamic machine learning workloads. Relax introduces a cross-level abstraction that encapsulates computational graphs, loop-level tensor programs, and external library calls in a single representation. Relax also introduces first-class symbolic shape annotations to track dynamic shape computations globally across the program, enabling dynamic shape-aware cross-level optimizations. We build an end-to-end compilation framework using the proposed approach to optimize dynamic shape models. Experimental results on LLMs show that Relax delivers performance competitive with state-of-the-art systems across various GPUs and enables deployment of emerging models to a broader set of emerging environments, including mobile phones, embedded devices, and web browsers.",
+    "published": "2023-11-01T23:03:59Z",
+    "ai_for_hw": true,
+    "tags": [
+      "System-level Optimization"
+    ]
+  },
+  {
     "title": "ChipNeMo: Domain-Adapted LLMs for Chip Design",
     "url": "http://arxiv.org/abs/2311.00176v5",
     "abstract": "ChipNeMo aims to explore the applications of large language models (LLMs) for industrial chip design. Instead of directly deploying off-the-shelf commercial or open-source LLMs, we instead adopt the following domain adaptation techniques: domain-adaptive tokenization, domain-adaptive continued pretraining, model alignment with domain-specific instructions, and domain-adapted retrieval models. We evaluate these methods on three selected LLM applications for chip design: an engineering assistant chatbot, EDA script generation, and bug summarization and analysis. Our evaluations demonstrate that domain-adaptive pretraining of language models, can lead to superior performance in domain related downstream tasks compared to their base LLaMA2 counterparts, without degradations in generic capabilities. In particular, our largest model, ChipNeMo-70B, outperforms the highly capable GPT-4 on two of our use cases, namely engineering assistant chatbot and EDA scripts generation, while exhibiting competitive performance on bug summarization and analysis. These results underscore the potential of domain-specific customization for enhancing the effectiveness of large language models in specialized applications.",
@@ -4380,6 +5294,16 @@
       "Verification"
     ],
     "highlight": true
+  },
+  {
+    "title": "Comparing Llama-2 and GPT-3 LLMs for HPC kernels generation",
+    "url": "http://arxiv.org/abs/2309.07103v1",
+    "abstract": "We evaluate the use of the open-source Llama-2 model for generating well-known, high-performance computing kernels (e.g., AXPY, GEMV, GEMM) on different parallel programming models and languages (e.g., C++: OpenMP, OpenMP Offload, OpenACC, CUDA, HIP; Fortran: OpenMP, OpenMP Offload, OpenACC; Python: numpy, Numba, pyCUDA, cuPy; and Julia: Threads, CUDA.jl, AMDGPU.jl). We built upon our previous work that is based on the OpenAI Codex, which is a descendant of GPT-3, to generate similar kernels with simple prompts via GitHub Copilot. Our goal is to compare the accuracy of Llama-2 and our original GPT-3 baseline by using a similar metric. Llama-2 has a simplified model that shows competitive or even superior accuracy. We also report on the differences between these foundational large language models as generative AI continues to redefine human-computer interactions. Overall, Copilot generates codes that are more reliable but less optimized, whereas codes generated by Llama-2 are less reliable but more optimized when correct.",
+    "published": "2023-09-12T01:19:54Z",
+    "ai_for_hw": true,
+    "tags": [
+      "Code Generation"
+    ]
   },
   {
     "title": "CktGNN: Circuit Graph Neural Network for Electronic Design Automation",
